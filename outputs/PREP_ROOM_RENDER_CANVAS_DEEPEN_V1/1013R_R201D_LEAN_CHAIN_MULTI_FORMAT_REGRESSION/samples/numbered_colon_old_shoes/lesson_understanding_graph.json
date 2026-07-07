@@ -1,0 +1,509 @@
+{
+  "stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114A_model_not_enabled"
+  },
+  "graph": {
+    "graph_version": "import_understanding_v2_graph_r114a_v0.1",
+    "lesson_identity": {
+      "title": {
+        "claim_id": "r114a_claim_7625bc61bd",
+        "claim_type": "source_fact",
+        "text": "课题：《足下生辉》旧鞋改造设计课",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "《足下生辉》旧鞋改造设计课"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      "unit": {
+        "claim_id": "r114a_claim_e9698a2b5c",
+        "claim_type": "source_fact",
+        "text": "单元：第五单元 足下生辉",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第五单元 足下生辉"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      "grade": {
+        "claim_id": "r114a_claim_9645f81c2f",
+        "claim_type": "source_fact",
+        "text": "年级：三年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "三年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      "period": {
+        "claim_id": "r114a_claim_133100d4ec",
+        "claim_type": "teacher_confirm_required",
+        "text": "课时位置：课时待确认",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [],
+        "confidence": 0.2,
+        "teacher_review_required": true
+      }
+    },
+    "faithful_reconstruction": {
+      "protected_core_claim_ids": [
+        "r114a_claim_9b34e243c7",
+        "r114a_claim_e512ed63f4",
+        "r114a_claim_faf4c2a188",
+        "r114a_claim_c6d4c22b8b"
+      ],
+      "original_design_intent_claim_id": "r114a_claim_51c7c8be0c",
+      "source_evidence_summary": {
+        "core_activity": "",
+        "student_preparation": [],
+        "teacher_preparation": [],
+        "evidence_nodes": [],
+        "differentiation": [],
+        "homework": []
+      },
+      "do_not_rewrite_as": [
+        "generic_field_extraction",
+        "full_lesson_replacement",
+        "unverified_textbook_page",
+        "sample_specific_template_without_source_evidence"
+      ]
+    },
+    "core_learning_transformation": {
+      "claim_id": "r114a_claim_f7c98d2192",
+      "claim_type": "source_interpretation",
+      "text": "本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。",
+      "graph_path": "core_learning_transformation",
+      "source_evidence": [
+        "回顾草图与任务确认",
+        "制作路径讨论",
+        "旧鞋作品制作",
+        "5句话设计故事",
+        "新鞋发布会准备"
+      ],
+      "confidence": 0.72,
+      "teacher_review_required": false
+    },
+    "teaching_causal_chain": [
+      {
+        "episode_index": 1,
+        "source_episode_id": "r201c_numbered_sentence_parser_01",
+        "title": "回顾草图与任务确认",
+        "why_now": "先回到前序设计依据，避免学生脱离原设计随意制作。",
+        "source_evidence": [
+          "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。"
+        ],
+        "claim_id": "r114a_claim_803c441fed",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 2,
+        "source_episode_id": "r201c_numbered_sentence_parser_02",
+        "title": "制作路径讨论",
+        "why_now": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "source_evidence": [
+          "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。"
+        ],
+        "claim_id": "r114a_claim_d1deda1134",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 3,
+        "source_episode_id": "r201c_numbered_sentence_parser_03",
+        "title": "旧鞋作品制作",
+        "why_now": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "source_evidence": [
+          "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。"
+        ],
+        "claim_id": "r114a_claim_dddf085d51",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 4,
+        "source_episode_id": "r201c_numbered_sentence_parser_04",
+        "title": "5句话设计故事",
+        "why_now": "在作品形成后整理设计理由，让作品成为可说明的设计成果。",
+        "source_evidence": [
+          "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。"
+        ],
+        "claim_id": "r114a_claim_13ade62d54",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 5,
+        "source_episode_id": "r201c_numbered_sentence_parser_05",
+        "title": "新鞋发布会准备",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。"
+        ],
+        "claim_id": "r114a_claim_92c397457d",
+        "claim_type": "teacher_confirm_required"
+      }
+    ],
+    "evidence_graph": [],
+    "student_difficulty_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "学生可能把制作理解成自由装饰，而不是实现原有设计意图。"
+      ],
+      "teacher_review_required": true
+    },
+    "teacher_support_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "教师支架宜先保护原稿里的核心任务，再用追问、短示范或同伴交流帮助学生说清选择理由。"
+      ],
+      "teacher_review_required": true
+    },
+    "improvement_opportunities": [
+      {
+        "claim_id": "r114a_claim_14d1ebbe01",
+        "claim_type": "improvement_suggestion",
+        "text": "可在执行地图中增加“对照草图确认今天要实现的部分”的支架。",
+        "graph_path": "improvement_opportunities.prior_design_scaffold",
+        "source_evidence": [
+          "设计草图"
+        ],
+        "confidence": 0.62,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_16835650bf",
+        "claim_type": "improvement_suggestion",
+        "text": "可增加“为什么选择这个废旧材料”的追问，避免学生只做装饰堆叠。",
+        "graph_path": "improvement_opportunities.material_reasoning",
+        "source_evidence": [
+          "废旧材料"
+        ],
+        "confidence": 0.64,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_8104b183a9",
+        "claim_type": "improvement_suggestion",
+        "text": "可把设计故事的5句话作为评价证据结构，而不是只作为课后说明。",
+        "graph_path": "improvement_opportunities.design_story_as_evidence",
+        "source_evidence": [
+          "5句话",
+          "设计故事"
+        ],
+        "confidence": 0.66,
+        "teacher_review_required": true
+      }
+    ],
+    "teacher_confirmation_gaps": [
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀",
+          "胶水"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      }
+    ],
+    "field_projection_basis": {
+      "status": "not_projected_in_R114A",
+      "field_projection_performed": false,
+      "projection_stage": "R114C",
+      "rule": "R114A only builds the understanding graph; R114C will project fields from graph nodes."
+    },
+    "r112_dependency": {
+      "stage": "1013R_R112_IMPORT_DOCUMENT_LESSON_UNDERSTANDING_PACKET",
+      "status": "deterministic_ready",
+      "used_as_initial_reading": true
+    },
+    "claim_registry": [
+      {
+        "claim_id": "r114a_claim_7625bc61bd",
+        "claim_type": "source_fact",
+        "text": "课题：《足下生辉》旧鞋改造设计课",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "《足下生辉》旧鞋改造设计课"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_e9698a2b5c",
+        "claim_type": "source_fact",
+        "text": "单元：第五单元 足下生辉",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第五单元 足下生辉"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_9645f81c2f",
+        "claim_type": "source_fact",
+        "text": "年级：三年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "三年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_133100d4ec",
+        "claim_type": "teacher_confirm_required",
+        "text": "课时位置：课时待确认",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [],
+        "confidence": 0.2,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_9b34e243c7",
+        "claim_type": "source_fact",
+        "text": "原文包含前序设计草图或第2课设计草图作为本课制作依据。",
+        "graph_path": "faithful_reconstruction.protected_core.prior_design",
+        "source_evidence": [
+          "设计草图"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_e512ed63f4",
+        "claim_type": "source_fact",
+        "text": "原文要求使用废旧材料或旧材料完成创作。",
+        "graph_path": "faithful_reconstruction.protected_core.reused_materials",
+        "source_evidence": [
+          "旧材料/废旧"
+        ],
+        "confidence": 0.84,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_faf4c2a188",
+        "claim_type": "source_fact",
+        "text": "原文包含设计故事或5句话表达任务。",
+        "graph_path": "faithful_reconstruction.protected_core.design_story",
+        "source_evidence": [
+          "5句话",
+          "设计故事"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_c6d4c22b8b",
+        "claim_type": "source_fact",
+        "text": "原文包含发布会或新鞋发布会作为展示/表达情境。",
+        "graph_path": "faithful_reconstruction.protected_core.launch",
+        "source_evidence": [
+          "新鞋发布会"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_f7c98d2192",
+        "claim_type": "source_interpretation",
+        "text": "本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。",
+        "graph_path": "core_learning_transformation",
+        "source_evidence": [
+          "回顾草图与任务确认",
+          "制作路径讨论",
+          "旧鞋作品制作",
+          "5句话设计故事",
+          "新鞋发布会准备"
+        ],
+        "confidence": 0.72,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_51c7c8be0c",
+        "claim_type": "source_interpretation",
+        "text": "本课不是重新发散设计，而是把已有设计想法推进到可制作、可展示、可说明的学习成果。",
+        "graph_path": "faithful_reconstruction.original_design_intent",
+        "source_evidence": [
+          "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。",
+          "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。",
+          "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。"
+        ],
+        "confidence": 0.7,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_803c441fed",
+        "claim_type": "source_interpretation",
+        "text": "回顾草图与任务确认：先回到前序设计依据，避免学生脱离原设计随意制作。",
+        "graph_path": "teaching_causal_chain.1",
+        "source_evidence": [
+          "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_d1deda1134",
+        "claim_type": "source_interpretation",
+        "text": "制作路径讨论：把设计想法放到材料和结构中验证，形成过程证据。",
+        "graph_path": "teaching_causal_chain.2",
+        "source_evidence": [
+          "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_dddf085d51",
+        "claim_type": "source_interpretation",
+        "text": "旧鞋作品制作：把设计想法放到材料和结构中验证，形成过程证据。",
+        "graph_path": "teaching_causal_chain.3",
+        "source_evidence": [
+          "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_13ade62d54",
+        "claim_type": "source_interpretation",
+        "text": "5句话设计故事：在作品形成后整理设计理由，让作品成为可说明的设计成果。",
+        "graph_path": "teaching_causal_chain.4",
+        "source_evidence": [
+          "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_92c397457d",
+        "claim_type": "teacher_confirm_required",
+        "text": "新鞋发布会准备：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.5",
+        "source_evidence": [
+          "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀",
+          "胶水"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_14d1ebbe01",
+        "claim_type": "improvement_suggestion",
+        "text": "可在执行地图中增加“对照草图确认今天要实现的部分”的支架。",
+        "graph_path": "improvement_opportunities.prior_design_scaffold",
+        "source_evidence": [
+          "设计草图"
+        ],
+        "confidence": 0.62,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_16835650bf",
+        "claim_type": "improvement_suggestion",
+        "text": "可增加“为什么选择这个废旧材料”的追问，避免学生只做装饰堆叠。",
+        "graph_path": "improvement_opportunities.material_reasoning",
+        "source_evidence": [
+          "废旧材料"
+        ],
+        "confidence": 0.64,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_8104b183a9",
+        "claim_type": "improvement_suggestion",
+        "text": "可把设计故事的5句话作为评价证据结构，而不是只作为课后说明。",
+        "graph_path": "improvement_opportunities.design_story_as_evidence",
+        "source_evidence": [
+          "5句话",
+          "设计故事"
+        ],
+        "confidence": 0.66,
+        "teacher_review_required": true
+      }
+    ],
+    "contamination_guard": {
+      "guard_rules": [
+        "Absent sample-specific phrases must not appear as source_fact.",
+        "System improvements must stay in improvement_opportunities, not faithful_reconstruction.",
+        "Teacher-confirmation gaps must not be converted into confirmed facts."
+      ],
+      "blocked_source_fact_phrases": [
+        "纸鞋模板"
+      ],
+      "violations": [],
+      "passed": true
+    }
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": false
+  }
+}

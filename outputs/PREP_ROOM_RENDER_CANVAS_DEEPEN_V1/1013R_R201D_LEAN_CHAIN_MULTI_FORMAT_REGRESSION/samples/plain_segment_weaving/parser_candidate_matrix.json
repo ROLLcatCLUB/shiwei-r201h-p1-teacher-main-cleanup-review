@@ -1,0 +1,112 @@
+[
+  {
+    "parser_id": "legacy_r103_parser",
+    "episode_count": 6,
+    "episode_titles": [
+      "导入",
+      "历史介绍",
+      "认识经纬",
+      "教师示范",
+      "学生练习",
+      "小结"
+    ],
+    "source_span_coverage": 0.1684,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.6667,
+    "selection_score": 0.7427,
+    "failure_reason_if_rejected": "",
+    "sample_id": "plain_segment_weaving"
+  },
+  {
+    "parser_id": "numbered_colon_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "plain_segment_weaving"
+  },
+  {
+    "parser_id": "numbered_sentence_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "plain_segment_weaving"
+  },
+  {
+    "parser_id": "markdown_heading_parser",
+    "episode_count": 2,
+    "episode_titles": [
+      "材料说明",
+      "评价要点"
+    ],
+    "source_span_coverage": 0.0345,
+    "evidence_coverage_score": 0.5,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.6667,
+    "selection_score": 0.5272,
+    "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5272<0.7427",
+    "sample_id": "plain_segment_weaving"
+  },
+  {
+    "parser_id": "table_or_structured_parser",
+    "episode_count": 6,
+    "episode_titles": [
+      "导入",
+      "历史介绍",
+      "认识经纬",
+      "教师示范",
+      "学生练习",
+      "小结"
+    ],
+    "source_span_coverage": 0.3156,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.6667,
+    "selection_score": 0.8222,
+    "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.8222<0.7427",
+    "sample_id": "plain_segment_weaving"
+  },
+  {
+    "parser_id": "long_section_parser",
+    "episode_count": 8,
+    "episode_titles": [
+      "环节1",
+      "| | | | | | --- | --",
+      "---",
+      "## **材料说明",
+      "【学生准备】",
+      "各色纸条（1.5cm宽，预先裁好）",
+      "【老师准备】",
+      "编织PPT → 小美制作 * 编织底"
+    ],
+    "source_span_coverage": 0.0371,
+    "evidence_coverage_score": 0.625,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.6667,
+    "selection_score": 0.5536,
+    "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5536<0.7427",
+    "sample_id": "plain_segment_weaving"
+  }
+]

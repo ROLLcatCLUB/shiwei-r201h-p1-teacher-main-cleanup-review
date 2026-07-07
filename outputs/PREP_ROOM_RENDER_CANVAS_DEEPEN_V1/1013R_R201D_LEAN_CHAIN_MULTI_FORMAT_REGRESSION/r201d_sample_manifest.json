@@ -1,0 +1,82 @@
+{
+  "stage": "1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION",
+  "sample_count": 7,
+  "format_types": [
+    "long_section",
+    "markdown_heading",
+    "minimal",
+    "numbered_colon",
+    "plain_segment",
+    "real_docx_extra",
+    "table_or_structured"
+  ],
+  "samples": [
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "format_type": "numbered_colon",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "file_name": "r201d_inline_足下生辉_旧鞋改造设计课.txt",
+      "source_path": "inline_from_R201B",
+      "expected_min_episodes": 5
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "format_type": "plain_segment",
+      "lesson_label": "穿穿编编",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "expected_min_episodes": 6
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "format_type": "table_or_structured",
+      "lesson_label": "雨伞图案设计",
+      "file_name": "r201d_inline_雨伞图案设计_表格型教案.txt",
+      "source_path": "inline_r201d_table_fixture",
+      "expected_min_episodes": 4
+    },
+    {
+      "sample_id": "long_section_line_campus",
+      "format_type": "long_section",
+      "lesson_label": "校园里的线条",
+      "file_name": "r201d_inline_校园里的线条_长段落教案.txt",
+      "source_path": "inline_r201d_long_section_fixture",
+      "expected_min_episodes": 2
+    },
+    {
+      "sample_id": "markdown_paper_roll_animal",
+      "format_type": "markdown_heading",
+      "lesson_label": "纸卷动物",
+      "file_name": "r201d_inline_纸卷动物_markdown标题型教案.md",
+      "source_path": "inline_r201d_markdown_fixture",
+      "expected_min_episodes": 5
+    },
+    {
+      "sample_id": "minimal_line_fish",
+      "format_type": "minimal",
+      "lesson_label": "线条小鱼",
+      "file_name": "r201d_inline_线条小鱼_极简教案.txt",
+      "source_path": "inline_r201d_minimal_fixture",
+      "expected_min_episodes": 3
+    },
+    {
+      "sample_id": "real_qinglv_docx",
+      "format_type": "real_docx_extra",
+      "lesson_label": "走进青绿山水",
+      "file_name": "kb_art_g3_lesson_case_1_08f3e01f0b_课时1_走进青绿山水_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g3_lesson_case_1_08f3e01f0b_课时1_走进青绿山水_教案.docx",
+      "expected_min_episodes": 3
+    }
+  ],
+  "boundary": {
+    "opt_in_lean_route_only": true,
+    "default_route_unchanged": true,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "provider_called": false,
+    "model_called": false,
+    "R95_executed": false
+  }
+}

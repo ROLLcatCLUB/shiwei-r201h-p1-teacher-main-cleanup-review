@@ -1,0 +1,395 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "31BB51E2DEDB719C0E3286594EF6B3DC5B471477B10B37CF11AAEC3760C8E943",
+  "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+  "selected_parser_id": "legacy_r103_parser",
+  "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.7427,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 6,
+      "episode_titles": [
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习",
+        "小结"
+      ],
+      "source_span_coverage": 0.1684,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.6667,
+      "selection_score": 0.7427,
+      "failure_reason_if_rejected": ""
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 2,
+      "episode_titles": [
+        "材料说明",
+        "评价要点"
+      ],
+      "source_span_coverage": 0.0345,
+      "evidence_coverage_score": 0.5,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.6667,
+      "selection_score": 0.5272,
+      "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5272<0.7427"
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 6,
+      "episode_titles": [
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习",
+        "小结"
+      ],
+      "source_span_coverage": 0.3156,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.6667,
+      "selection_score": 0.8222,
+      "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.8222<0.7427"
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 8,
+      "episode_titles": [
+        "环节1",
+        "| | | | | | --- | --",
+        "---",
+        "## **材料说明",
+        "【学生准备】",
+        "各色纸条（1.5cm宽，预先裁好）",
+        "【老师准备】",
+        "编织PPT → 小美制作 * 编织底"
+      ],
+      "source_span_coverage": 0.0371,
+      "evidence_coverage_score": 0.625,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.6667,
+      "selection_score": 0.5536,
+      "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5536<0.7427"
+    }
+  ],
+  "episodes": [
+    {
+      "index": 1,
+      "title": "导入",
+      "duration_min": 3,
+      "source_content": "出示编织实物（竹编/藤编），引出\"编织\"主题",
+      "goal": "出示编织实物（竹编/藤编），引出\"编织\"主题",
+      "teacher_action": "出示编织实物（竹编/藤编），引出\"编织\"主题",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_01",
+      "episode_type": "情境导入型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 3,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 353,
+          "end": 375
+        },
+        "source_text_excerpt": "出示编织实物（竹编/藤编），引出\"编织\"主题 | | 2 | 历史介绍 | 5 | 编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 2,
+      "title": "历史介绍",
+      "duration_min": 5,
+      "source_content": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+      "goal": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+      "teacher_action": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_02",
+      "episode_type": "课堂推进型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 5,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 395,
+          "end": 419
+        },
+        "source_text_excerpt": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 3,
+      "title": "认识经纬",
+      "duration_min": 5,
+      "source_content": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理",
+      "goal": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理",
+      "teacher_action": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_03",
+      "episode_type": "观察辨析型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 5,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 439,
+          "end": 465
+        },
+        "source_text_excerpt": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 4,
+      "title": "教师示范",
+      "duration_min": 5,
+      "source_content": "演示纸条编织的基本步骤（压一穿一）",
+      "goal": "演示纸条编织的基本步骤（压一穿一）",
+      "teacher_action": "演示纸条编织的基本步骤（压一穿一）",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_04",
+      "episode_type": "技法示范型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 5,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 485,
+          "end": 502
+        },
+        "source_text_excerpt": "演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 |",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 5,
+      "title": "学生练习",
+      "duration_min": 18,
+      "source_content": "在教师提供的编织底稿上完成一组经纬交织练习",
+      "goal": "在教师提供的编织底稿上完成一组经纬交织练习",
+      "teacher_action": "在教师提供的编织底稿上完成一组经纬交织练习",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_05",
+      "episode_type": "操作练习型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 18,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 523,
+          "end": 544
+        },
+        "source_text_excerpt": "在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 6,
+      "title": "小结",
+      "duration_min": 4,
+      "source_content": "展示优秀作品，说说编织的关键在哪里",
+      "goal": "展示优秀作品，说说编织的关键在哪里",
+      "teacher_action": "展示优秀作品，说说编织的关键在哪里",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "uploaded_entry_episode_06",
+      "episode_type": "展示收束型",
+      "source_gap_note": [
+        "上传原文未提供明确学生学习；需教师确认。",
+        "上传原文未提供明确学习证据；需教师确认。"
+      ],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": 4,
+        "raw_question": "",
+        "raw_feedback": ""
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "source_status": "uploaded_source",
+      "provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 562,
+          "end": 579
+        },
+        "source_text_excerpt": "展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预先裁好） * 剪刀 【老师准备】 * 编织PPT → 小美制作 *",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 6,
+  "episode_titles": [
+    "导入",
+    "历史介绍",
+    "认识经纬",
+    "教师示范",
+    "学生练习",
+    "小结"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH",
+  "sample": "old_shoes_zu_xia_sheng_hui",
+  "legacy_status": 200,
+  "lean_status": 200,
+  "legacy_engine_metadata": {
+    "preview_engine_requested": "legacy",
+    "preview_engine_selected": "legacy",
+    "canary_enabled": true,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "lean_chain_available": true,
+    "legacy_chain_available": true,
+    "formal_apply_enabled": false,
+    "write_enabled": false
+  },
+  "lean_engine_metadata": {
+    "preview_engine_requested": "lean",
+    "preview_engine_selected": "lean",
+    "canary_enabled": false,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "lean_chain_available": true,
+    "legacy_chain_available": true,
+    "formal_apply_enabled": false,
+    "write_enabled": false
+  },
+  "lean_selected_parser": "numbered_sentence_parser",
+  "legacy_stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+  "lean_stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "teacher_visible_by_default": false
+}

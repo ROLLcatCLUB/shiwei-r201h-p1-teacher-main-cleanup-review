@@ -1,0 +1,101 @@
+[
+  {
+    "parser_id": "legacy_r103_parser",
+    "episode_count": 2,
+    "episode_titles": [
+      "制作路径讨论",
+      "旧鞋作品制作"
+    ],
+    "source_span_coverage": 0.0732,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 1.0,
+    "selection_score": 0.6947,
+    "failure_reason_if_rejected": "lower_selection_score_than_numbered_sentence_parser:0.6947<0.8650",
+    "sample_id": "numbered_colon_old_shoes"
+  },
+  {
+    "parser_id": "numbered_colon_parser",
+    "episode_count": 5,
+    "episode_titles": [
+      "回顾草图与任务确认",
+      "制作路径讨论",
+      "旧鞋作品制作",
+      "5句话设计故事",
+      "新鞋发布会准备"
+    ],
+    "source_span_coverage": 0.2512,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.8206,
+    "failure_reason_if_rejected": "lower_selection_score_than_numbered_sentence_parser:0.8206<0.8650",
+    "sample_id": "numbered_colon_old_shoes"
+  },
+  {
+    "parser_id": "numbered_sentence_parser",
+    "episode_count": 5,
+    "episode_titles": [
+      "回顾草图与任务确认",
+      "制作路径讨论",
+      "旧鞋作品制作",
+      "5句话设计故事",
+      "新鞋发布会准备"
+    ],
+    "source_span_coverage": 0.3527,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.865,
+    "failure_reason_if_rejected": "",
+    "sample_id": "numbered_colon_old_shoes"
+  },
+  {
+    "parser_id": "markdown_heading_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "numbered_colon_old_shoes"
+  },
+  {
+    "parser_id": "table_or_structured_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "numbered_colon_old_shoes"
+  },
+  {
+    "parser_id": "long_section_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "numbered_colon_old_shoes"
+  }
+]

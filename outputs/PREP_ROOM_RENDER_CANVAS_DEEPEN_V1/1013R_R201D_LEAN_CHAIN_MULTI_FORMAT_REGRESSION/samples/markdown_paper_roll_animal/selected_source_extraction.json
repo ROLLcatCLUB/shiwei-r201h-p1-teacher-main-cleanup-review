@@ -1,0 +1,313 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "08D06D0E241D6F36DD31C0A6BC4911CF9B102B246C0132B944097652DE16E7A6",
+  "file_name": "r201d_inline_纸卷动物_markdown标题型教案.md",
+  "selected_parser_id": "markdown_heading_parser",
+  "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.9,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 5,
+      "episode_titles": [
+        "导入",
+        "探究",
+        "示范",
+        "创作",
+        "展评"
+      ],
+      "source_span_coverage": 0.5352,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.9,
+      "failure_reason_if_rejected": ""
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 5,
+      "episode_titles": [
+        "### 导入",
+        "### 探究",
+        "### 示范",
+        "### 创作",
+        "### 展评"
+      ],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.52,
+      "failure_reason_if_rejected": "lower_selection_score_than_markdown_heading_parser:0.52<0.9000"
+    }
+  ],
+  "episodes": [
+    {
+      "index": 1,
+      "title": "导入",
+      "duration_min": null,
+      "source_content": "教师出示纸卷和几个动物图片，请学生猜一猜纸卷可以变成什么动物身体。",
+      "goal": "教师出示纸卷和几个动物图片，请学生猜一猜纸卷可以变成什么动物身体。",
+      "teacher_action": "教师出示纸卷和几个动物图片，请学生猜一猜纸卷可以变成什么动物身体。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_markdown_heading_parser_01",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "markdown_heading_parser",
+        "source_span": {
+          "start": 49,
+          "end": 82
+        },
+        "source_text_excerpt": "教师出示纸卷和几个动物图片，请学生猜一猜纸卷可以变成什么动物身体。 ### 探究：发现卷、折、剪的关系 学生观察纸卷作品，找出身体、耳朵、尾巴分别用了什么纸艺方法。 ### 示范：连接身体和局部 教师示范卷纸、剪耳朵、粘贴",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 2,
+      "title": "探究",
+      "duration_min": null,
+      "source_content": "学生观察纸卷作品，找出身体、耳朵、尾巴分别用了什么纸艺方法。",
+      "goal": "学生观察纸卷作品，找出身体、耳朵、尾巴分别用了什么纸艺方法。",
+      "teacher_action": "学生观察纸卷作品，找出身体、耳朵、尾巴分别用了什么纸艺方法。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_markdown_heading_parser_02",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "markdown_heading_parser",
+        "source_span": {
+          "start": 102,
+          "end": 132
+        },
+        "source_text_excerpt": "学生观察纸卷作品，找出身体、耳朵、尾巴分别用了什么纸艺方法。 ### 示范：连接身体和局部 教师示范卷纸、剪耳朵、粘贴尾巴，提醒胶水位置和结构稳定。 ### 创作：完成纸卷动物 学生选择一种动物完成纸卷造型，并尝试添",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 3,
+      "title": "示范",
+      "duration_min": null,
+      "source_content": "教师示范卷纸、剪耳朵、粘贴尾巴，提醒胶水位置和结构稳定。",
+      "goal": "教师示范卷纸、剪耳朵、粘贴尾巴，提醒胶水位置和结构稳定。",
+      "teacher_action": "教师示范卷纸、剪耳朵、粘贴尾巴，提醒胶水位置和结构稳定。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_markdown_heading_parser_03",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "markdown_heading_parser",
+        "source_span": {
+          "start": 149,
+          "end": 177
+        },
+        "source_text_excerpt": "教师示范卷纸、剪耳朵、粘贴尾巴，提醒胶水位置和结构稳定。 ### 创作：完成纸卷动物 学生选择一种动物完成纸卷造型，并尝试添加表情或纹样。 ### 展评：说出最像的地方 学生展示作品，说出自己最满意的动物特征。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 4,
+      "title": "创作",
+      "duration_min": null,
+      "source_content": "学生选择一种动物完成纸卷造型，并尝试添加表情或纹样。",
+      "goal": "学生选择一种动物完成纸卷造型，并尝试添加表情或纹样。",
+      "teacher_action": "学生选择一种动物完成纸卷造型，并尝试添加表情或纹样。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_markdown_heading_parser_04",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "markdown_heading_parser",
+        "source_span": {
+          "start": 193,
+          "end": 219
+        },
+        "source_text_excerpt": "学生选择一种动物完成纸卷造型，并尝试添加表情或纹样。 ### 展评：说出最像的地方 学生展示作品，说出自己最满意的动物特征。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 5,
+      "title": "展评",
+      "duration_min": null,
+      "source_content": "学生展示作品，说出自己最满意的动物特征。",
+      "goal": "学生展示作品，说出自己最满意的动物特征。",
+      "teacher_action": "学生展示作品，说出自己最满意的动物特征。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_markdown_heading_parser_05",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "markdown_heading_parser",
+        "source_span": {
+          "start": 236,
+          "end": 256
+        },
+        "source_text_excerpt": "学生展示作品，说出自己最满意的动物特征。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.9000; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 5,
+  "episode_titles": [
+    "导入",
+    "探究",
+    "示范",
+    "创作",
+    "展评"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "teacher_main_entry_count": 41,
+  "teacher_main_source_counts": {
+    "R114_execution_map": 30,
+    "R114_field_projection": 10,
+    "uploaded_source": 1
+  },
+  "forbidden_source_hits": [],
+  "source_gap_as_content_hits": [],
+  "entries": [
+    {
+      "path": "lesson_header.lesson_title",
+      "text": "线条小鱼",
+      "source_type": "uploaded_source",
+      "role": "header"
+    },
+    {
+      "path": "basis[0].body[0]",
+      "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "student_analysis[0].body[0]",
+      "text": "二年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+      "source_type": "R114_field_projection",
+      "role": "student_analysis"
+    },
+    {
+      "path": "student_analysis[0].body[1]",
+      "text": "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+      "source_type": "R114_field_projection",
+      "role": "student_analysis"
+    },
+    {
+      "path": "objectives[0].body[0]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "key_difficult_points[0].body[0]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_type": "R114_field_projection",
+      "role": "key_difficult_points"
+    },
+    {
+      "path": "preparation[0].body[0]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_type": "R114_field_projection",
+      "role": "preparation"
+    },
+    {
+      "path": "assessment_or_homework[0].body[0]",
+      "text": "观察证据：看鱼图片，说一说鱼身上有什么线条，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[1]",
+      "text": "观察证据：教师示范用波浪线、折线、点线装饰鱼，用于在学生动手前提供可选择的制作路径和安全边界。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[2]",
+      "text": "观察证据：学生画一条线条小鱼，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "reflection_or_notes[0].body[0]",
+      "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。",
+      "source_type": "R114_field_projection",
+      "role": "reflection_or_notes"
+    },
+    {
+      "path": "process_episodes[0].episode_title",
+      "text": "看鱼图片，说一说鱼身上有什么线条",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[0].episode_goal",
+      "text": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[0].teacher_organization",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[0].student_learning",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[0].xiaojiao_hint",
+      "text": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].step_name",
+      "text": "看鱼图片，说一说鱼身上有什么线条",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].teacher_action",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].student_action",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].scaffolds",
+      "text": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].evidence",
+      "text": "看鱼图片，说一说鱼身上有什么线条。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[1].episode_title",
+      "text": "教师示范用波浪线、折线、点线装饰鱼",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[1].episode_goal",
+      "text": "学生能观察方法选择和工具使用要求，判断哪一种路径适合自己的任务",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[1].teacher_organization",
+      "text": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[1].student_learning",
+      "text": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[1].xiaojiao_hint",
+      "text": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].step_name",
+      "text": "教师示范用波浪线、折线、点线装饰鱼",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].teacher_action",
+      "text": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].student_action",
+      "text": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].scaffolds",
+      "text": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].evidence",
+      "text": "教师示范用波浪线、折线、点线装饰鱼。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[2].episode_title",
+      "text": "学生画一条线条小鱼",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[2].episode_goal",
+      "text": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[2].teacher_organization",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[2].student_learning",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[2].xiaojiao_hint",
+      "text": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].step_name",
+      "text": "学生画一条线条小鱼",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].teacher_action",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].student_action",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].scaffolds",
+      "text": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].evidence",
+      "text": "学生画一条线条小鱼。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    }
+  ]
+}

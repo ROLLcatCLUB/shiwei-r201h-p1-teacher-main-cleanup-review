@@ -1,0 +1,307 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "24B4D20F8BFA36CA00EEA26AEC4437C23DDA2E9F79DD077BFFB9A131694A23C4",
+  "file_name": "r201d_inline_校园里的线条_长段落教案.txt",
+  "selected_parser_id": "long_section_parser",
+  "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.8533,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 5,
+      "episode_titles": [
+        "教师先带学生回忆校门、操场、栏杆和树枝中",
+        "随后教师展示一张校园照片，指着栏杆、跑道",
+        "接着教师在黑板上示范如何用三种线条组合出",
+        "学生开始创作时，教师巡视，重点帮助只会画",
+        "最后全班把作品贴到黑板上，学生说一说自己"
+      ],
+      "source_span_coverage": 0.7178,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.6667,
+      "selection_score": 0.8533,
+      "failure_reason_if_rejected": ""
+    }
+  ],
+  "episodes": [
+    {
+      "index": 1,
+      "title": "教师先带学生回忆校门、操场、栏杆和树枝中",
+      "duration_min": null,
+      "source_content": "教师先带学生回忆校门、操场、栏杆和树枝中的线条，请学生说出哪些线条让画面更有节奏。",
+      "goal": "教师先带学生回忆校门、操场、栏杆和树枝中的线条，请学生说出哪些线条让画面更有节奏。",
+      "teacher_action": "教师先带学生回忆校门、操场、栏杆和树枝中的线条，请学生说出哪些线条让画面更有节奏。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_long_section_parser_01",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "long_section_parser",
+        "source_span": {
+          "start": 64,
+          "end": 105
+        },
+        "source_text_excerpt": "教师先带学生回忆校门、操场、栏杆和树枝中的线条，请学生说出哪些线条让画面更有节奏。随后教师展示一张校园照片，指着栏杆、跑道、树枝和窗框，引导学生把看到的线条分成直线、曲线、折线三类。接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 2,
+      "title": "随后教师展示一张校园照片，指着栏杆、跑道",
+      "duration_min": null,
+      "source_content": "随后教师展示一张校园照片，指着栏杆、跑道、树枝和窗框，引导学生把看到的线条分成直线、曲线、折线三类。",
+      "goal": "随后教师展示一张校园照片，指着栏杆、跑道、树枝和窗框，引导学生把看到的线条分成直线、曲线、折线三类。",
+      "teacher_action": "随后教师展示一张校园照片，指着栏杆、跑道、树枝和窗框，引导学生把看到的线条分成直线、曲线、折线三类。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_long_section_parser_02",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "long_section_parser",
+        "source_span": {
+          "start": 105,
+          "end": 155
+        },
+        "source_text_excerpt": "随后教师展示一张校园照片，指着栏杆、跑道、树枝和窗框，引导学生把看到的线条分成直线、曲线、折线三类。接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学生先确定大形，再补充局部线条。学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 3,
+      "title": "接着教师在黑板上示范如何用三种线条组合出",
+      "duration_min": null,
+      "source_content": "接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学生先确定大形，再补充局部线条。",
+      "goal": "接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学生先确定大形，再补充局部线条。",
+      "teacher_action": "接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学生先确定大形，再补充局部线条。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_long_section_parser_03",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "long_section_parser",
+        "source_span": {
+          "start": 155,
+          "end": 200
+        },
+        "source_text_excerpt": "接着教师在黑板上示范如何用三种线条组合出一个校园角落，提醒学生先确定大形，再补充局部线条。学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画面。最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 4,
+      "title": "学生开始创作时，教师巡视，重点帮助只会画",
+      "duration_min": null,
+      "source_content": "学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画面。",
+      "goal": "学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画面。",
+      "teacher_action": "学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画面。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_long_section_parser_04",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "long_section_parser",
+        "source_span": {
+          "start": 200,
+          "end": 237
+        },
+        "source_text_excerpt": "学生开始创作时，教师巡视，重点帮助只会画轮廓的学生把观察到的线条补进画面。最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条是否有变化、画面是否完整”进行评价。 作业：继续观察家里或路上的线条，拍一",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 5,
+      "title": "最后全班把作品贴到黑板上，学生说一说自己",
+      "duration_min": null,
+      "source_content": "最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条是否有变化、画面是否完整”进行评价。",
+      "goal": "最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条是否有变化、画面是否完整”进行评价。",
+      "teacher_action": "最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条是否有变化、画面是否完整”进行评价。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_long_section_parser_05",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "long_section_parser",
+        "source_span": {
+          "start": 237,
+          "end": 298
+        },
+        "source_text_excerpt": "最后全班把作品贴到黑板上，学生说一说自己用了哪三种线条，教师用“能否看出校园场景、线条是否有变化、画面是否完整”进行评价。 作业：继续观察家里或路上的线条，拍一张照片下节课交流。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8533; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 5,
+  "episode_titles": [
+    "教师先带学生回忆校门、操场、栏杆和树枝中",
+    "随后教师展示一张校园照片，指着栏杆、跑道",
+    "接着教师在黑板上示范如何用三种线条组合出",
+    "学生开始创作时，教师巡视，重点帮助只会画",
+    "最后全班把作品贴到黑板上，学生说一说自己"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}

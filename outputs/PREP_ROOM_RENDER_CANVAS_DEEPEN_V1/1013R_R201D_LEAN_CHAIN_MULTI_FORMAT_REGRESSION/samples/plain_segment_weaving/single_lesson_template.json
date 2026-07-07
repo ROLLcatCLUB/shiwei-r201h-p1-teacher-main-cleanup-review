@@ -1,0 +1,1177 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "template_id": "r201c_lean_readonly::upload_preview_31bb51e2dedb",
+  "template_type": "single_lesson_template",
+  "route": "uploaded_lesson_entry_preview_lean",
+  "lesson_header": {
+    "lesson_title": "穿穿编编（第1课时）",
+    "unit_title": "第二单元 编织·纸艺",
+    "grade": "四年级",
+    "lesson_code": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+    "status": "lean readonly preview only",
+    "source_status": "uploaded_source",
+    "teacher_visible_source_label": "上传原文依据"
+  },
+  "basis": [
+    {
+      "section_id": "basis",
+      "title": "一、本课依据",
+      "body": [
+        "本课依据上传原稿定位为四年级《穿穿编编（第1课时）》，所属单元为“第二单元 编织·纸艺”。",
+        "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+        "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_basis_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_basis_graph_basis_16abfcfa6e",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.title",
+            "claim_id": "r114a_claim_498c7da85d",
+            "source_excerpt": "课题：穿穿编编（第1课时）",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_fbb9f9fcad",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.unit",
+            "claim_id": "r114a_claim_2f83976c0b",
+            "source_excerpt": "单元：第二单元 编织·纸艺",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_43a695826a",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.grade",
+            "claim_id": "r114a_claim_ce7029d813",
+            "source_excerpt": "年级：四年级",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_e654001725",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_confirm_8e31434f48",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_498c7da85d",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.title",
+            "text": "课题：穿穿编编（第1课时）",
+            "source_evidence": [
+              "穿穿编编（第1课时）"
+            ],
+            "confidence": 0.92,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_2f83976c0b",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.unit",
+            "text": "单元：第二单元 编织·纸艺",
+            "source_evidence": [
+              "第二单元 编织·纸艺"
+            ],
+            "confidence": 0.88,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_ce7029d813",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.grade",
+            "text": "年级：四年级",
+            "source_evidence": [
+              "四年级"
+            ],
+            "confidence": 0.9,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "basis"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "student_analysis": [
+    {
+      "section_id": "analysis",
+      "title": "二、学情分析",
+      "body": [
+        "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+        "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_analysis_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_analysis_graph_basis_408ce154ce",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_3218354371",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_841a803c77",
+            "source_excerpt": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_9a30720e86",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_8933a64479",
+            "source_excerpt": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_1eb41d4819",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_e79c726635",
+            "source_excerpt": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_841a803c77",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "出示编织实物（竹编/藤编），引出\"编织\"主题"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_8933a64479",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_e79c726635",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "objectives": [
+    {
+      "section_id": "goals",
+      "title": "三、教学目标",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_goal_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_goals_graph_basis_d24b51e239",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "faithful_reconstruction.protected_core.core_activity",
+            "claim_id": "r114a_claim_fee9fe4859",
+            "source_excerpt": "核心活动：认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_goals_graph_basis_b196924d70",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_fee9fe4859",
+            "claim_type": "source_fact",
+            "graph_path": "faithful_reconstruction.protected_core.core_activity",
+            "text": "核心活动：认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习"
+            ],
+            "confidence": 0.85,
+            "teacher_review_required": false,
+            "section_id": "goals"
+          },
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "goals"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "key_difficult_points": [
+    {
+      "section_id": "keypoints",
+      "title": "四、教学重难点",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_keypoint_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_5ccb36400f",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_fbf5724e19",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_841a803c77",
+            "source_excerpt": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_bc73d9c8e3",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_8933a64479",
+            "source_excerpt": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_86df62e0d7",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_e79c726635",
+            "source_excerpt": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_cbe03f84b6",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.4",
+            "claim_id": "r114a_claim_f2fda19b42",
+            "source_excerpt": "教师示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_841a803c77",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "出示编织实物（竹编/藤编），引出\"编织\"主题"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_8933a64479",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_e79c726635",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_f2fda19b42",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.4",
+            "text": "教师示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "演示纸条编织的基本步骤（压一穿一）"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "preparation": [
+    {
+      "section_id": "preparation",
+      "title": "五、教学准备",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_preparation_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_preparation_graph_basis_6da43a8465",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "faithful_reconstruction.protected_core.core_activity",
+            "claim_id": "r114a_claim_fee9fe4859",
+            "source_excerpt": "核心活动：认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_graph_basis_214a36927a",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.tool_safety",
+            "claim_id": "r114a_claim_f7dee14e8f",
+            "source_excerpt": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_confirm_55bbb55503",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_fee9fe4859",
+            "claim_type": "source_fact",
+            "graph_path": "faithful_reconstruction.protected_core.core_activity",
+            "text": "核心活动：认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习"
+            ],
+            "confidence": 0.85,
+            "teacher_review_required": false,
+            "section_id": "preparation"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          },
+          {
+            "claim_id": "r114a_claim_f7dee14e8f",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.tool_safety",
+            "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+            "source_evidence": [
+              "剪刀"
+            ],
+            "confidence": 0.82,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "process_episodes": [
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_01",
+      "episode_index": 1,
+      "episode_title": "导入",
+      "episode_goal": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "teacher_organization": [
+        "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。"
+      ],
+      "student_learning": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_01-M01",
+          "step_name": "导入",
+          "teacher_action": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "evidence": "出示编织实物（竹编/藤编），引出\"编织\"主题",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 353,
+              "end": 375
+            },
+            "source_text_excerpt": "出示编织实物（竹编/藤编），引出\"编织\"主题 | | 2 | 历史介绍 | 5 | 编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 353,
+          "end": 375
+        },
+        "source_text_excerpt": "出示编织实物（竹编/藤编），引出\"编织\"主题 | | 2 | 历史介绍 | 5 | 编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_02",
+      "episode_index": 2,
+      "episode_title": "历史介绍",
+      "episode_goal": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "teacher_organization": [
+        "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。"
+      ],
+      "student_learning": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_02-M01",
+          "step_name": "历史介绍",
+          "teacher_action": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "evidence": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 395,
+              "end": 419
+            },
+            "source_text_excerpt": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 395,
+          "end": 419
+        },
+        "source_text_excerpt": "编织的历史：七千年前席子→结绳记事→彩陶编织纹样 | | 3 | 认识经纬 | 5 | 认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_03",
+      "episode_index": 3,
+      "episode_title": "认识经纬",
+      "episode_goal": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "teacher_organization": [
+        "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。"
+      ],
+      "student_learning": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_03-M01",
+          "step_name": "认识经纬",
+          "teacher_action": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "evidence": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 439,
+              "end": 465
+            },
+            "source_text_excerpt": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 439,
+          "end": 465
+        },
+        "source_text_excerpt": "认识经线（竖向固定）和纬线（横向穿过），理解交织原理 | | 4 | 教师示范 | 5 | 演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_04",
+      "episode_index": 4,
+      "episode_title": "教师示范",
+      "episode_goal": "学生能观察方法选择和工具使用要求，判断哪一种路径适合自己的任务",
+      "teacher_organization": [
+        "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。"
+      ],
+      "student_learning": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_04-M01",
+          "step_name": "教师示范",
+          "teacher_action": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+          "student_action": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+          "evidence": "演示纸条编织的基本步骤（压一穿一）",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 485,
+              "end": 502
+            },
+            "source_text_excerpt": "演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 |",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": false,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 485,
+          "end": 502
+        },
+        "source_text_excerpt": "演示纸条编织的基本步骤（压一穿一） | | 5 | 学生练习 | 18 | 在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 |",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_05",
+      "episode_index": 5,
+      "episode_title": "学生练习",
+      "episode_goal": "学生能边做边检查作品是否回应原任务，遇到困难先说明卡在哪里",
+      "teacher_organization": [
+        "巡视学生是否按任务目标推进，优先追问选择理由，再给技术帮助。"
+      ],
+      "student_learning": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可按巡视发现给出分层追问：材料为什么这样选？哪里需要同伴或模板支持？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_05-M01",
+          "step_name": "学生练习",
+          "teacher_action": "巡视学生是否按任务目标推进，优先追问选择理由，再给技术帮助。",
+          "student_action": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能忙于装饰堆叠，却说不清材料选择和任务目标的关系。",
+          "evidence": "在教师提供的编织底稿上完成一组经纬交织练习",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 523,
+              "end": 544
+            },
+            "source_text_excerpt": "在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": false,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 523,
+          "end": 544
+        },
+        "source_text_excerpt": "在教师提供的编织底稿上完成一组经纬交织练习 | | 6 | 小结 | 4 | 展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_06",
+      "episode_index": 6,
+      "episode_title": "小结",
+      "episode_goal": "学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "teacher_organization": [
+        "把学生作品或语言表达转成可观察证据，提醒哪些内容需要课后确认。"
+      ],
+      "student_learning": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可生成教师确认清单：作品证据、表达证据、后续展示安排。",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_06-M01",
+          "step_name": "小结",
+          "teacher_action": "把学生作品或语言表达转成可观察证据，提醒哪些内容需要课后确认。",
+          "student_action": "展示当前成果或学习发现，确认还需要补充的证据。",
+          "screen_or_materials": "",
+          "scaffolds": "展示证据、后续时间或家长协助安排可能还需要教师确认。",
+          "evidence": "展示优秀作品，说说编织的关键在哪里",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "legacy_r103_parser",
+            "source_span": {
+              "start": 562,
+              "end": 579
+            },
+            "source_text_excerpt": "展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预先裁好） * 剪刀 【老师准备】 * 编织PPT → 小美制作 *",
+            "confidence": 0.78,
+            "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "legacy_r103_parser",
+        "source_span": {
+          "start": 562,
+          "end": 579
+        },
+        "source_text_excerpt": "展示优秀作品，说说编织的关键在哪里 | --- ## **材料说明** 【学生准备】 * 各色纸条（1.5cm宽，预先裁好） * 剪刀 【老师准备】 * 编织PPT → 小美制作 *",
+        "confidence": 0.78,
+        "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "assessment_or_homework": [
+    {
+      "section_id": "assessment",
+      "title": "七、学习单与评价",
+      "body": [
+        "观察证据：导入，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "观察证据：历史介绍，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "观察证据：认识经纬，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_assessment_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_assessment_graph_basis_7d83c9f268",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_841a803c77",
+            "source_excerpt": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_baeef8ac3c",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_8933a64479",
+            "source_excerpt": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_6118f220b4",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_e79c726635",
+            "source_excerpt": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_96a4cdc4b3",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.4",
+            "claim_id": "r114a_claim_f2fda19b42",
+            "source_excerpt": "教师示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_ce9411d6ba",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_841a803c77",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "出示编织实物（竹编/藤编），引出\"编织\"主题"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_8933a64479",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_e79c726635",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_f2fda19b42",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.4",
+            "text": "教师示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "演示纸条编织的基本步骤（压一穿一）"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "reflection_or_notes": [
+    {
+      "section_id": "reflection",
+      "title": "八、课堂后记",
+      "body": [
+        "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_before_class_reflection_gap",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_graph_basis_bc3a74f99d",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "source_excerpt": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "reflection"
+          },
+          {
+            "claim_id": "r114a_claim_09dd6ef45d",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+            "source_evidence": [
+              "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+              "导入",
+              "历史介绍",
+              "认识经纬",
+              "教师示范",
+              "学生练习"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "reflection"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "source_extraction": {
+    "selected_parser_id": "legacy_r103_parser",
+    "selection_reason": "selected_by_multimetric_score:0.7427; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+    "confidence": 0.7427,
+    "episode_titles": [
+      "导入",
+      "历史介绍",
+      "认识经纬",
+      "教师示范",
+      "学生练习",
+      "小结"
+    ]
+  },
+  "candidate_patches": [],
+  "renderer_policy": {
+    "backend_provides_template_object": true,
+    "frontend_renders_only": true,
+    "renderer_must_not_infer_pedagogy": true,
+    "source_gap_as_status_not_content": true
+  },
+  "boundary": {
+    "readonly_only": true,
+    "preview_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "R200A_used_for_teacher_main": false,
+    "R200B_used_for_teacher_main": false,
+    "R97B_P3_used_for_teacher_main": false
+  }
+}

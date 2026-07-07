@@ -1,0 +1,96 @@
+{
+  "stage": "1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION",
+  "status": "PASS",
+  "checks": {
+    "R201F_validator_pass": true,
+    "R201D_validator_pass": true,
+    "R201G_validator_pass": true,
+    "R201H_validator_pass": true,
+    "py_compile_pass": true,
+    "teacher_main_engineering_term_count_zero": true,
+    "minimal_line_fish_actual_episodes_at_least_3": true,
+    "student_creation_step_not_swallowed": true,
+    "downpour_teacher_assessment_engineering_terms_zero": true,
+    "source_gap_as_content_zero": true,
+    "teacher_main_R200A_R200B_R97B_P3_zero": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "no_model_provider_call": true
+  },
+  "metrics": {
+    "teacher_main_engineering_term_count": 0,
+    "teacher_main_engineering_term_hits_by_sample": {
+      "numbered_colon_old_shoes": [],
+      "plain_segment_weaving": [],
+      "table_rain_umbrella": [],
+      "real_downpour_docx": []
+    },
+    "downpour_teacher_assessment_engineering_term_hits": [],
+    "selected_parser_id": "numbered_sentence_parser",
+    "confidence": 0.8218,
+    "episode_count": 3,
+    "episode_titles": [
+      "看鱼图片，说一说鱼身上有什么线条",
+      "教师示范用波浪线、折线、点线装饰鱼",
+      "学生画一条线条小鱼"
+    ],
+    "matching_student_creation_episode_indices": [
+      3
+    ],
+    "minimal_line_fish_expected_steps": 3,
+    "minimal_line_fish_actual_episodes": 3,
+    "student_creation_step_not_swallowed": true,
+    "student_creation_phrase_in_template": true
+  },
+  "validator_runs": [
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201f_default_readonly_preview_canary_switch.py",
+      "returncode": 0,
+      "stdout_tail": "ue,\n    \"full_default_switch\": false,\n    \"formal_apply\": false,\n    \"database_written\": false,\n    \"feishu_written\": false,\n    \"memory_written\": false,\n    \"pptx_pdf_docx_generated\": false,\n    \"R21_modified\": false,\n    \"R36_modified\": false,\n    \"R95_executed\": false,\n    \"provider_called\": false,\n    \"model_called\": false,\n    \"legacy_route_deleted\": false\n  },\n  \"outputs\": {\n    \"canary_feature_flag_contract\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_canary_feature_flag_contract.json\",\n    \"route_selection_policy\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_route_selection_policy.md\",\n    \"fallback_and_rollback_policy\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_fallback_and_rollback_policy.md\",\n    \"response_metadata_contract\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_response_metadata_contract.json\",\n    \"canary_smoke_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_canary_smoke_matrix.json\",\n    \"old_vs_lean_comparison_artifacts\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_old_vs_lean_comparison_artifacts\",\n    \"validation_result\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\validate_1013R_R201F_default_readonly_preview_canary_switch_result.json\"\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201d_lean_chain_multi_format_regression.py",
+      "returncode": 0,
+      "stdout_tail": "\\\\real_qinglv_docx\\\\ownership_ledger.json\",\n        \"readonly_viewmodel_sample\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\samples\\\\real_qinglv_docx\\\\readonly_viewmodel_sample.json\"\n      }\n    }\n  ],\n  \"boundary\": {\n    \"opt_in_lean_route_only\": true,\n    \"default_R103_route_replaced\": false,\n    \"formal_apply\": false,\n    \"database_written\": false,\n    \"feishu_written\": false,\n    \"memory_written\": false,\n    \"pptx_pdf_docx_generated\": false,\n    \"R21_modified\": false,\n    \"R36_modified\": false,\n    \"R95_executed\": false,\n    \"provider_called\": false,\n    \"model_called\": false\n  },\n  \"outputs\": {\n    \"sample_manifest\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_sample_manifest.json\",\n    \"parser_selection_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_parser_selection_matrix.json\",\n    \"multi_format_regression_report\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_multi_format_regression_report.md\",\n    \"failure_cases_if_any\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_failure_cases_if_any.md\",\n    \"samples\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\samples\",\n    \"validation_result\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\validate_1013R_R201D_lean_chain_multi_format_regression_result.json\"\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201g_canary_manual_teacher_readability_smoke.py",
+      "returncode": 0,
+      "stdout_tail": " \"观察雨\",\n        \"诗词引入\",\n        \"线描示范\",\n        \"线描练习\",\n        \"分享小结\"\n      ],\n      \"legacy_episode_titles\": [\n        \"课堂导入\",\n        \"观察雨\",\n        \"诗词引入\",\n        \"线描示范\",\n        \"线描练习\",\n        \"分享小结\"\n      ],\n      \"teacher_main_forbidden_source_count\": 0,\n      \"source_gap_as_content_count\": 0,\n      \"teacher_main_engineering_term_count\": 0,\n      \"preview_engine_metadata\": {\n        \"preview_engine_requested\": \"auto\",\n        \"preview_engine_selected\": \"lean\",\n        \"canary_enabled\": true,\n        \"fallback_used\": false,\n        \"fallback_reason\": null,\n        \"lean_chain_available\": true,\n        \"legacy_chain_available\": true,\n        \"formal_apply_enabled\": false,\n        \"write_enabled\": false\n      },\n      \"issues\": [],\n      \"readability_notes\": [\n        \"教师主正文由 single_lesson_template 渲染快照生成。\",\n        \"parser/provenance/fallback 只放在开发诊断折叠区。\",\n        \"本轮只做可读性 smoke，不做内容质量增强。\"\n      ]\n    }\n  ],\n  \"outputs\": {\n    \"manifest\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_teacher_readability_sample_manifest.json\",\n    \"issue_list\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_readability_issue_list.md\",\n    \"issue_classification_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_issue_classification_matrix.json\",\n    \"next_fix_recommendation\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_next_fix_recommendation.md\"\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201h_readability_fix_mini_loop.py",
+      "returncode": 0,
+      "stdout_tail": "g_next_fix_recommendation.md\\\"\\n  }\\n}\\n\",\n      \"stderr_tail\": \"\"\n    }\n  ],\n  \"metrics\": {\n    \"episode_goal_teacher_organization_duplicate_count\": 0,\n    \"generic_front_matter_phrase_count\": 0,\n    \"table_markdown_syntax_in_teacher_main\": 0,\n    \"formal_downpour_cross_topic_terms\": [],\n    \"r201g_sample_count\": 4\n  },\n  \"outputs\": {\n    \"fix_scope\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_fix_scope.md\",\n    \"extraction_fix_report\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_extraction_fix_report.md\",\n    \"projection_semantics_repair\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_projection_semantics_repair.md\",\n    \"front_matter_projection_policy\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_front_matter_projection_policy.md\",\n    \"table_text_sanitizer_report\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_table_text_sanitizer_report.md\",\n    \"before_after_readability_comparison\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\\\r201h_before_after_readability_comparison.md\"\n  },\n  \"boundary\": {\n    \"full_default_route_switch\": false,\n    \"formal_apply\": false,\n    \"database_written\": false,\n    \"feishu_written\": false,\n    \"memory_written\": false,\n    \"pptx_pdf_docx_generated\": false,\n    \"R95_executed\": false,\n    \"provider_called\": false,\n    \"model_called\": false,\n    \"large_R97B_UI_redesign\": false\n  }\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "py_compile": {
+    "command": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile D:\\Documents\\SmartEdu\\xiaobei-core\\backend\\xiaobei_ai\\prep_room_import_understanding_v2_graph_1013R_R114A.py D:\\Documents\\SmartEdu\\xiaobei-core\\backend\\xiaobei_ai\\prep_room_lean_readonly_chain_1013R_R201C.py D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201d_lean_chain_multi_format_regression.py D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201g_canary_manual_teacher_readability_smoke.py D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201h_readability_fix_mini_loop.py D:\\Documents\\SmartEdu\\xiaobei-core\\scripts\\validate_1013r_r201h_p1_teacher_main_cleanup_and_minimal_extraction_regression.py",
+    "returncode": 0,
+    "stdout_tail": "",
+    "stderr_tail": ""
+  },
+  "outputs": {
+    "teacher_main_cleanup_report": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_teacher_main_cleanup_report.md",
+    "minimal_extraction_regression_report": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_minimal_extraction_regression_report.md",
+    "downpour_teacher_text_cleanup_before_after": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_downpour_teacher_text_cleanup_before_after.md",
+    "validation_result": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\validate_1013R_R201H_P1_teacher_main_cleanup_and_minimal_extraction_regression_result.json"
+  },
+  "boundary": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "pptx_pdf_docx_generated": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false,
+    "large_R97B_UI_redesign": false
+  }
+}

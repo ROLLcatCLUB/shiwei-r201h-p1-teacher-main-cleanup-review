@@ -1,0 +1,35 @@
+{
+  "stage": "1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE",
+  "categories": {
+    "extraction": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    },
+    "graph": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    },
+    "projection": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    },
+    "template": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    },
+    "rendering": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    },
+    "route": {
+      "blocking": 0,
+      "non_blocking": 0,
+      "issues": []
+    }
+  }
+}

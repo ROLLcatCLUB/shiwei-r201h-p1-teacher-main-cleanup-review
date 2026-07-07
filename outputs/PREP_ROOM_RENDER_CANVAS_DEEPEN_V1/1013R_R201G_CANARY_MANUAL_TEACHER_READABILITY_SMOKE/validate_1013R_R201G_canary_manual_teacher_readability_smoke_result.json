@@ -1,0 +1,202 @@
+{
+  "stage": "1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE",
+  "status": "PASS",
+  "decision": "PASS",
+  "classification": "teacher_readability_smoke",
+  "sample_count": 4,
+  "blocking_issue_count": 0,
+  "non_blocking_issue_count": 0,
+  "checks": {
+    "at_least_4_samples_completed": true,
+    "no_teacher_main_pollution": true,
+    "no_source_gap_as_content": true,
+    "teacher_main_no_R200A_R200B_R97B_P3": true,
+    "teaching_process_readable": true,
+    "issues_classified": true,
+    "no_full_default_switch": true,
+    "no_formal_apply": true,
+    "no_provider_or_model_call": true
+  },
+  "sample_results": [
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "format_type": "numbered_colon",
+      "status": "PASS",
+      "selected_parser_id": "numbered_sentence_parser",
+      "parser_confidence": 0.865,
+      "expected_min_episodes_for_readability": 5,
+      "lean_episode_count": 5,
+      "legacy_episode_count": 2,
+      "lean_episode_titles": [
+        "回顾草图与任务确认",
+        "制作路径讨论",
+        "旧鞋作品制作",
+        "5句话设计故事",
+        "新鞋发布会准备"
+      ],
+      "legacy_episode_titles": [
+        "制作路径讨论 8分钟",
+        "旧鞋作品制作 22分钟"
+      ],
+      "teacher_main_forbidden_source_count": 0,
+      "source_gap_as_content_count": 0,
+      "teacher_main_engineering_term_count": 0,
+      "preview_engine_metadata": {
+        "preview_engine_requested": "auto",
+        "preview_engine_selected": "lean",
+        "canary_enabled": true,
+        "fallback_used": false,
+        "fallback_reason": null,
+        "lean_chain_available": true,
+        "legacy_chain_available": true,
+        "formal_apply_enabled": false,
+        "write_enabled": false
+      },
+      "issues": [],
+      "readability_notes": [
+        "教师主正文由 single_lesson_template 渲染快照生成。",
+        "parser/provenance/fallback 只放在开发诊断折叠区。",
+        "本轮只做可读性 smoke，不做内容质量增强。"
+      ]
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "format_type": "plain_segment",
+      "status": "PASS",
+      "selected_parser_id": "legacy_r103_parser",
+      "parser_confidence": 0.7427,
+      "expected_min_episodes_for_readability": 6,
+      "lean_episode_count": 6,
+      "legacy_episode_count": 6,
+      "lean_episode_titles": [
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习",
+        "小结"
+      ],
+      "legacy_episode_titles": [
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习",
+        "小结"
+      ],
+      "teacher_main_forbidden_source_count": 0,
+      "source_gap_as_content_count": 0,
+      "teacher_main_engineering_term_count": 0,
+      "preview_engine_metadata": {
+        "preview_engine_requested": "auto",
+        "preview_engine_selected": "lean",
+        "canary_enabled": true,
+        "fallback_used": false,
+        "fallback_reason": null,
+        "lean_chain_available": true,
+        "legacy_chain_available": true,
+        "formal_apply_enabled": false,
+        "write_enabled": false
+      },
+      "issues": [],
+      "readability_notes": [
+        "教师主正文由 single_lesson_template 渲染快照生成。",
+        "parser/provenance/fallback 只放在开发诊断折叠区。",
+        "本轮只做可读性 smoke，不做内容质量增强。"
+      ]
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "lesson_label": "雨伞图案设计",
+      "format_type": "table_or_structured",
+      "status": "PASS",
+      "selected_parser_id": "table_or_structured_parser",
+      "parser_confidence": 0.8784,
+      "expected_min_episodes_for_readability": 4,
+      "lean_episode_count": 4,
+      "legacy_episode_count": 0,
+      "lean_episode_titles": [
+        "导入观察",
+        "方法示范",
+        "设计制作",
+        "展示评价"
+      ],
+      "legacy_episode_titles": [],
+      "teacher_main_forbidden_source_count": 0,
+      "source_gap_as_content_count": 0,
+      "teacher_main_engineering_term_count": 0,
+      "preview_engine_metadata": {
+        "preview_engine_requested": "auto",
+        "preview_engine_selected": "lean",
+        "canary_enabled": true,
+        "fallback_used": false,
+        "fallback_reason": null,
+        "lean_chain_available": true,
+        "legacy_chain_available": true,
+        "formal_apply_enabled": false,
+        "write_enabled": false
+      },
+      "issues": [],
+      "readability_notes": [
+        "教师主正文由 single_lesson_template 渲染快照生成。",
+        "parser/provenance/fallback 只放在开发诊断折叠区。",
+        "本轮只做可读性 smoke，不做内容质量增强。"
+      ]
+    },
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "format_type": "formal_docx",
+      "status": "PASS",
+      "selected_parser_id": "legacy_r103_parser",
+      "parser_confidence": 0.7392,
+      "expected_min_episodes_for_readability": 6,
+      "lean_episode_count": 6,
+      "legacy_episode_count": 6,
+      "lean_episode_titles": [
+        "课堂导入",
+        "观察雨",
+        "诗词引入",
+        "线描示范",
+        "线描练习",
+        "分享小结"
+      ],
+      "legacy_episode_titles": [
+        "课堂导入",
+        "观察雨",
+        "诗词引入",
+        "线描示范",
+        "线描练习",
+        "分享小结"
+      ],
+      "teacher_main_forbidden_source_count": 0,
+      "source_gap_as_content_count": 0,
+      "teacher_main_engineering_term_count": 0,
+      "preview_engine_metadata": {
+        "preview_engine_requested": "auto",
+        "preview_engine_selected": "lean",
+        "canary_enabled": true,
+        "fallback_used": false,
+        "fallback_reason": null,
+        "lean_chain_available": true,
+        "legacy_chain_available": true,
+        "formal_apply_enabled": false,
+        "write_enabled": false
+      },
+      "issues": [],
+      "readability_notes": [
+        "教师主正文由 single_lesson_template 渲染快照生成。",
+        "parser/provenance/fallback 只放在开发诊断折叠区。",
+        "本轮只做可读性 smoke，不做内容质量增强。"
+      ]
+    }
+  ],
+  "outputs": {
+    "manifest": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_teacher_readability_sample_manifest.json",
+    "issue_list": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_readability_issue_list.md",
+    "issue_classification_matrix": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_issue_classification_matrix.json",
+    "next_fix_recommendation": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_next_fix_recommendation.md"
+  }
+}

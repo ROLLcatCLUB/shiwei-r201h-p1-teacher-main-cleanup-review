@@ -1,0 +1,128 @@
+[
+  {
+    "parser_id": "legacy_r103_parser",
+    "episode_count": 6,
+    "episode_titles": [
+      "引入课题",
+      "远观千里江山图",
+      "近触矿物颜料",
+      "涂色探索",
+      "分享与交流",
+      "课堂小结与预告"
+    ],
+    "source_span_coverage": 0.084,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.5,
+    "selection_score": 0.6738,
+    "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.6738<0.7361",
+    "sample_id": "real_qinglv_docx"
+  },
+  {
+    "parser_id": "numbered_colon_parser",
+    "episode_count": 3,
+    "episode_titles": [
+      "\\*\\*学习单格式\\*\\",
+      "\\*\\*石青石绿实物\\*\\",
+      "\\*\\*实物投影仪\\*\\"
+    ],
+    "source_span_coverage": 0.008,
+    "evidence_coverage_score": 0.6667,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.5,
+    "selection_score": 0.5445,
+    "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5445<0.7361",
+    "sample_id": "real_qinglv_docx"
+  },
+  {
+    "parser_id": "numbered_sentence_parser",
+    "episode_count": 6,
+    "episode_titles": [
+      "《千里江山图》卷首图局部特写（封面，步骤1）",
+      "《千里江山图》高清全图（步骤2）",
+      "石青、石绿颜料实物并排照片（步骤3）",
+      "空白的\"青绿初印象\"学习单样式（步骤4）",
+      "\\*\\*学习单格式\\*\\*",
+      "\\*\\*石青石绿实物\\*\\*"
+    ],
+    "source_span_coverage": 0.0245,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.0,
+    "selection_score": 0.5716,
+    "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5716<0.7361",
+    "sample_id": "real_qinglv_docx"
+  },
+  {
+    "parser_id": "markdown_heading_parser",
+    "episode_count": 7,
+    "episode_titles": [
+      "材料说明（标准格式",
+      "教学环节表 · 完整填写内容",
+      "\"青绿初印象\"学习单（草稿）",
+      "PPT素材说明（给小美看）",
+      "PPT页面清单",
+      "给小美的补充说明",
+      "试写疑问"
+    ],
+    "source_span_coverage": 0.0044,
+    "evidence_coverage_score": 0.1429,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 1.0,
+    "selection_score": 0.5078,
+    "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5078<0.7361",
+    "sample_id": "real_qinglv_docx"
+  },
+  {
+    "parser_id": "table_or_structured_parser",
+    "episode_count": 6,
+    "episode_titles": [
+      "引入课题",
+      "远观千里江山图",
+      "近触矿物颜料",
+      "涂色探索",
+      "分享与交流",
+      "课堂小结与预告"
+    ],
+    "source_span_coverage": 0.0699,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 1.0,
+    "selection_score": 0.7361,
+    "failure_reason_if_rejected": "",
+    "sample_id": "real_qinglv_docx"
+  },
+  {
+    "parser_id": "long_section_parser",
+    "episode_count": 8,
+    "episode_titles": [
+      "表」共16个字段，本文档为母版，填写时按",
+      "| | | | | --- | ---",
+      "## 材料说明（标准格式",
+      "【学生准备】（常规携带工具，本节课用到）",
+      "水彩笔或油画棒（绿色系为主，也可带全",
+      "【老师准备】",
+      "青绿山水PPT（20页）→ 小美制作",
+      "\\*\\*注"
+    ],
+    "source_span_coverage": 0.0248,
+    "evidence_coverage_score": 0.625,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.5,
+    "selection_score": 0.5236,
+    "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5236<0.7361",
+    "sample_id": "real_qinglv_docx"
+  }
+]

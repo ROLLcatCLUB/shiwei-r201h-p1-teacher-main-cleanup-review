@@ -1,0 +1,412 @@
+{
+  "status_code": 200,
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "preview_engine_metadata": {
+    "preview_engine_requested": "auto",
+    "preview_engine_selected": "lean",
+    "canary_enabled": true,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "lean_chain_available": true,
+    "legacy_chain_available": true,
+    "formal_apply_enabled": false,
+    "write_enabled": false
+  },
+  "selected_source_extraction": {
+    "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+    "orchestrator_called": true,
+    "raw_sha256": "08E0893339D2BD9AFAE3DEF4AA1445766560D09AE55F8F6896B819CA350CC4FD",
+    "file_name": "kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+    "selected_parser_id": "legacy_r103_parser",
+    "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+    "confidence": 0.7392,
+    "low_confidence": false,
+    "teacher_confirmation_needed": false,
+    "source_gap": {
+      "active": false,
+      "reason": "",
+      "display_policy": "status_only_not_teacher_main_content"
+    },
+    "parser_candidates": [
+      {
+        "parser_id": "legacy_r103_parser",
+        "episode_count": 6,
+        "episode_titles": [
+          "课堂导入",
+          "观察雨",
+          "诗词引入",
+          "线描示范",
+          "线描练习",
+          "分享小结"
+        ],
+        "source_span_coverage": 0.0756,
+        "evidence_coverage_score": 1.0,
+        "title_cleanliness_score": 1.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 1.0,
+        "selection_score": 0.7392,
+        "failure_reason_if_rejected": ""
+      },
+      {
+        "parser_id": "numbered_colon_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.0,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      },
+      {
+        "parser_id": "numbered_sentence_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.0,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      },
+      {
+        "parser_id": "markdown_heading_parser",
+        "episode_count": 9,
+        "episode_titles": [
+          "材料说明",
+          "教学环节表 · 完整填写内容",
+          "\"雨景观察\"学习单（草稿）",
+          "PPT素材说明（给小美看）",
+          "给小美的补充说明",
+          "教学反思",
+          "需要改进的地方",
+          "学生反应与表现",
+          "后续建议"
+        ],
+        "source_span_coverage": 0.0804,
+        "evidence_coverage_score": 0.3333,
+        "title_cleanliness_score": 1.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 1.0,
+        "selection_score": 0.5437,
+        "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5437<0.7392"
+      },
+      {
+        "parser_id": "table_or_structured_parser",
+        "episode_count": 8,
+        "episode_titles": [
+          "授课教师",
+          "课堂导入",
+          "观察雨",
+          "观察雨",
+          "诗词引入",
+          "线描示范",
+          "线描练习",
+          "分享小结"
+        ],
+        "source_span_coverage": 0.1179,
+        "evidence_coverage_score": 1.0,
+        "title_cleanliness_score": 1.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 1.0,
+        "selection_score": 0.7189,
+        "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.7189<0.7392"
+      },
+      {
+        "parser_id": "long_section_parser",
+        "episode_count": 8,
+        "episode_titles": [
+          "表」共16个字段，本文档为母版，填写时按",
+          "| | | | | --- | ---",
+          "## **材料说明",
+          "【学生准备】",
+          "铅笔、橡皮",
+          "细头水笔（描线用）",
+          "常规携带工具",
+          "【老师准备】"
+        ],
+        "source_span_coverage": 0.022,
+        "evidence_coverage_score": 0.875,
+        "title_cleanliness_score": 1.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.0,
+        "selection_score": 0.5021,
+        "failure_reason_if_rejected": "lower_selection_score_than_legacy_r103_parser:0.5021<0.7392"
+      }
+    ],
+    "episodes": [
+      {
+        "index": 1,
+        "title": "课堂导入",
+        "duration_min": 3,
+        "source_content": "问学生：你喜欢雨天吗？说说理由。引导学生说出雨天的不同感受（浪漫/忧郁/安静/有趣），引出雨天的情感表达。",
+        "goal": "能说出对雨天的感受",
+        "teacher_action": "问学生：你喜欢雨天吗？说说理由。引导学生说出雨天的不同感受（浪漫/忧郁/安静/有趣），引出雨天的情感表达。",
+        "student_action": "回答问题，说出自己喜欢或不喜欢的理由",
+        "material": "",
+        "screen_or_tech": "PPT（雨天场景图片）；投影仪",
+        "evidence": "能说出2-3种对雨天的感受",
+        "question": "你喜欢雨天吗？为什么？",
+        "feedback": "表扬所有发言的同学，引出\"雨也可以很有美感\"",
+        "episode_id": "uploaded_entry_episode_01",
+        "episode_type": "情境导入型",
+        "source_gap_note": [],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 3,
+          "raw_question": "你喜欢雨天吗？为什么？",
+          "raw_feedback": "表扬所有发言的同学，引出\"雨也可以很有美感\""
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 1452,
+            "end": 1505
+          },
+          "source_text_excerpt": "问学生：你喜欢雨天吗？说说理由。引导学生说出雨天的不同感受（浪漫/忧郁/安静/有趣），引出雨天的情感表达。 | 回答问题，说出自己喜欢或不喜欢的理由 | 无 | PPT（雨天场景图片） | 投影仪 | 能说出2-3种对雨天的感受 | 你喜欢雨天吗？为什么？ | 表扬",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 2,
+        "title": "观察雨",
+        "duration_min": 5,
+        "source_content": "PPT展示不同类型雨的图片（细雨/暴雨/雷阵雨）。提问：你看到了什么？不同类型的雨，线条有什么不同？",
+        "goal": "能区分小雨/大雨/雷阵雨的视觉特征",
+        "teacher_action": "PPT展示不同类型雨的图片（细雨/暴雨/雷阵雨）。提问：你看到了什么？不同类型的雨，线条有什么不同？",
+        "student_action": "观察图片，讨论不同类型雨的视觉区别",
+        "material": "",
+        "screen_or_tech": "雨景PPT（不同类型雨的图片）；投影仪",
+        "evidence": "能用自己的话说出不同类型雨的线条特点",
+        "question": "小雨和大雨的线条有什么不同？雷阵雨的线条又是什么样子？",
+        "feedback": "板书：小雨=细密/轻柔；大雨=粗疏/有力；雷阵雨=斜向/急促",
+        "episode_id": "uploaded_entry_episode_02",
+        "episode_type": "观察辨析型",
+        "source_gap_note": [],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 5,
+          "raw_question": "小雨和大雨的线条有什么不同？雷阵雨的线条又是什么样子？",
+          "raw_feedback": "板书：小雨=细密/轻柔；大雨=粗疏/有力；雷阵雨=斜向/急促"
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 1681,
+            "end": 1731
+          },
+          "source_text_excerpt": "PPT展示不同类型雨的图片（细雨/暴雨/雷阵雨）。提问：你看到了什么？不同类型的雨，线条有什么不同？ | 观察图片，讨论不同类型雨的视觉区别 | 无 | 雨景PPT（不同类型雨的图片） | 投影仪 | 能用自己的话说出不同类型雨的线条特点 | 小雨和大雨的线条",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 3,
+        "title": "诗词引入",
+        "duration_min": 3,
+        "source_content": "朗读一首关于雨的童诗或古诗（可选：《太阳雨》等），提问：诗人笔下的雨是什么情感？这和你们刚才说的感受一样吗？",
+        "goal": "能感受到雨天寄托的情感",
+        "teacher_action": "朗读一首关于雨的童诗或古诗（可选：《太阳雨》等），提问：诗人笔下的雨是什么情感？这和你们刚才说的感受一样吗？",
+        "student_action": "听老师朗读，感受诗词中雨的情感",
+        "material": "",
+        "screen_or_tech": "PPT（诗词页面）；投影仪",
+        "evidence": "能感受到雨有不同的情感",
+        "question": "诗人笔下的雨是什么感觉？和你们平时感受到的雨一样吗？",
+        "feedback": "引导学生发现：雨可以有快乐、忧愁、宁静等不同情感",
+        "episode_id": "uploaded_entry_episode_03",
+        "episode_type": "情境导入型",
+        "source_gap_note": [],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 3,
+          "raw_question": "诗人笔下的雨是什么感觉？和你们平时感受到的雨一样吗？",
+          "raw_feedback": "引导学生发现：雨可以有快乐、忧愁、宁静等不同情感"
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 1935,
+            "end": 1989
+          },
+          "source_text_excerpt": "朗读一首关于雨的童诗或古诗（可选：《太阳雨》等），提问：诗人笔下的雨是什么情感？这和你们刚才说的感受一样吗？ | 听老师朗读，感受诗词中雨的情感 | 无 | PPT（诗词页面） | 投影仪 | 能感受到雨有不同的情感 | 诗人笔下的雨是什么感觉？和你们平时感受到的雨一",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 4,
+        "title": "线描示范",
+        "duration_min": 5,
+        "source_content": "在投影仪下演示：用细头水笔画小雨（竖线，密，均匀轻柔）、画大雨（斜线，粗疏，有力）、画雷阵雨（交叉斜线，急促）。边画边讲要点。",
+        "goal": "能说出雨丝方向与疏密的表现方法",
+        "teacher_action": "在投影仪下演示：用细头水笔画小雨（竖线，密，均匀轻柔）、画大雨（斜线，粗疏，有力）、画雷阵雨（交叉斜线，急促）。边画边讲要点。",
+        "student_action": "认真观察老师示范，记录要点",
+        "material": "",
+        "screen_or_tech": "实物投影仪",
+        "evidence": "能说出三种雨的不同表现方法",
+        "question": "老师画的线条有什么不同？小雨的线条是什么方向的？大雨呢？",
+        "feedback": "强调：线条方向表现雨的动态，疏密表现雨量",
+        "episode_id": "uploaded_entry_episode_04",
+        "episode_type": "技法示范型",
+        "source_gap_note": [],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 5,
+          "raw_question": "老师画的线条有什么不同？小雨的线条是什么方向的？大雨呢？",
+          "raw_feedback": "强调：线条方向表现雨的动态，疏密表现雨量"
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 2175,
+            "end": 2238
+          },
+          "source_text_excerpt": "在投影仪下演示：用细头水笔画小雨（竖线，密，均匀轻柔）、画大雨（斜线，粗疏，有力）、画雷阵雨（交叉斜线，急促）。边画边讲要点。 | 认真观察老师示范，记录要点 | 无 | 细头水笔、白纸 | 实物投影仪 | 能说出三种雨的不同表现方法 | 老师画的线条有什么不同？小雨的线条是什么方向的",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 5,
+        "title": "线描练习",
+        "duration_min": 15,
+        "source_content": "发放雨景学习单（线稿底稿），学生在底稿上用细头水笔画雨景。先确定要画哪种雨，再开始创作。老师巡视，关注：线条方向、疏密变化、情感表达。",
+        "goal": "能在学习单上用线描表现一种雨景",
+        "teacher_action": "发放雨景学习单（线稿底稿），学生在底稿上用细头水笔画雨景。先确定要画哪种雨，再开始创作。老师巡视，关注：线条方向、疏密变化、情感表达。",
+        "student_action": "在学习单上用线描画一种雨景",
+        "material": "雨景学习单（线稿底稿）、细头水笔",
+        "screen_or_tech": "",
+        "evidence": "",
+        "question": "学习单完成一幅线描雨景，线条方向正确，有疏密变化",
+        "feedback": "你画的是什么类型的雨？你的线条方向对了吗？",
+        "episode_id": "uploaded_entry_episode_05",
+        "episode_type": "操作练习型",
+        "source_gap_note": [
+          "上传原文未提供明确学习证据；需教师确认。"
+        ],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 15,
+          "raw_question": "学习单完成一幅线描雨景，线条方向正确，有疏密变化",
+          "raw_feedback": "你画的是什么类型的雨？你的线条方向对了吗？"
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 2423,
+            "end": 2490
+          },
+          "source_text_excerpt": "发放雨景学习单（线稿底稿），学生在底稿上用细头水笔画雨景。先确定要画哪种雨，再开始创作。老师巡视，关注：线条方向、疏密变化、情感表达。 | 在学习单上用线描画一种雨景 | 雨景学习单（线稿底稿）、细头水笔 | 无 | 无 | 学习单完成一幅线描雨景，线条方向正确，有疏密变化 | 你画的是什么类",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 6,
+        "title": "分享小结",
+        "duration_min": 7,
+        "source_content": "展示2-3件学生作品，用实物投影仪。提问：你画的是什么类型的雨？想表达什么感受？引出下节课：用综合材料完成一幅更丰富的雨景作品。",
+        "goal": "能说出自己画的雨的类型和想表达的情感",
+        "teacher_action": "展示2-3件学生作品，用实物投影仪。提问：你画的是什么类型的雨？想表达什么感受？引出下节课：用综合材料完成一幅更丰富的雨景作品。",
+        "student_action": "展示作品，说说自己画的雨和想表达的情感",
+        "material": "",
+        "screen_or_tech": "实物投影仪",
+        "evidence": "能清楚说出自己作品的类型和情感",
+        "question": "你画的是什么类型的雨？你想表达什么感受？",
+        "feedback": "表扬有情感表达的作品；预告下节课用综合材料（棉花等）做更丰富的雨景",
+        "episode_id": "uploaded_entry_episode_06",
+        "episode_type": "展示收束型",
+        "source_gap_note": [],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": 7,
+          "raw_question": "你画的是什么类型的雨？你想表达什么感受？",
+          "raw_feedback": "表扬有情感表达的作品；预告下节课用综合材料（棉花等）做更丰富的雨景"
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 2685,
+            "end": 2749
+          },
+          "source_text_excerpt": "展示2-3件学生作品，用实物投影仪。提问：你画的是什么类型的雨？想表达什么感受？引出下节课：用综合材料完成一幅更丰富的雨景作品。 | 展示作品，说说自己画的雨和想表达的情感 | 无 | 实物投影仪 | 能清楚说出自己作品的类型和情感 | 你画的是什么类型的雨？你想表达什么感受？ | 表扬",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.7392; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      }
+    ],
+    "episode_count": 6,
+    "episode_titles": [
+      "课堂导入",
+      "观察雨",
+      "诗词引入",
+      "线描示范",
+      "线描练习",
+      "分享小结"
+    ],
+    "boundary": {
+      "readonly_only": true,
+      "model_called": false,
+      "provider_called": false,
+      "formal_apply": false,
+      "database_written": false,
+      "feishu_written": false,
+      "memory_written": false,
+      "R95_executed": false
+    }
+  },
+  "ownership_ledger_summary": {
+    "teacher_main_source_counts": {
+      "R114_execution_map": 75,
+      "R114_field_projection": 11,
+      "uploaded_source": 1
+    },
+    "forbidden_source_hit_count": 0,
+    "source_gap_as_content_count": 0
+  }
+}

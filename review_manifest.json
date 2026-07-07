@@ -1,0 +1,670 @@
+﻿{
+    "package":  "shiwei-r201h-p1-teacher-main-cleanup-review",
+    "stage":  "1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION",
+    "created_at":  "2026-07-08T00:00:00+08:00",
+    "source_workspace":  "D:\\Documents\\SmartEdu\\xiaobei-core",
+    "file_count":  132,
+    "total_bytes":  9009858,
+    "files":  [
+                  {
+                      "path":  ".gitattributes",
+                      "bytes":  116,
+                      "sha256":  "234DED308780CE0587D01BC8266FB08B477C4342B516AE047574641695F09C98"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_document_text_extractor_1013R_R107A.py",
+                      "bytes":  7080,
+                      "sha256":  "18D5437093BBBA985E888833B449AB06F03738B214E91EA8E546DE73181C06E3"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_graph_field_projection_1013R_R114C.py",
+                      "bytes":  34572,
+                      "sha256":  "477A88A45778B2F30C98F17C18AF645352964B6FD1ADE7E52313D3CF4091AEE9"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_import_lesson_understanding_1013R_R112.py",
+                      "bytes":  26862,
+                      "sha256":  "4CA22C5380C2A9EE4A59E9AC92D8594AF99BF89E0995CE77CF480C2528AAC6C7"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_import_understanding_v2_graph_1013R_R114A.py",
+                      "bytes":  39284,
+                      "sha256":  "34A48005C1E7A25BF104F90E1A026531CA1E936A00FF142769D19E23C10FAF02"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_lean_readonly_chain_1013R_R201C.py",
+                      "bytes":  47943,
+                      "sha256":  "E515DA21CE1CF9263DDAEE83388FF4E16BB11993959950DCDAD2DE510A5F652B"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_real_upload_entry_preview_1013R_R103.py",
+                      "bytes":  88738,
+                      "sha256":  "5A57C15242F30984C6C912D8193FD6FFA6BBAA3CA77F9A5C611B2E45F45E1C60"
+                  },
+                  {
+                      "path":  "backend\\xiaobei_ai\\prep_room_teacher_execution_map_1013R_R114B.py",
+                      "bytes":  37651,
+                      "sha256":  "642EACBCC6D76B752E75D8462D606963DE419A6DD949A2C83E27AD576E0C874A"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\r201d_failure_cases_if_any.md",
+                      "bytes":  337,
+                      "sha256":  "86F0F53D1B2D62AD7CCF7C992C0147504A92538DCD2ADA40204742304651AB6B"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\r201d_multi_format_regression_report.md",
+                      "bytes":  1276,
+                      "sha256":  "66969D0D41C7D9C515E1C1F990AE50044CC5722E6DF9B97941FDDF58B6F022D2"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\r201d_parser_selection_matrix.json",
+                      "bytes":  22713,
+                      "sha256":  "0F360EDE46618E44614DD982E2A131E6E44DB0992A4F924A0751D71A835575FE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\r201d_sample_manifest.json",
+                      "bytes":  2903,
+                      "sha256":  "9FF1C622BB3630CABB7A1A12E63CE74FE0F21AA40E3635362BBBFAA4BEBAD463"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\field_projection_result.json",
+                      "bytes":  124746,
+                      "sha256":  "D84DEBBC4A09135FBF1C6F115E9C2B1A0717D9D88D699EBCAF6E952AAAE3B7D8"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\lesson_understanding_graph.json",
+                      "bytes":  15875,
+                      "sha256":  "02A32B35ADD8CA290F33882C73907A332BD410B841FE673C63ADAD5D27884FE8"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\ownership_ledger.json",
+                      "bytes":  16960,
+                      "sha256":  "DDE23921841DE02CA2A6642BFE88DBF0E6B3120D730DBBE7D098A4406E9D9599"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\parser_candidate_matrix.json",
+                      "bytes":  3073,
+                      "sha256":  "3ADB1915AE8520026A4B49B61416F7BCF1336FF240C1567A50CF8278F4D13F99"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\raw_source_snapshot.md",
+                      "bytes":  1229,
+                      "sha256":  "88A466F2707433BECC6AB06A535EE7EE54CE7FD633267E28616707A951DA1A13"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\readonly_viewmodel_sample.json",
+                      "bytes":  418155,
+                      "sha256":  "074A995B72DA93312A5ECAC73DBA29C1DEE7043908D066D00836B63EFE3F1E8E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\selected_source_extraction.json",
+                      "bytes":  14209,
+                      "sha256":  "40C699DA53EBD6F720B1650120A121FB5B54C061D3C450AA977E4533936C2DCF"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\single_lesson_template.json",
+                      "bytes":  56920,
+                      "sha256":  "D5CC57BCB4966D4300D4C89AE21DBDABB67F1015EC37D29ACFF86EB7728881CB"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\long_section_line_campus\\teacher_execution_map.json",
+                      "bytes":  16672,
+                      "sha256":  "876048FD2EBF2D6C319363B8ADFD7D825AA9154320D5E3720F40F08A6747C091"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\field_projection_result.json",
+                      "bytes":  116079,
+                      "sha256":  "17A841A2369538EABF4463220B8A50D28AFCFD609D47A0DC1D8AABF37E57D11C"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\lesson_understanding_graph.json",
+                      "bytes":  14924,
+                      "sha256":  "81889188A5B95EC2A6D8DD176D12ABBEB795CAD954330C52174B23DADF3719C9"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\ownership_ledger.json",
+                      "bytes":  15993,
+                      "sha256":  "3354465462481E4B36856C5916FEE1F161FC4AD966CF7CED190287B9B26747A0"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\parser_candidate_matrix.json",
+                      "bytes":  2954,
+                      "sha256":  "C8AC9147DF0303E52773F442DB0A7E5DE95610CA072817334A18098F38C4212E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\raw_source_snapshot.md",
+                      "bytes":  952,
+                      "sha256":  "63C8EFD69D48D2453580D0E9823DD450DCCA4D59585029F1B5DC13CEA501A81B"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\readonly_viewmodel_sample.json",
+                      "bytes":  381743,
+                      "sha256":  "DFFA7CC9E68DBE11EABDAC4248B1D036F70A052E901329321000328517F59743"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\selected_source_extraction.json",
+                      "bytes":  12110,
+                      "sha256":  "F3A22D3FB61F96247307B94A299D4AEE9992F6CA14BE2B0ECD5CA689D83A15AA"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\single_lesson_template.json",
+                      "bytes":  50778,
+                      "sha256":  "9010737136AE415D04E2913C524DBA9DA6918AD29D3E7DDE7BD49DF6428DE39F"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\markdown_paper_roll_animal\\teacher_execution_map.json",
+                      "bytes":  15497,
+                      "sha256":  "4DECD61CB7C5AF6B80E93907D93540094E9397BABBB3203DA1913DFE2E3D9DBE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\field_projection_result.json",
+                      "bytes":  112035,
+                      "sha256":  "064DEAC75C76848E0B7120CC3791E85B7C682E6076FA256A7C543E9119C28157"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\lesson_understanding_graph.json",
+                      "bytes":  12353,
+                      "sha256":  "0794395518FCB4465DFF1788ABE6E94BF6E3B1F9210A1F5C4BBDF0FB03E1CBF4"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\ownership_ledger.json",
+                      "bytes":  11059,
+                      "sha256":  "34636B9B68C23707B324F358DB843BB6CC1FAA7F291973D705BFE103C56E7F30"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\parser_candidate_matrix.json",
+                      "bytes":  3007,
+                      "sha256":  "7D33CEF7BACFD6E1E4D79519A1AA727F6C250177F23AB5B9F3399B27B6233470"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\raw_source_snapshot.md",
+                      "bytes":  485,
+                      "sha256":  "C723F0DF6BA56AC88C6665A243857930E866CACA3A9A159011E76486F70E7A1E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\readonly_viewmodel_sample.json",
+                      "bytes":  331163,
+                      "sha256":  "254C2FF9C6744F802B00D42BCD6E222A2E20F89F029AAC6FAA95A090F0098AA0"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\selected_source_extraction.json",
+                      "bytes":  8370,
+                      "sha256":  "263F960D1BA4F19C6B441E63BA419DDBF964453B28C71DA4467E3B0DE03D34FE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\single_lesson_template.json",
+                      "bytes":  43727,
+                      "sha256":  "48A164027A4E7E36DE0B4C5B07A92EE3B28FFDBA641EB534C10A1368D782F112"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\minimal_line_fish\\teacher_execution_map.json",
+                      "bytes":  11192,
+                      "sha256":  "755434FCBC52FF506671146510749B380255B8C74C42F0E7D92362B5EC67F9B7"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\field_projection_result.json",
+                      "bytes":  149089,
+                      "sha256":  "E1FC02239AA1273A09304F368774B1684316A602021D13E6B5FC6F5D98A07EB3"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\lesson_understanding_graph.json",
+                      "bytes":  20193,
+                      "sha256":  "392A1A05133105DE0B8609DAECF40FF0B2728E68B03D70306E5DFC3C0D1E0A20"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\ownership_ledger.json",
+                      "bytes":  17764,
+                      "sha256":  "642F2E6E276C7EF2E36B61C39DFA815B8CD20F07AD41021167B37AB562095063"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\parser_candidate_matrix.json",
+                      "bytes":  3186,
+                      "sha256":  "2EDCD856FD49FE072F2AFAD5B0EDA0A0CA270E5892D65A6572C8FBBF2FB2670E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\raw_source_snapshot.md",
+                      "bytes":  1951,
+                      "sha256":  "6D69F3315F4E97B9CB718BC229F573E485C7EB75EAD992BA09A937DA84D67412"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\readonly_viewmodel_sample.json",
+                      "bytes":  474460,
+                      "sha256":  "D95EE85F28F7D2735D1188BE273DCDF920E5CF804CD3A1883B0399B7CAE6A8BE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\selected_source_extraction.json",
+                      "bytes":  13677,
+                      "sha256":  "45FDF6A5F65884504DCCD04AEBA52CB917A883FE75CEDB5973FBBB62D0CABC76"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\single_lesson_template.json",
+                      "bytes":  65342,
+                      "sha256":  "EE51A423729B0554895DACD4D5E2BA23D7FB543634D94AC8DACAF62568940C2D"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\numbered_colon_old_shoes\\teacher_execution_map.json",
+                      "bytes":  14821,
+                      "sha256":  "AC176CA12752652C60842E6AEBC237C0C4A48316DEC099D3CE3FBCC50209168A"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\field_projection_result.json",
+                      "bytes":  129417,
+                      "sha256":  "28EA1FCD33C74C2276115B65EC7FD33C996C65D85666D07E7E1B25BA91A7C8BA"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\lesson_understanding_graph.json",
+                      "bytes":  16904,
+                      "sha256":  "447124D45C6CED42C26AED9437FEDC4C3CC40D85623E30B15FEB4619731FD7F9"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\ownership_ledger.json",
+                      "bytes":  18928,
+                      "sha256":  "740F7D57F50141A307B81EC5CA87657366EA85A0D3EA97B932B15A2E4511FE59"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\parser_candidate_matrix.json",
+                      "bytes":  3385,
+                      "sha256":  "68791D4B723BECAA0F8BA542DFBA89137D43764F84B197CFF0817F54D28562CC"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\raw_source_snapshot.md",
+                      "bytes":  2008,
+                      "sha256":  "767CF1A2A3341DC7CB7174102F8D2A6D8AF27D460183B917BAE8B768476CEEC5"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\readonly_viewmodel_sample.json",
+                      "bytes":  434989,
+                      "sha256":  "A2BACB06B0FD698BD90B887F337008FF8849651261A537BB5F092B985A100FF7"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\selected_source_extraction.json",
+                      "bytes":  15083,
+                      "sha256":  "5A4F9C206777C3B9F8B58DA70CFAF90C448A4EB2AC582E95C079FFA1B488E0C7"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\single_lesson_template.json",
+                      "bytes":  58322,
+                      "sha256":  "03706249E1B81D7409B7E7570ABF6A03CF75DE0F276ACEB019F6A6F19BEA53FF"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\plain_segment_weaving\\teacher_execution_map.json",
+                      "bytes":  17230,
+                      "sha256":  "44BA7EB9CAFFA67BA4C6F334219630C032E149A18E8FFE0BC581FA3677DF3F94"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\field_projection_result.json",
+                      "bytes":  132889,
+                      "sha256":  "69E078F13F8054518250A312F70720C12751C75C0219416720CF0EC3633E7772"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\lesson_understanding_graph.json",
+                      "bytes":  19475,
+                      "sha256":  "793CA90BFA147C115655868465EB62C5738F017776A9606BBBCBD4F576B1441D"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\ownership_ledger.json",
+                      "bytes":  21368,
+                      "sha256":  "C5E1F35BF81D4C1DA5C989A3BD75D6618A0F83D8950E6DEF8FD5C4BCD5BAE3DE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\parser_candidate_matrix.json",
+                      "bytes":  4349,
+                      "sha256":  "23048DAD7CFC56513071BD9B05ABA1E66EFF8CE7FA7027C3CB9DA1CF1D9F6222"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\raw_source_snapshot.md",
+                      "bytes":  15272,
+                      "sha256":  "CBFA53FED43D1FF91C0652C80B2DA1556A507868B05C2985CACB3C6614E4AC30"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\readonly_viewmodel_sample.json",
+                      "bytes":  471603,
+                      "sha256":  "9101179F40594939B0888072456E4B2F304D7743F2B9197C57C68DE4A05130D7"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\selected_source_extraction.json",
+                      "bytes":  18842,
+                      "sha256":  "2D1B5B01DB12F5EC18E8812DE3C44AE90F1E91A773BD26900F006F077B14CFBD"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\single_lesson_template.json",
+                      "bytes":  63514,
+                      "sha256":  "A5B1F14AB43A8E3F3125BB8D545300820265C858AF39FC9C70FB108B368B0F87"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\real_qinglv_docx\\teacher_execution_map.json",
+                      "bytes":  18867,
+                      "sha256":  "2944DA04F909507086717439B84C79F26F93872EFE236AB37034B60F16AC1521"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\field_projection_result.json",
+                      "bytes":  116279,
+                      "sha256":  "87EDF68F18A58B656AA69D02B3F96BD9BC40FAF7479CFE7472EFDA576EB8F950"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\lesson_understanding_graph.json",
+                      "bytes":  14452,
+                      "sha256":  "1D544151EB5F636049345DE2E0C0010ADBB387C40B70E4C8C69E5E864D29E354"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\ownership_ledger.json",
+                      "bytes":  13925,
+                      "sha256":  "E0CCCDE264BDB00A834E7034E09BEB4DBEA02AE50D3BFC3B3EF47F45EEB7E542"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\parser_candidate_matrix.json",
+                      "bytes":  2777,
+                      "sha256":  "9976B1A22B8D0E11C8EE8CEACBE445039E44C3FAD43DFE90FA0112EE1948F770"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\raw_source_snapshot.md",
+                      "bytes":  1201,
+                      "sha256":  "D9A18FBFFFBB139FA7D5311EB7AC9B8883EFC1DCE9CBD84EC761455088EC6838"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\readonly_viewmodel_sample.json",
+                      "bytes":  375881,
+                      "sha256":  "8EB7F69FD5C9CF85F1146B59648511455F1F0A20086E7268573CA24A7AC723B0"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\selected_source_extraction.json",
+                      "bytes":  12195,
+                      "sha256":  "0FAB4EB29F73F8BA0033188048AE177A772B593FB1B10C0AE4CA73817D801512"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\single_lesson_template.json",
+                      "bytes":  50741,
+                      "sha256":  "D69D801618D33B6CB3FF9BFA10FAC4C06EF94746A22D5A2F13E75D7F62A16B8C"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\samples\\table_rain_umbrella\\teacher_execution_map.json",
+                      "bytes":  13349,
+                      "sha256":  "8C85D5E552CD1450E3FBBD154F3981965A5F0C71EA61A13BE79D625DDEFD57AE"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\validate_1013R_R201D_lean_chain_multi_format_regression_result.json",
+                      "bytes":  28423,
+                      "sha256":  "1FAB2DE987291B35BFCFDDD99CC955C15CF4C5006FDA2652C0A38320EEDC9ADF"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\case_responses\\canary_off_default_legacy.json",
+                      "bytes":  639424,
+                      "sha256":  "4D9C462FC765D6EA7577FD27DA7222AAB320828EE3595D6CF90BA944687FA707"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\case_responses\\canary_on_default_lean.json",
+                      "bytes":  474234,
+                      "sha256":  "FF80FFD90984E80555CE6AE45148117901170A4F2C2A9344893715A82522519F"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\case_responses\\force_lean_when_canary_off.json",
+                      "bytes":  474236,
+                      "sha256":  "FA13B10F904B8A4D2506C4C6C54CC229E5821F5EB5F5C09C13D697F930BDF8BC"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\case_responses\\force_legacy_when_canary_on.json",
+                      "bytes":  639424,
+                      "sha256":  "33A784767CB61313A514B1D3B90E808426D1055C0B4523BA4ECBED3FF2247384"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\case_responses\\lean_low_confidence_fallback_legacy.json",
+                      "bytes":  423219,
+                      "sha256":  "5A486019C846701CB15D9DCF0EAA4EA5E0041FD6D4C22480FE259CDC27069852"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_canary_feature_flag_contract.json",
+                      "bytes":  744,
+                      "sha256":  "9D5D73FDD5015F424B257EB71BEC0D7C75A46CD8435A766ED4D4A1C288A595A4"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_canary_smoke_matrix.json",
+                      "bytes":  7002,
+                      "sha256":  "FF962B142137B6FC6565C08FEE0A567251FB0926A25DFC576A218F06739D1137"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_fallback_and_rollback_policy.md",
+                      "bytes":  563,
+                      "sha256":  "371BB741E928A46BF82931867EEC326CDBEAD4D865374FFD082C3019D2AE8998"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_old_vs_lean_comparison_artifacts\\old_shoes_comparison_summary.json",
+                      "bytes":  1069,
+                      "sha256":  "858F66B3BCB667D992E84DE487646E2DEEC2A5D235366A2762C29E1B29BD3998"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_old_vs_lean_comparison_artifacts\\old_shoes_lean_response.json",
+                      "bytes":  474292,
+                      "sha256":  "22B0030C453B65FC7D31A6839A3CC6EA3A0A3E99322A465030303A8FAE98BC4E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_old_vs_lean_comparison_artifacts\\old_shoes_legacy_response.json",
+                      "bytes":  639448,
+                      "sha256":  "92E17658B5E5C0BA5E8DB8ED96697BF89508DEB8FDD4784E6DE9720AC3709824"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_response_metadata_contract.json",
+                      "bytes":  721,
+                      "sha256":  "4A07F5E91672C9E8A4CC7DF487011FBB2F13C5E7C7F68A4FFC7C03E9BF1951F6"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\r201f_route_selection_policy.md",
+                      "bytes":  443,
+                      "sha256":  "24D77779B93FB20FB5C03D7B478352BC55B46E91509773731FFFBE9BB8C62DB4"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\validate_1013R_R201F_default_readonly_preview_canary_switch_result.json",
+                      "bytes":  8745,
+                      "sha256":  "5DEEF2411BCE6B1F811072314347782098F83010B94D8AB9CB4C528EFC50AFE9"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_issue_classification_matrix.json",
+                      "bytes":  663,
+                      "sha256":  "CAAB3C1E8D4711FD78D9CBAE6058EFE08089E26B1BE6177AD857BD18FEDA2438"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_next_fix_recommendation.md",
+                      "bytes":  899,
+                      "sha256":  "468FEAAAFFFF09401BD045E2B578AD383329AD76BE32DE90036CD9373C5CAC6F"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_readability_issue_list.md",
+                      "bytes":  410,
+                      "sha256":  "DA7A9148C92AD8CE08B568031C51DCA39F392B36E733556F1F584EFEC9049BA1"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\r201g_teacher_readability_sample_manifest.json",
+                      "bytes":  4075,
+                      "sha256":  "3FEA2D3102DF35FDAD84B7C1A9FAE4C0C403241708CA81A1B233BED9DA5C9E36"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\minimal_line_fish\\lean_readonly_response_summary.json",
+                      "bytes":  7953,
+                      "sha256":  "ED8B4F7177A7FE90C4CD97E0F8D0A699D52D4195CC8DD28F5C08F87FE5B5C2BF"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\minimal_line_fish\\lean_readonly_teacher_view_snapshot.md",
+                      "bytes":  4676,
+                      "sha256":  "B577ADA7B759631C38714C8DC8791B4E1A20E299DDAB6DAA9E25EE5946579F59"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\minimal_line_fish\\legacy_readonly_response_summary.json",
+                      "bytes":  425,
+                      "sha256":  "C8DC4D8B059BAC8FE4B696C6732E3DD1BBF19CFCD2729D044C5B64BA6158B298"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\minimal_line_fish\\legacy_vs_lean_teacher_readability_comparison.md",
+                      "bytes":  1179,
+                      "sha256":  "1480E6C482E471DCA13D6596FE01D002579894414046B9F0661B3693BFE05E2C"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\lean_readonly_response_summary.json",
+                      "bytes":  15031,
+                      "sha256":  "9891614E219754EC0383F322093566F5D9668146781DA17D419D6A451912B0C5"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\lean_readonly_teacher_view_snapshot.md",
+                      "bytes":  7966,
+                      "sha256":  "BE28FC5569C43FFCCC908B7EFD31412BE334B0542C2D44199F4C4881B431E03D"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\legacy_readonly_response_summary.json",
+                      "bytes":  425,
+                      "sha256":  "C8DC4D8B059BAC8FE4B696C6732E3DD1BBF19CFCD2729D044C5B64BA6158B298"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\legacy_vs_lean_teacher_readability_comparison.md",
+                      "bytes":  699,
+                      "sha256":  "A4EF84E32226EBB9BD8A689AB02004D0A4A99C8BEC2BFC51A2084B14CF67819F"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\lean_readonly_response_summary.json",
+                      "bytes":  16595,
+                      "sha256":  "194E94CCFFB3499DE461D7B97CA8D1FCE96A7CC52F7D1C5A5DD321C451960216"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\lean_readonly_teacher_view_snapshot.md",
+                      "bytes":  8008,
+                      "sha256":  "22E9AF2CF435C1513A7D2C08FF763B4E880F7B70CA6562827B8A8F9F2094FC05"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\legacy_readonly_response_summary.json",
+                      "bytes":  425,
+                      "sha256":  "C8DC4D8B059BAC8FE4B696C6732E3DD1BBF19CFCD2729D044C5B64BA6158B298"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\legacy_vs_lean_teacher_readability_comparison.md",
+                      "bytes":  664,
+                      "sha256":  "9EFD9ADF2F4EAF4A70DD4D6BADC9A0C1C58953FC7153810D04983A4D363B71E6"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\lean_readonly_response_summary.json",
+                      "bytes":  20547,
+                      "sha256":  "FFF042202FE8210DB4DCB084A3CD3696E17F4A694DE88B70339E31E9E52C862E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\lean_readonly_teacher_view_snapshot.md",
+                      "bytes":  7554,
+                      "sha256":  "97A5365123FF3A7BB8D977908E8231F602B3AD8DC1D87A4EF9B426F5B1A86A16"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\legacy_readonly_response_summary.json",
+                      "bytes":  425,
+                      "sha256":  "C8DC4D8B059BAC8FE4B696C6732E3DD1BBF19CFCD2729D044C5B64BA6158B298"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\legacy_vs_lean_teacher_readability_comparison.md",
+                      "bytes":  674,
+                      "sha256":  "B9C5BF39BD2071E893317C63C9C24570D3236E24991BFD99E36292CC622D0EF2"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\lean_readonly_response_summary.json",
+                      "bytes":  13453,
+                      "sha256":  "223A1E947F7BFEA986D1D8CD11ADE301FD27084B455345DD110643535295EAEA"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\lean_readonly_teacher_view_snapshot.md",
+                      "bytes":  6160,
+                      "sha256":  "166DA739D0CB20D353689F42E0CE5E3C83141D57CD08C2E2A10CC2F4A2BE5E3E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\legacy_readonly_response_summary.json",
+                      "bytes":  425,
+                      "sha256":  "C8DC4D8B059BAC8FE4B696C6732E3DD1BBF19CFCD2729D044C5B64BA6158B298"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\legacy_vs_lean_teacher_readability_comparison.md",
+                      "bytes":  661,
+                      "sha256":  "46A22D60866CB67BE6AB8DEB0C4BDEF270DE43CA5C1CBCE9728D8D9741612E0A"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\validate_1013R_R201G_canary_manual_teacher_readability_smoke_result.json",
+                      "bytes":  7283,
+                      "sha256":  "0B5895A6DB5FB10195F8662EB38D904AE88761A14F227845487187A826782D90"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_downpour_teacher_text_cleanup_before_after.md",
+                      "bytes":  880,
+                      "sha256":  "3E3808A9034243C2568421B96D02E9D9898B14C79CFB92CE2E64DB41A77D261E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_minimal_extraction_regression_report.md",
+                      "bytes":  522,
+                      "sha256":  "A55622FA6DB7B198E8C7615B7B2438FBEC877BD498717A0DF22CCF29C10949B0"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\r201h_p1_teacher_main_cleanup_report.md",
+                      "bytes":  642,
+                      "sha256":  "E7DD56811C8A8A2200146C093253E7765EB86CD0811B77ADCA28AD32EBD6CDCD"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_P1_TEACHER_MAIN_CLEANUP_AND_MINIMAL_EXTRACTION_REGRESSION\\validate_1013R_R201H_P1_teacher_main_cleanup_and_minimal_extraction_regression_result.json",
+                      "bytes":  12067,
+                      "sha256":  "4BEAB62835D97CF31B90198081B6D2BA369EA521CE10B73494BA533E1BD3381F"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_before_after_readability_comparison.md",
+                      "bytes":  666,
+                      "sha256":  "DE54C65D251D25570FF15D00F7357AB1D9B726377590625522051AF5FFCB641E"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_extraction_fix_report.md",
+                      "bytes":  666,
+                      "sha256":  "0332D1019577AC0FE7012B510EE3E04299A40A0C160C00E7A5631DBF239EB09C"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_fix_scope.md",
+                      "bytes":  668,
+                      "sha256":  "421B705D88032352EE4C9116FF48045B0D4374289BF0D41F61FCCE0D4D1CBD3C"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_front_matter_projection_policy.md",
+                      "bytes":  611,
+                      "sha256":  "94A7849466970437CC356C587FCA0D1A731C49A4F2BBDFC38627989763F40388"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_projection_semantics_repair.md",
+                      "bytes":  680,
+                      "sha256":  "5DDF7F921FE4E45560F00C8797552E75A44BF145A864B4AA96FA2B339ED0B197"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_table_text_sanitizer_report.md",
+                      "bytes":  346,
+                      "sha256":  "6A79AA9AE386CCEC12878013993C522208C26D027BA4AA27BA85FBCBD4662814"
+                  },
+                  {
+                      "path":  "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\validate_1013R_R201H_readability_fix_mini_loop_result.json",
+                      "bytes":  6775,
+                      "sha256":  "2313CDE7592FC095B3E6534D5AED7DDB965D5BFE6B01D0CCED3D33D5FAF7F1A7"
+                  },
+                  {
+                      "path":  "README.md",
+                      "bytes":  2626,
+                      "sha256":  "A9DC33E501E52D2F6A5CB5932710562904338603DD4DFC736E20DD735906E87F"
+                  },
+                  {
+                      "path":  "scripts\\validate_1013r_r201d_lean_chain_multi_format_regression.py",
+                      "bytes":  26710,
+                      "sha256":  "03C7B871C06DF2F1ECAB656E8C068C6643FA63C9DFBA91582096A218AAE8D9BA"
+                  },
+                  {
+                      "path":  "scripts\\validate_1013r_r201f_default_readonly_preview_canary_switch.py",
+                      "bytes":  14747,
+                      "sha256":  "E46BC51B57B3B5F742D2268C49C2DB216D0C9A9147B7CCF7DFB928A7E242220D"
+                  },
+                  {
+                      "path":  "scripts\\validate_1013r_r201g_canary_manual_teacher_readability_smoke.py",
+                      "bytes":  31567,
+                      "sha256":  "6D12A0AFDA5475FC7746B2CC755F9F15B2865867A2A31119AD97ABCEDE69AC26"
+                  },
+                  {
+                      "path":  "scripts\\validate_1013r_r201h_p1_teacher_main_cleanup_and_minimal_extraction_regression.py",
+                      "bytes":  11630,
+                      "sha256":  "F3BAA04D48678E6550ED9139B595575EACB5B1BA89345B56335BADDEB605640D"
+                  },
+                  {
+                      "path":  "scripts\\validate_1013r_r201h_readability_fix_mini_loop.py",
+                      "bytes":  13330,
+                      "sha256":  "E1F1A9D54DF8162FE842F4FCD91BD20E1FD080E0D7B3AB3F6CEC2AD242EC13EB"
+                  }
+              ]
+}

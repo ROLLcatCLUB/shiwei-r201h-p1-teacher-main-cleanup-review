@@ -1,0 +1,73 @@
+{
+  "stage": "1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE",
+  "purpose": "manual teacher readability smoke for R201F readonly preview canary",
+  "canary_env": "XIAOBEI_UPLOAD_PREVIEW_DEFAULT_ENGINE",
+  "canary_value_used": "lean_canary",
+  "sample_count": 4,
+  "samples": [
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "format_type": "numbered_colon",
+      "file_name": "r201d_inline_足下生辉_旧鞋改造设计课.txt",
+      "source_path": "inline_from_R201B",
+      "expected_min_episodes": 5,
+      "lean_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\lean_readonly_teacher_view_snapshot.md",
+      "comparison": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\numbered_colon_old_shoes\\legacy_vs_lean_teacher_readability_comparison.md",
+      "analysis_status": "PASS",
+      "selected_parser_id": "numbered_sentence_parser",
+      "lean_episode_count": 5
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "format_type": "plain_segment",
+      "file_name": "kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_39f6102808_课时1_穿穿编编_教案.docx",
+      "expected_min_episodes": 6,
+      "lean_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\lean_readonly_teacher_view_snapshot.md",
+      "comparison": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\plain_segment_weaving\\legacy_vs_lean_teacher_readability_comparison.md",
+      "analysis_status": "PASS",
+      "selected_parser_id": "legacy_r103_parser",
+      "lean_episode_count": 6
+    },
+    {
+      "sample_id": "table_rain_umbrella",
+      "lesson_label": "雨伞图案设计",
+      "format_type": "table_or_structured",
+      "file_name": "r201d_inline_雨伞图案设计_表格型教案.txt",
+      "source_path": "inline_r201d_table_fixture",
+      "expected_min_episodes": 4,
+      "lean_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\lean_readonly_teacher_view_snapshot.md",
+      "comparison": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\table_rain_umbrella\\legacy_vs_lean_teacher_readability_comparison.md",
+      "analysis_status": "PASS",
+      "selected_parser_id": "table_or_structured_parser",
+      "lean_episode_count": 4
+    },
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "format_type": "formal_docx",
+      "file_name": "kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "source_path": "knowledge-base\\lesson-cases\\kb_art_g4_lesson_case_1_132144fe0b_课时1_下雨啰_教案.docx",
+      "expected_min_episodes": 6,
+      "lean_snapshot": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\lean_readonly_teacher_view_snapshot.md",
+      "comparison": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\samples\\real_downpour_docx\\legacy_vs_lean_teacher_readability_comparison.md",
+      "analysis_status": "PASS",
+      "selected_parser_id": "legacy_r103_parser",
+      "lean_episode_count": 6
+    }
+  ],
+  "boundaries": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false,
+    "xiaojiao_real_edit_wired": false,
+    "large_ui_redesign": false
+  }
+}

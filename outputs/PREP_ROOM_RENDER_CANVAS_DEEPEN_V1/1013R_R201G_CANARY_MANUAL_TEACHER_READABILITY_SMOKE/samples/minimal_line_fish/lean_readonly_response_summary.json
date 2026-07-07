@@ -1,0 +1,211 @@
+{
+  "status_code": 200,
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "preview_engine_metadata": {
+    "preview_engine_requested": "auto",
+    "preview_engine_selected": "lean",
+    "canary_enabled": true,
+    "fallback_used": false,
+    "fallback_reason": null,
+    "lean_chain_available": true,
+    "legacy_chain_available": true,
+    "formal_apply_enabled": false,
+    "write_enabled": false
+  },
+  "selected_source_extraction": {
+    "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+    "orchestrator_called": true,
+    "raw_sha256": "DD403094128E66969CCAF430F0C01EB126CB441C0561D678189F1138AD8460B3",
+    "file_name": "r201d_inline_线条小鱼_极简教案.txt",
+    "selected_parser_id": "legacy_r103_parser",
+    "selection_reason": "selected_by_multimetric_score:0.8002; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+    "confidence": 0.8002,
+    "low_confidence": false,
+    "teacher_confirmation_needed": false,
+    "source_gap": {
+      "active": false,
+      "reason": "",
+      "display_policy": "status_only_not_teacher_main_content"
+    },
+    "parser_candidates": [
+      {
+        "parser_id": "legacy_r103_parser",
+        "episode_count": 2,
+        "episode_titles": [
+          "看鱼图片，说一说鱼身上有什么线条",
+          "教师示范用波浪线、折线、点线装饰鱼"
+        ],
+        "source_span_coverage": 0.3579,
+        "evidence_coverage_score": 1.0,
+        "title_cleanliness_score": 1.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.75,
+        "selection_score": 0.8002,
+        "failure_reason_if_rejected": ""
+      },
+      {
+        "parser_id": "numbered_colon_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.75,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      },
+      {
+        "parser_id": "markdown_heading_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.75,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      },
+      {
+        "parser_id": "table_or_structured_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.75,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      },
+      {
+        "parser_id": "long_section_parser",
+        "episode_count": 0,
+        "episode_titles": [],
+        "source_span_coverage": 0.0,
+        "evidence_coverage_score": 0.0,
+        "title_cleanliness_score": 0.0,
+        "metadata_pollution_count": 0,
+        "empty_episode_count": 0,
+        "preservation_score": 0.75,
+        "selection_score": 0.0,
+        "failure_reason_if_rejected": "parser_returned_zero_episode"
+      }
+    ],
+    "episodes": [
+      {
+        "index": 1,
+        "title": "看鱼图片，说一说鱼身上有什么线条",
+        "duration_min": null,
+        "source_content": "看鱼图片，说一说鱼身上有什么线条。",
+        "goal": "看鱼图片，说一说鱼身上有什么线条。",
+        "teacher_action": "看鱼图片，说一说鱼身上有什么线条。",
+        "student_action": "",
+        "material": "",
+        "screen_or_tech": "",
+        "evidence": "",
+        "question": "",
+        "feedback": "",
+        "episode_id": "uploaded_entry_episode_01",
+        "episode_type": "情境导入型",
+        "source_gap_note": [
+          "上传原文未提供明确学生学习；需教师确认。",
+          "上传原文未提供明确学习证据；需教师确认。"
+        ],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": null,
+          "raw_question": "",
+          "raw_feedback": ""
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 42,
+            "end": 59
+          },
+          "source_text_excerpt": "看鱼图片，说一说鱼身上有什么线条。 2. 教师示范用波浪线、折线、点线装饰鱼。 3. 学生画一条线条小鱼。",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.8002; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      },
+      {
+        "index": 2,
+        "title": "教师示范用波浪线、折线、点线装饰鱼",
+        "duration_min": null,
+        "source_content": "教师示范用波浪线、折线、点线装饰鱼。 3. 学生画一条线条小鱼。",
+        "goal": "教师示范用波浪线、折线、点线装饰鱼。 3. 学生画一条线条小鱼。",
+        "teacher_action": "教师示范用波浪线、折线、点线装饰鱼。 3. 学生画一条线条小鱼。",
+        "student_action": "",
+        "material": "",
+        "screen_or_tech": "",
+        "evidence": "",
+        "question": "",
+        "feedback": "",
+        "episode_id": "uploaded_entry_episode_02",
+        "episode_type": "技法示范型",
+        "source_gap_note": [
+          "上传原文未提供明确学生学习；需教师确认。",
+          "上传原文未提供明确学习证据；需教师确认。"
+        ],
+        "provisional_scaffolds": [],
+        "screen_material_suggestions": [],
+        "teacher_talk_suggestions": [],
+        "metadata_slots": {
+          "raw_duration": null,
+          "raw_question": "",
+          "raw_feedback": ""
+        },
+        "teacher_review_required": true,
+        "preview_only": true,
+        "formal_apply": false,
+        "source_status": "uploaded_source",
+        "provenance": {
+          "parser_id": "legacy_r103_parser",
+          "source_span": {
+            "start": 63,
+            "end": 80
+          },
+          "source_text_excerpt": "教师示范用波浪线、折线、点线装饰鱼。 3. 学生画一条线条小鱼。",
+          "confidence": 0.78,
+          "selection_reason": "selected_by_multimetric_score:0.8002; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+        }
+      }
+    ],
+    "episode_count": 2,
+    "episode_titles": [
+      "看鱼图片，说一说鱼身上有什么线条",
+      "教师示范用波浪线、折线、点线装饰鱼"
+    ],
+    "boundary": {
+      "readonly_only": true,
+      "model_called": false,
+      "provider_called": false,
+      "formal_apply": false,
+      "database_written": false,
+      "feishu_written": false,
+      "memory_written": false,
+      "R95_executed": false
+    }
+  },
+  "ownership_ledger_summary": {
+    "teacher_main_source_counts": {
+      "R114_execution_map": 20,
+      "R114_field_projection": 14,
+      "uploaded_source": 1
+    },
+    "forbidden_source_hit_count": 0,
+    "source_gap_as_content_count": 0
+  }
+}

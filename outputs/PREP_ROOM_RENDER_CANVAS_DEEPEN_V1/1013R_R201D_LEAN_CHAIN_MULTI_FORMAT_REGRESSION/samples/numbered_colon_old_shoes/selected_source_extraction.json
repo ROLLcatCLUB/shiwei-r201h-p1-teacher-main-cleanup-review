@@ -1,0 +1,316 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "E21DFFE30356326CB69EDFDD2B8D7521B2DEE7753FC6A09552781F4A6F2E7720",
+  "file_name": "r201d_inline_足下生辉_旧鞋改造设计课.txt",
+  "selected_parser_id": "numbered_sentence_parser",
+  "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.865,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 2,
+      "episode_titles": [
+        "制作路径讨论",
+        "旧鞋作品制作"
+      ],
+      "source_span_coverage": 0.0732,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.6947,
+      "failure_reason_if_rejected": "lower_selection_score_than_numbered_sentence_parser:0.6947<0.8650"
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 5,
+      "episode_titles": [
+        "回顾草图与任务确认",
+        "制作路径讨论",
+        "旧鞋作品制作",
+        "5句话设计故事",
+        "新鞋发布会准备"
+      ],
+      "source_span_coverage": 0.2512,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.75,
+      "selection_score": 0.8206,
+      "failure_reason_if_rejected": "lower_selection_score_than_numbered_sentence_parser:0.8206<0.8650"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 5,
+      "episode_titles": [
+        "回顾草图与任务确认",
+        "制作路径讨论",
+        "旧鞋作品制作",
+        "5句话设计故事",
+        "新鞋发布会准备"
+      ],
+      "source_span_coverage": 0.3527,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.75,
+      "selection_score": 0.865,
+      "failure_reason_if_rejected": ""
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    }
+  ],
+  "episodes": [
+    {
+      "index": 1,
+      "title": "回顾草图与任务确认 ",
+      "duration_min": null,
+      "source_content": "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。",
+      "goal": "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。",
+      "teacher_action": "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_numbered_sentence_parser_01",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "numbered_sentence_parser",
+        "source_span": {
+          "start": 302,
+          "end": 343
+        },
+        "source_text_excerpt": "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。 2. 制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。 3. 旧鞋作品制作 22分钟：学生根据草图改造旧鞋，",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 2,
+      "title": "制作路径讨论 ",
+      "duration_min": null,
+      "source_content": "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。",
+      "goal": "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。",
+      "teacher_action": "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_numbered_sentence_parser_02",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "numbered_sentence_parser",
+        "source_span": {
+          "start": 347,
+          "end": 396
+        },
+        "source_text_excerpt": "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。 3. 旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。 4. 5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 3,
+      "title": "旧鞋作品制作 ",
+      "duration_min": null,
+      "source_content": "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。",
+      "goal": "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。",
+      "teacher_action": "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_numbered_sentence_parser_03",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "numbered_sentence_parser",
+        "source_span": {
+          "start": 400,
+          "end": 442
+        },
+        "source_text_excerpt": "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。 4. 5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。 5. 新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 4,
+      "title": "5句话设计故事 ",
+      "duration_min": null,
+      "source_content": "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。",
+      "goal": "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。",
+      "teacher_action": "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_numbered_sentence_parser_04",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "numbered_sentence_parser",
+        "source_span": {
+          "start": 446,
+          "end": 492
+        },
+        "source_text_excerpt": "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。 5. 新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。 评价证据： 学生是否带来并使用草图；作品是否体现旧鞋改造；材料选择是否服务设计意图",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 5,
+      "title": "新鞋发布会准备 ",
+      "duration_min": null,
+      "source_content": "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。",
+      "goal": "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。",
+      "teacher_action": "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_numbered_sentence_parser_05",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "numbered_sentence_parser",
+        "source_span": {
+          "start": 496,
+          "end": 530
+        },
+        "source_text_excerpt": "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。 评价证据： 学生是否带来并使用草图；作品是否体现旧鞋改造；材料选择是否服务设计意图；5句话设计故事是否能说明作品；发布会是否有作品和故事卡。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8650; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 5,
+  "episode_titles": [
+    "回顾草图与任务确认",
+    "制作路径讨论",
+    "旧鞋作品制作",
+    "5句话设计故事",
+    "新鞋发布会准备"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}

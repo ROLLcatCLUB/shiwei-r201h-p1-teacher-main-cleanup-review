@@ -1,0 +1,469 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "teacher_main_entry_count": 76,
+  "teacher_main_source_counts": {
+    "R114_execution_map": 60,
+    "R114_field_projection": 15,
+    "uploaded_source": 1
+  },
+  "forbidden_source_hits": [],
+  "source_gap_as_content_hits": [],
+  "entries": [
+    {
+      "path": "lesson_header.lesson_title",
+      "text": "走进青绿山水",
+      "source_type": "uploaded_source",
+      "role": "header"
+    },
+    {
+      "path": "basis[0].body[0]",
+      "text": "本课依据上传原稿定位为三年级《走进青绿山水》，所属单元为“第三单元 青绿中国色”。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "basis[0].body[1]",
+      "text": "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "basis[0].body[2]",
+      "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "student_analysis[0].body[0]",
+      "text": "三年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+      "source_type": "R114_field_projection",
+      "role": "student_analysis"
+    },
+    {
+      "path": "student_analysis[0].body[1]",
+      "text": "课堂上可重点看：学生可能只说颜色好看，却说不出颜色是怎样慢慢过渡的；学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_field_projection",
+      "role": "student_analysis"
+    },
+    {
+      "path": "objectives[0].body[0]",
+      "text": "学生能观察生活和画面中的颜色过渡现象，说出渐变是颜色逐步变化的效果。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "objectives[0].body[1]",
+      "text": "学生能选择合适工具尝试表现一组有过渡层次的渐变效果。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "objectives[0].body[2]",
+      "text": "学生能在交流中指出作品哪里体现了渐变，并说明还可以怎样调整。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "key_difficult_points[0].body[0]",
+      "text": "重点：识别颜色逐步过渡的规律，并用工具把渐变效果表现出来。",
+      "source_type": "R114_field_projection",
+      "role": "key_difficult_points"
+    },
+    {
+      "path": "key_difficult_points[0].body[1]",
+      "text": "难点：避免直接跳色或平涂，引导学生通过叠色、推开或色阶排列形成自然过渡。",
+      "source_type": "R114_field_projection",
+      "role": "key_difficult_points"
+    },
+    {
+      "path": "preparation[0].body[0]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_type": "R114_field_projection",
+      "role": "preparation"
+    },
+    {
+      "path": "assessment_or_homework[0].body[0]",
+      "text": "观察证据：引入课题，用于先用彩虹或生活经验激活学生对颜色变化的直观感受，为认识渐变概念做铺垫。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[1]",
+      "text": "观察证据：远观千里江山图，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[2]",
+      "text": "观察证据：近触矿物颜料，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "reflection_or_notes[0].body[0]",
+      "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。",
+      "source_type": "R114_field_projection",
+      "role": "reflection_or_notes"
+    },
+    {
+      "path": "process_episodes[0].episode_title",
+      "text": "引入课题",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[0].episode_goal",
+      "text": "学生能回忆见过的颜色变化，说出彩虹或图片中颜色是怎样慢慢变过去的",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[0].teacher_organization",
+      "text": "先用彩虹、天空或生活图片追问“颜色是一下子变过去，还是慢慢过渡”，把学生经验收束到本课关键词。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[0].student_learning",
+      "text": "回忆见过的颜色变化，说出彩虹或图片中颜色是怎样慢慢变过去的。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[0].xiaojiao_hint",
+      "text": "小教可提醒教师追问：你看到颜色是突然跳过去，还是一层一层慢慢变过去？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].step_name",
+      "text": "引入课题",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].teacher_action",
+      "text": "先用彩虹、天空或生活图片追问“颜色是一下子变过去，还是慢慢过渡”，把学生经验收束到本课关键词。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].student_action",
+      "text": "回忆见过的颜色变化，说出彩虹或图片中颜色是怎样慢慢变过去的。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].scaffolds",
+      "text": "学生可能只说颜色好看，却说不出颜色是怎样慢慢过渡的。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].evidence",
+      "text": "环节：步骤1 引入课题；教师活动：\\*\\*封面页\\*\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[1].episode_title",
+      "text": "远观千里江山图",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[1].episode_goal",
+      "text": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[1].teacher_organization",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[1].student_learning",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[1].xiaojiao_hint",
+      "text": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].step_name",
+      "text": "远观千里江山图",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].teacher_action",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].student_action",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].scaffolds",
+      "text": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].evidence",
+      "text": "环节：步骤2 远观千里江山图；教师活动：\\*\\*千里江山图展示\\*\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[2].episode_title",
+      "text": "近触矿物颜料",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[2].episode_goal",
+      "text": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[2].teacher_organization",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[2].student_learning",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[2].xiaojiao_hint",
+      "text": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].step_name",
+      "text": "近触矿物颜料",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].teacher_action",
+      "text": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].student_action",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].scaffolds",
+      "text": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].evidence",
+      "text": "环节：步骤3 近触矿物颜料；教师活动：\\*\\*石青石绿展示\\*\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[3].episode_title",
+      "text": "涂色探索",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[3].episode_goal",
+      "text": "学生能在学习单或作品中尝试画出一组颜色过渡，并边做边检查是否有明显断层",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[3].teacher_organization",
+      "text": "巡视时先看颜色是否逐步变化，再看学生是否按自己选择的工具方法推进；需要时只补一个最小动作提示。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[3].student_learning",
+      "text": "在学习单或作品中尝试画出一组颜色过渡，并边做边检查是否有明显断层。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[3].xiaojiao_hint",
+      "text": "小教可按巡视发现给出一句话支架：从深到浅多加一格中间色，或把边界轻轻叠过去。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].step_name",
+      "text": "涂色探索",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].teacher_action",
+      "text": "巡视时先看颜色是否逐步变化，再看学生是否按自己选择的工具方法推进；需要时只补一个最小动作提示。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].student_action",
+      "text": "在学习单或作品中尝试画出一组颜色过渡，并边做边检查是否有明显断层。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].scaffolds",
+      "text": "学生可能出现颜色断层、直接换色或只平涂，作品看不出逐步变化。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].evidence",
+      "text": "环节：步骤4 涂色探索；教师活动：\\*\\*学习单示意页\\*\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[4].episode_title",
+      "text": "分享与交流",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[4].episode_goal",
+      "text": "学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[4].teacher_organization",
+      "text": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[4].student_learning",
+      "text": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[4].xiaojiao_hint",
+      "text": "小教只提示教师追问原文任务，不替学生生成答案。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].step_name",
+      "text": "分享与交流",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].teacher_action",
+      "text": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].student_action",
+      "text": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].scaffolds",
+      "text": "展示证据、后续时间或家长协助安排可能还需要教师确认。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].evidence",
+      "text": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[5].episode_title",
+      "text": "课堂小结与预告",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[5].episode_goal",
+      "text": "学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[5].teacher_organization",
+      "text": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[5].student_learning",
+      "text": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[5].xiaojiao_hint",
+      "text": "小教只提示教师追问原文任务，不替学生生成答案。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[5].micro_steps[0].step_name",
+      "text": "课堂小结与预告",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[5].micro_steps[0].teacher_action",
+      "text": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[5].micro_steps[0].student_action",
+      "text": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[5].micro_steps[0].scaffolds",
+      "text": "展示证据、后续时间或家长协助安排可能还需要教师确认。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[5].micro_steps[0].evidence",
+      "text": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    }
+  ]
+}

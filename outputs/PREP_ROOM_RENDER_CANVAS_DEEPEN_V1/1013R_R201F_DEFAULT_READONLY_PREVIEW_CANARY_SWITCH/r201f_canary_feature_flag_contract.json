@@ -1,0 +1,27 @@
+{
+  "stage": "1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH",
+  "feature_flag": "XIAOBEI_UPLOAD_PREVIEW_DEFAULT_ENGINE",
+  "default": "legacy",
+  "allowed_values": [
+    "legacy",
+    "lean_canary",
+    "lean"
+  ],
+  "canary_enabled_values": [
+    "lean_canary",
+    "lean"
+  ],
+  "scope": "uploaded lesson readonly preview only",
+  "request_overrides": {
+    "preview_engine=legacy": "force legacy even when canary is on",
+    "preview_engine=lean": "force lean even when canary is off",
+    "preview_engine=auto or missing": "legacy when canary off; lean when canary on"
+  },
+  "must_not_affect": [
+    "formal apply",
+    "save/write",
+    "R95 export",
+    "R21/R36 core",
+    "teacher main page visual"
+  ]
+}

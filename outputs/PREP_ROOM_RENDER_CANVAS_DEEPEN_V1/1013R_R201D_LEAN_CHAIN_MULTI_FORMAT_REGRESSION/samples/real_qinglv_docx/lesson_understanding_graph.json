@@ -1,0 +1,435 @@
+{
+  "stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114A_model_not_enabled"
+  },
+  "graph": {
+    "graph_version": "import_understanding_v2_graph_r114a_v0.1",
+    "lesson_identity": {
+      "title": {
+        "claim_id": "r114a_claim_cd72566f9d",
+        "claim_type": "source_fact",
+        "text": "课题：走进青绿山水",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "走进青绿山水"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      "unit": {
+        "claim_id": "r114a_claim_86ea1f5589",
+        "claim_type": "source_fact",
+        "text": "单元：第三单元 青绿中国色",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第三单元 青绿中国色"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      "grade": {
+        "claim_id": "r114a_claim_9645f81c2f",
+        "claim_type": "source_fact",
+        "text": "年级：三年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "三年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      "period": {
+        "claim_id": "r114a_claim_8ca9d4c5e4",
+        "claim_type": "source_fact",
+        "text": "课时位置：1",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [
+          "1"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      }
+    },
+    "faithful_reconstruction": {
+      "protected_core_claim_ids": [
+        "r114a_claim_a7c6e2ae7f"
+      ],
+      "original_design_intent_claim_id": "r114a_claim_356a2bab88",
+      "source_evidence_summary": {
+        "core_activity": "观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单",
+        "student_preparation": [],
+        "teacher_preparation": [],
+        "evidence_nodes": [],
+        "differentiation": [],
+        "homework": []
+      },
+      "do_not_rewrite_as": [
+        "generic_field_extraction",
+        "full_lesson_replacement",
+        "unverified_textbook_page",
+        "sample_specific_template_without_source_evidence"
+      ]
+    },
+    "core_learning_transformation": {
+      "claim_id": "r114a_claim_bb6dba2f11",
+      "claim_type": "source_interpretation",
+      "text": "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。",
+      "graph_path": "core_learning_transformation",
+      "source_evidence": [
+        "观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单",
+        "引入课题",
+        "远观千里江山图",
+        "近触矿物颜料",
+        "涂色探索",
+        "分享与交流"
+      ],
+      "confidence": 0.72,
+      "teacher_review_required": false
+    },
+    "teaching_causal_chain": [
+      {
+        "episode_index": 1,
+        "source_episode_id": "r201c_table_or_structured_parser_32",
+        "title": "引入课题",
+        "why_now": "先用彩虹或生活经验激活学生对颜色变化的直观感受，为认识渐变概念做铺垫。",
+        "source_evidence": [
+          "环节：步骤1 引入课题；教师活动：封面页\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变"
+        ],
+        "claim_id": "r114a_claim_29d66a99e4",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 2,
+        "source_episode_id": "r201c_table_or_structured_parser_33",
+        "title": "远观千里江山图",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "环节：步骤2 远观千里江山图；教师活动：千里江山图展示\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确"
+        ],
+        "claim_id": "r114a_claim_b4e8fdc7ca",
+        "claim_type": "teacher_confirm_required"
+      },
+      {
+        "episode_index": 3,
+        "source_episode_id": "r201c_table_or_structured_parser_34",
+        "title": "近触矿物颜料",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "环节：步骤3 近触矿物颜料；教师活动：石青石绿展示\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确"
+        ],
+        "claim_id": "r114a_claim_94c39d7828",
+        "claim_type": "teacher_confirm_required"
+      },
+      {
+        "episode_index": 4,
+        "source_episode_id": "r201c_table_or_structured_parser_35",
+        "title": "涂色探索",
+        "why_now": "让学生把“颜色慢慢变化”的理解落实到工具练习中，形成可观察的渐变效果。",
+        "source_evidence": [
+          "环节：步骤4 涂色探索；教师活动：学习单示意页\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式"
+        ],
+        "claim_id": "r114a_claim_9fdc735658",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 5,
+        "source_episode_id": "r201c_table_or_structured_parser_36",
+        "title": "分享与交流",
+        "why_now": "用同伴作品比较不同工具的渐变效果，让评价回到颜色是否逐步变化。",
+        "source_evidence": [
+          "环节：步骤5 分享与交流；教师活动：无PPT页面\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT"
+        ],
+        "claim_id": "r114a_claim_6b01053570",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 6,
+        "source_episode_id": "r201c_table_or_structured_parser_37",
+        "title": "课堂小结与预告",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "环节：步骤6 课堂小结与预告；教师活动：结语/下节预告\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格"
+        ],
+        "claim_id": "r114a_claim_8430ecadf4",
+        "claim_type": "teacher_confirm_required"
+      }
+    ],
+    "evidence_graph": [],
+    "student_difficulty_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+      ],
+      "teacher_review_required": true
+    },
+    "teacher_support_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "教师支架宜先保护原稿里的核心任务，再用追问、短示范或同伴交流帮助学生说清选择理由。"
+      ],
+      "teacher_review_required": true
+    },
+    "improvement_opportunities": [],
+    "teacher_confirmation_gaps": [
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      }
+    ],
+    "field_projection_basis": {
+      "status": "not_projected_in_R114A",
+      "field_projection_performed": false,
+      "projection_stage": "R114C",
+      "rule": "R114A only builds the understanding graph; R114C will project fields from graph nodes."
+    },
+    "r112_dependency": {
+      "stage": "1013R_R112_IMPORT_DOCUMENT_LESSON_UNDERSTANDING_PACKET",
+      "status": "deterministic_ready",
+      "used_as_initial_reading": true
+    },
+    "claim_registry": [
+      {
+        "claim_id": "r114a_claim_cd72566f9d",
+        "claim_type": "source_fact",
+        "text": "课题：走进青绿山水",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "走进青绿山水"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_86ea1f5589",
+        "claim_type": "source_fact",
+        "text": "单元：第三单元 青绿中国色",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第三单元 青绿中国色"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_9645f81c2f",
+        "claim_type": "source_fact",
+        "text": "年级：三年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "三年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_8ca9d4c5e4",
+        "claim_type": "source_fact",
+        "text": "课时位置：1",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [
+          "1"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_a7c6e2ae7f",
+        "claim_type": "source_fact",
+        "text": "核心活动：观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单",
+        "graph_path": "faithful_reconstruction.protected_core.core_activity",
+        "source_evidence": [
+          "观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单"
+        ],
+        "confidence": 0.85,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_bb6dba2f11",
+        "claim_type": "source_interpretation",
+        "text": "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。",
+        "graph_path": "core_learning_transformation",
+        "source_evidence": [
+          "观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单",
+          "引入课题",
+          "远观千里江山图",
+          "近触矿物颜料",
+          "涂色探索",
+          "分享与交流"
+        ],
+        "confidence": 0.72,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_356a2bab88",
+        "claim_type": "source_interpretation",
+        "text": "本课不是自由涂色，而是通过生活图像、教师示范和学生练习，让学生看见并表现颜色逐步过渡的规律。",
+        "graph_path": "faithful_reconstruction.original_design_intent",
+        "source_evidence": [
+          "观察青绿色彩，用自己的话说出2-3个感受，填写\"青绿初印象\"学习单",
+          "环节：步骤1 引入课题；教师活动：封面页\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变",
+          "环节：步骤2 远观千里江山图；教师活动：千里江山图展示\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确",
+          "环节：步骤3 近触矿物颜料；教师活动：石青石绿展示\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确"
+        ],
+        "confidence": 0.7,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_29d66a99e4",
+        "claim_type": "source_interpretation",
+        "text": "引入课题：先用彩虹或生活经验激活学生对颜色变化的直观感受，为认识渐变概念做铺垫。",
+        "graph_path": "teaching_causal_chain.1",
+        "source_evidence": [
+          "环节：步骤1 引入课题；教师活动：封面页\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_b4e8fdc7ca",
+        "claim_type": "teacher_confirm_required",
+        "text": "远观千里江山图：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.2",
+        "source_evidence": [
+          "环节：步骤2 远观千里江山图；教师活动：千里江山图展示\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_94c39d7828",
+        "claim_type": "teacher_confirm_required",
+        "text": "近触矿物颜料：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.3",
+        "source_evidence": [
+          "环节：步骤3 近触矿物颜料；教师活动：石青石绿展示\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_9fdc735658",
+        "claim_type": "source_interpretation",
+        "text": "涂色探索：让学生把“颜色慢慢变化”的理解落实到工具练习中，形成可观察的渐变效果。",
+        "graph_path": "teaching_causal_chain.4",
+        "source_evidence": [
+          "环节：步骤4 涂色探索；教师活动：学习单示意页\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_6b01053570",
+        "claim_type": "source_interpretation",
+        "text": "分享与交流：用同伴作品比较不同工具的渐变效果，让评价回到颜色是否逐步变化。",
+        "graph_path": "teaching_causal_chain.5",
+        "source_evidence": [
+          "环节：步骤5 分享与交流；教师活动：无PPT页面\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_8430ecadf4",
+        "claim_type": "teacher_confirm_required",
+        "text": "课堂小结与预告：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.6",
+        "source_evidence": [
+          "环节：步骤6 课堂小结与预告；教师活动：结语/下节预告\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      }
+    ],
+    "contamination_guard": {
+      "guard_rules": [
+        "Absent sample-specific phrases must not appear as source_fact.",
+        "System improvements must stay in improvement_opportunities, not faithful_reconstruction.",
+        "Teacher-confirmation gaps must not be converted into confirmed facts."
+      ],
+      "blocked_source_fact_phrases": [
+        "上一课设计草图",
+        "新鞋发布会",
+        "发布会",
+        "5句话设计故事",
+        "废旧材料",
+        "纸鞋模板"
+      ],
+      "violations": [],
+      "passed": true
+    }
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": false
+  }
+}

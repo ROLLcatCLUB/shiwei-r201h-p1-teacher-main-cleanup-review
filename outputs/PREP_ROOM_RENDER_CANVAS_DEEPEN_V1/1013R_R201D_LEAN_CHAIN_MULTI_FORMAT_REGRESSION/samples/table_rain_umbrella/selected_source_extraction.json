@@ -1,0 +1,268 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "3F8CA04FE3DAD63DEBF28428DA5D9BF74ABEEBC942F2D675EAE43D73E21A9B2B",
+  "file_name": "r201d_inline_雨伞图案设计_表格型教案.txt",
+  "selected_parser_id": "table_or_structured_parser",
+  "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.8784,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 4,
+      "episode_titles": [
+        "导入观察",
+        "方法示范",
+        "设计制作",
+        "展示评价"
+      ],
+      "source_span_coverage": 0.6158,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.8784,
+      "failure_reason_if_rejected": ""
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 0,
+      "episode_titles": [],
+      "source_span_coverage": 0.0,
+      "evidence_coverage_score": 0.0,
+      "title_cleanliness_score": 0.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.0,
+      "failure_reason_if_rejected": "parser_returned_zero_episode"
+    }
+  ],
+  "episodes": [
+    {
+      "index": 3,
+      "title": "导入观察",
+      "duration_min": null,
+      "source_content": "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。",
+      "goal": "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。",
+      "teacher_action": "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_03",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 111,
+          "end": 177
+        },
+        "source_text_excerpt": "| 导入观察 | 出示不同雨伞图片，追问伞面图案有什么规律。 | 观察并说出重复、对称、颜色搭配。 | 从生活用品进入纹样观察。 | | 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 4,
+      "title": "方法示范",
+      "duration_min": null,
+      "source_content": "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。",
+      "goal": "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。",
+      "teacher_action": "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_04",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 178,
+          "end": 232
+        },
+        "source_text_excerpt": "| 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 5,
+      "title": "设计制作",
+      "duration_min": null,
+      "source_content": "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。",
+      "goal": "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。",
+      "teacher_action": "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_05",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 233,
+          "end": 291
+        },
+        "source_text_excerpt": "| 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 6,
+      "title": "展示评价",
+      "duration_min": null,
+      "source_content": "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。",
+      "goal": "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。",
+      "teacher_action": "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_06",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 292,
+          "end": 348
+        },
+        "source_text_excerpt": "| 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能说出图案安排理由。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 4,
+  "episode_titles": [
+    "导入观察",
+    "方法示范",
+    "设计制作",
+    "展示评价"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}

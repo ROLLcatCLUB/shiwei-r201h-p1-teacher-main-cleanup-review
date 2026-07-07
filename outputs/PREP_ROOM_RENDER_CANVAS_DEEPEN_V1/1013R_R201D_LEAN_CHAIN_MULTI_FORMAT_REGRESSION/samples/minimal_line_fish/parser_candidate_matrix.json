@@ -1,0 +1,93 @@
+[
+  {
+    "parser_id": "legacy_r103_parser",
+    "episode_count": 2,
+    "episode_titles": [
+      "看鱼图片，说一说鱼身上有什么线条",
+      "教师示范用波浪线、折线、点线装饰鱼"
+    ],
+    "source_span_coverage": 0.3579,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.8002,
+    "failure_reason_if_rejected": "lower_selection_score_than_numbered_sentence_parser:0.8002<0.8218",
+    "sample_id": "minimal_line_fish"
+  },
+  {
+    "parser_id": "numbered_colon_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "minimal_line_fish"
+  },
+  {
+    "parser_id": "numbered_sentence_parser",
+    "episode_count": 3,
+    "episode_titles": [
+      "看鱼图片，说一说鱼身上有什么线条",
+      "教师示范用波浪线、折线、点线装饰鱼",
+      "学生画一条线条小鱼"
+    ],
+    "source_span_coverage": 0.4737,
+    "evidence_coverage_score": 1.0,
+    "title_cleanliness_score": 1.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.8218,
+    "failure_reason_if_rejected": "",
+    "sample_id": "minimal_line_fish"
+  },
+  {
+    "parser_id": "markdown_heading_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "minimal_line_fish"
+  },
+  {
+    "parser_id": "table_or_structured_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "minimal_line_fish"
+  },
+  {
+    "parser_id": "long_section_parser",
+    "episode_count": 0,
+    "episode_titles": [],
+    "source_span_coverage": 0.0,
+    "evidence_coverage_score": 0.0,
+    "title_cleanliness_score": 0.0,
+    "metadata_pollution_count": 0,
+    "empty_episode_count": 0,
+    "preservation_score": 0.75,
+    "selection_score": 0.0,
+    "failure_reason_if_rejected": "parser_returned_zero_episode",
+    "sample_id": "minimal_line_fish"
+  }
+]

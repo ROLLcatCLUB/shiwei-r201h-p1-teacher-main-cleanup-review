@@ -1,0 +1,314 @@
+{
+  "stage": "1013R_R114B_TEACHER_EXECUTION_MAP",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114B_model_not_enabled"
+  },
+  "input_contract": {
+    "source": "R114A understanding graph only",
+    "raw_text_used": false,
+    "reread_original_document": false,
+    "upstream_stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+    "upstream_status": "deterministic_ready"
+  },
+  "teacher_execution_map": {
+    "map_version": "teacher_execution_map_r114b_v0.1",
+    "source_graph_stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+    "lesson_title": "《足下生辉》旧鞋改造设计课",
+    "core_learning_transformation": "本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。",
+    "execution_principles": [
+      "先保护原教案的核心任务，再补执行支架。",
+      "原文事实、系统推断和改进建议分开呈现。",
+      "教师确认缺口不能被自动写成已确认字段。"
+    ],
+    "classroom_flow": [
+      {
+        "step_id": "TEACHER_EXEC_01",
+        "episode_index": 1,
+        "source_episode_id": "r201c_numbered_sentence_parser_01",
+        "title": "回顾草图与任务确认",
+        "why_now": "先回到前序设计依据，避免学生脱离原设计随意制作。",
+        "teacher_move": "出示真实鞋或多角度鞋图，请学生先说看得见的外形、角度和局部差异，把问题收束到“怎样把观察到的鞋画出来”。",
+        "student_action": "观察真实鞋或图片，说出一个外形、角度或局部细节上的发现。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能忘带或说不清设计依据，后续制作容易变成随意装饰。",
+        "xiaojiao_support": "小教提示教师追问：你今天最想把草图里的哪一点做出来？",
+        "source_basis": {
+          "claim_id": "r114a_claim_803c441fed",
+          "claim_type": "source_interpretation",
+          "claim_text": "回顾草图与任务确认：先回到前序设计依据，避免学生脱离原设计随意制作。",
+          "source_evidence": [
+            "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false
+        },
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_02",
+        "episode_index": 2,
+        "source_episode_id": "r201c_numbered_sentence_parser_02",
+        "title": "制作路径讨论",
+        "why_now": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "teacher_move": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+        "student_action": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能凭印象画符号化的鞋，比例、鞋底方向或鞋带细节与观察对象脱节。",
+        "xiaojiao_support": "小教可给出巡视提示：先看大轮廓，再问这条线对应鞋的哪一部分。",
+        "source_basis": {
+          "claim_id": "r114a_claim_d1deda1134",
+          "claim_type": "source_interpretation",
+          "claim_text": "制作路径讨论：把设计想法放到材料和结构中验证，形成过程证据。",
+          "source_evidence": [
+            "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false
+        },
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_03",
+        "episode_index": 3,
+        "source_episode_id": "r201c_numbered_sentence_parser_03",
+        "title": "旧鞋作品制作",
+        "why_now": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "teacher_move": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+        "student_action": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能凭印象画符号化的鞋，比例、鞋底方向或鞋带细节与观察对象脱节。",
+        "xiaojiao_support": "小教可给出巡视提示：先看大轮廓，再问这条线对应鞋的哪一部分。",
+        "source_basis": {
+          "claim_id": "r114a_claim_dddf085d51",
+          "claim_type": "source_interpretation",
+          "claim_text": "旧鞋作品制作：把设计想法放到材料和结构中验证，形成过程证据。",
+          "source_evidence": [
+            "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false
+        },
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_04",
+        "episode_index": 4,
+        "source_episode_id": "r201c_numbered_sentence_parser_04",
+        "title": "5句话设计故事",
+        "why_now": "在作品形成后整理设计理由，让作品成为可说明的设计成果。",
+        "teacher_move": "把表达任务变成证据结构：对象、问题、材料方法、满意处和可改进处，让学生用作品说明设计理由。",
+        "student_action": "用简短语言说明作品对象、解决的问题、材料方法、满意处和改进想法。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能只说好看，不说明对象、问题、材料方法和改进依据。",
+        "xiaojiao_support": "小教可把表达任务变成句式支架，但不替学生编设计理由。",
+        "source_basis": {
+          "claim_id": "r114a_claim_13ade62d54",
+          "claim_type": "source_interpretation",
+          "claim_text": "5句话设计故事：在作品形成后整理设计理由，让作品成为可说明的设计成果。",
+          "source_evidence": [
+            "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false
+        },
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_05",
+        "episode_index": 5,
+        "source_episode_id": "r201c_numbered_sentence_parser_05",
+        "title": "新鞋发布会准备",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "teacher_move": "收集作品或过程证据，说明后续展示还要准备什么，并把未定安排交给教师确认。",
+        "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+        "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+        "source_basis": {
+          "claim_id": "r114a_claim_92c397457d",
+          "claim_type": "teacher_confirm_required",
+          "claim_text": "新鞋发布会准备：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true
+        },
+        "teacher_review_required": true
+      }
+    ],
+    "evidence_collection_plan": [
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_01",
+        "evidence": "回顾草图与任务确认",
+        "proves": "先回到前序设计依据，避免学生脱离原设计随意制作。",
+        "source_claim_id": "r114a_claim_803c441fed",
+        "source_claim_type": "source_interpretation",
+        "suggested_moment": "TEACHER_EXEC_01",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_02",
+        "evidence": "制作路径讨论",
+        "proves": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "source_claim_id": "r114a_claim_d1deda1134",
+        "source_claim_type": "source_interpretation",
+        "suggested_moment": "TEACHER_EXEC_02",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_03",
+        "evidence": "旧鞋作品制作",
+        "proves": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "source_claim_id": "r114a_claim_dddf085d51",
+        "source_claim_type": "source_interpretation",
+        "suggested_moment": "TEACHER_EXEC_03",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_04",
+        "evidence": "5句话设计故事",
+        "proves": "在作品形成后整理设计理由，让作品成为可说明的设计成果。",
+        "source_claim_id": "r114a_claim_13ade62d54",
+        "source_claim_type": "source_interpretation",
+        "suggested_moment": "TEACHER_EXEC_04",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_05",
+        "evidence": "新鞋发布会准备",
+        "proves": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_claim_id": "r114a_claim_92c397457d",
+        "source_claim_type": "teacher_confirm_required",
+        "suggested_moment": "TEACHER_EXEC_05",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      }
+    ],
+    "teacher_review_queue": [
+      {
+        "review_id": "r114a_claim_f557c1d3a2",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_f7dee14e8f",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "source_evidence": [
+          "剪刀",
+          "胶水"
+        ],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_083f6ea56c",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_92c397457d",
+        "source": "R114B.classroom_flow",
+        "text": "新鞋发布会准备 的现场推进依据需要教师确认。",
+        "source_evidence": [
+          "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。"
+        ],
+        "required_before": "classroom_execution"
+      }
+    ],
+    "xiaojiao_runtime_support_policy": {
+      "runtime_call_allowed": false,
+      "preview_only": true,
+      "role": "只给教师提示、检查和支架，不替教师做正式确认。"
+    },
+    "field_projection_basis": {
+      "status": "not_projected_in_R114B",
+      "field_projection_performed": false,
+      "projection_stage": "R114C"
+    }
+  },
+  "agent_execution_steps": [
+    {
+      "step_id": "STEP_1_SOURCE_BOUNDARY",
+      "label": "原文接收与边界检查",
+      "status": "completed",
+      "stage_refs": [
+        "R107A",
+        "R103"
+      ],
+      "teacher_visible_text": "已完成上传文本读取和只读边界确认。"
+    },
+    {
+      "step_id": "STEP_2_FAITHFUL_UNDERSTANDING",
+      "label": "忠实理解原教案",
+      "status": "completed",
+      "stage_refs": [
+        "R112",
+        "R114A"
+      ],
+      "teacher_visible_text": "正在区分原文事实、结构理解和需要教师确认的内容。"
+    },
+    {
+      "step_id": "STEP_3_PEDAGOGICAL_JUDGEMENT",
+      "label": "教学判断与证据链",
+      "status": "needs_attention",
+      "stage_refs": [
+        "R114A"
+      ],
+      "teacher_visible_text": "正在把教学因果链和课堂证据对应起来。"
+    },
+    {
+      "step_id": "STEP_4_EXECUTION_MAP",
+      "label": "教师执行地图",
+      "status": "completed",
+      "stage_refs": [
+        "R114B"
+      ],
+      "teacher_visible_text": "已生成教师推进、学生行动、卡点和小教支持建议。"
+    },
+    {
+      "step_id": "STEP_5_FIELD_PROJECTION_REVIEW",
+      "label": "字段投影与教师确认",
+      "status": "pending",
+      "stage_refs": [
+        "R114C"
+      ],
+      "teacher_visible_text": "下一步才会把理解图投影到备课字段，不会直接覆盖原稿。"
+    }
+  ],
+  "contamination_guard": {
+    "guard_rules": [
+      "R114B must use R114A graph only and must not reread raw text.",
+      "Blocked sample-specific phrases from R114A must not be introduced into the execution map.",
+      "Field projection remains disabled until R114C."
+    ],
+    "blocked_phrases_from_R114A": [
+      "纸鞋模板"
+    ],
+    "violations": [],
+    "passed": true
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": false,
+    "target_shell": "R97B validation carrier only"
+  }
+}

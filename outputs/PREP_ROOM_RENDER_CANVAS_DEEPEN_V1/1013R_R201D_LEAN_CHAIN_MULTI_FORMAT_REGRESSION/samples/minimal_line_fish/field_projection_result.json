@@ -1,0 +1,2250 @@
+{
+  "stage": "1013R_R114C_GRAPH_FIELD_PROJECTION",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114C_model_not_enabled"
+  },
+  "input_contract": {
+    "source": "R114A understanding graph + R114B teacher execution map only",
+    "raw_text_used": false,
+    "reread_original_document": false,
+    "upstream_graph_stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+    "upstream_graph_status": "deterministic_ready",
+    "upstream_execution_stage": "1013R_R114B_TEACHER_EXECUTION_MAP",
+    "upstream_execution_status": "deterministic_ready"
+  },
+  "field_projection": {
+    "projection_version": "graph_field_projection_r114c_v0.1",
+    "field_candidates": {
+      "basis": {
+        "section_id": "basis",
+        "title": "一、本课依据",
+        "items": [
+          "本课依据上传原稿定位为二年级《线条小鱼》，所属单元为“上传教案单元待确认”。",
+          "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+        ],
+        "classification": "r114c_graph_basis_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_0dfd855289",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.title",
+            "text": "课题：线条小鱼",
+            "source_evidence": [
+              "线条小鱼"
+            ],
+            "confidence": 0.92,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_6c7fdf5ccc",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "lesson_identity.unit",
+            "text": "单元：上传教案单元待确认",
+            "source_evidence": [],
+            "confidence": 0.2,
+            "teacher_review_required": true,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_7745292fac",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.grade",
+            "text": "年级：二年级",
+            "source_evidence": [
+              "二年级"
+            ],
+            "confidence": 0.9,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "basis"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_basis_graph_basis_2e65b48e9a",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.title",
+            "claim_id": "r114a_claim_0dfd855289",
+            "source_excerpt": "课题：线条小鱼",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_49b9d1e9c1",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.unit",
+            "claim_id": "r114a_claim_6c7fdf5ccc",
+            "source_excerpt": "单元：上传教案单元待确认",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_05da32fdbe",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.grade",
+            "claim_id": "r114a_claim_7745292fac",
+            "source_excerpt": "年级：二年级",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_e9515d0026",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_confirm_8e31434f48",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": true,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "analysis": {
+        "section_id": "analysis",
+        "title": "二、学情分析",
+        "items": [
+          "二年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+          "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+        ],
+        "classification": "r114c_graph_analysis_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_2d01602db3",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_152876eee8",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "教师示范用波浪线、折线、点线装饰鱼。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_fecb2a952f",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "学生画一条线条小鱼。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_analysis_graph_basis_ac49172425",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_02b8b9b477",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_2d01602db3",
+            "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_4af6bcbdbc",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_152876eee8",
+            "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_b734d60838",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_fecb2a952f",
+            "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": true,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "goals": {
+        "section_id": "goals",
+        "title": "三、教学目标",
+        "items": [
+          "学生能围绕本课任务完成一次有目标的观察、尝试或表达。",
+          "学生能说出自己的学习发现、方法选择或作品特点。",
+          "学生能在交流中用课堂证据说明自己的学习成果。"
+        ],
+        "classification": "r114c_graph_goal_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "goals"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_goals_graph_basis_2d00c48ed9",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": false,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "keypoints": {
+        "section_id": "keypoints",
+        "title": "四、教学重难点",
+        "items": [
+          "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。",
+          "难点：让学生说清方法选择和学习成果之间的关系。"
+        ],
+        "classification": "r114c_graph_keypoint_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_2d01602db3",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_152876eee8",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "教师示范用波浪线、折线、点线装饰鱼。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_fecb2a952f",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "学生画一条线条小鱼。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_5890e1db8a",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_135cb701c2",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_2d01602db3",
+            "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_270fd8391c",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_152876eee8",
+            "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_d5c97bfc89",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_fecb2a952f",
+            "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": false,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "preparation": {
+        "section_id": "preparation",
+        "title": "五、教学准备",
+        "items": [
+          "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+        ],
+        "classification": "r114c_graph_preparation_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          },
+          {
+            "claim_id": "r114a_claim_083f6ea56c",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.student_preparation",
+            "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+            "source_evidence": [],
+            "confidence": 0.7,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_graph_basis_c7871218e0",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.student_preparation",
+            "claim_id": "r114a_claim_083f6ea56c",
+            "source_excerpt": "学生准备未在原文中形成稳定条目，需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_confirm_55bbb55503",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": true,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "assessment": {
+        "section_id": "assessment",
+        "title": "七、学习单与评价",
+        "items": [
+          "观察证据：看鱼图片，说一说鱼身上有什么线条，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "观察证据：教师示范用波浪线、折线、点线装饰鱼，用于在学生动手前提供可选择的制作路径和安全边界。",
+          "观察证据：学生画一条线条小鱼，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+        ],
+        "classification": "r114c_graph_assessment_projection",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_2d01602db3",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_152876eee8",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "教师示范用波浪线、折线、点线装饰鱼。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_fecb2a952f",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "学生画一条线条小鱼。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_assessment_graph_basis_e2c0849001",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_2d01602db3",
+            "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_1800af14f7",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_152876eee8",
+            "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_65e8ea4245",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_fecb2a952f",
+            "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_3c878aaef4",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": false,
+        "preview_only": true,
+        "formal_apply": false
+      },
+      "reflection": {
+        "section_id": "reflection",
+        "title": "八、课堂后记",
+        "items": [
+          "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+        ],
+        "classification": "r114c_before_class_reflection_gap",
+        "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+        "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "reflection"
+          },
+          {
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "看鱼图片，说一说鱼身上有什么线条",
+              "教师示范用波浪线、折线、点线装饰鱼",
+              "学生画一条线条小鱼"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "reflection"
+          }
+        ],
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_graph_basis_4b2900b524",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_6bdb2b5299",
+            "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "teacher_review_required": true,
+        "pass_with_gaps": true,
+        "preview_only": true,
+        "formal_apply": false
+      }
+    },
+    "section_patch_order": [
+      "basis",
+      "analysis",
+      "goals",
+      "keypoints",
+      "preparation",
+      "assessment",
+      "reflection"
+    ],
+    "source_capsules": [
+      {
+        "capsule_id": "r114c_basis_graph_basis_2e65b48e9a",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "lesson_identity.title",
+        "claim_id": "r114a_claim_0dfd855289",
+        "source_excerpt": "课题：线条小鱼",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_basis_graph_basis_49b9d1e9c1",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "lesson_identity.unit",
+        "claim_id": "r114a_claim_6c7fdf5ccc",
+        "source_excerpt": "单元：上传教案单元待确认",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_basis_graph_basis_05da32fdbe",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "lesson_identity.grade",
+        "claim_id": "r114a_claim_7745292fac",
+        "source_excerpt": "年级：二年级",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_basis_graph_basis_e9515d0026",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_basis_confirm_8e31434f48",
+        "label": "需确认",
+        "kind": "confirm",
+        "graph_path": "teacher_confirmation_gaps",
+        "claim_id": null,
+        "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_graph_basis_ac49172425",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_graph_basis_02b8b9b477",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.1",
+        "claim_id": "r114a_claim_2d01602db3",
+        "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_graph_basis_4af6bcbdbc",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.2",
+        "claim_id": "r114a_claim_152876eee8",
+        "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_graph_basis_b734d60838",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.3",
+        "claim_id": "r114a_claim_fecb2a952f",
+        "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+        "label": "需确认",
+        "kind": "confirm",
+        "graph_path": "teacher_confirmation_gaps",
+        "claim_id": null,
+        "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_goals_graph_basis_2d00c48ed9",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_keypoints_graph_basis_5890e1db8a",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_keypoints_graph_basis_135cb701c2",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.1",
+        "claim_id": "r114a_claim_2d01602db3",
+        "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_keypoints_graph_basis_270fd8391c",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.2",
+        "claim_id": "r114a_claim_152876eee8",
+        "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_keypoints_graph_basis_d5c97bfc89",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.3",
+        "claim_id": "r114a_claim_fecb2a952f",
+        "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_preparation_graph_basis_c7871218e0",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "claim_id": "r114a_claim_083f6ea56c",
+        "source_excerpt": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_preparation_confirm_55bbb55503",
+        "label": "需确认",
+        "kind": "confirm",
+        "graph_path": "teacher_confirmation_gaps",
+        "claim_id": null,
+        "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_assessment_graph_basis_e2c0849001",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.1",
+        "claim_id": "r114a_claim_2d01602db3",
+        "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_assessment_graph_basis_1800af14f7",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.2",
+        "claim_id": "r114a_claim_152876eee8",
+        "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_assessment_graph_basis_65e8ea4245",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teaching_causal_chain.3",
+        "claim_id": "r114a_claim_fecb2a952f",
+        "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_assessment_graph_basis_3c878aaef4",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_reflection_graph_basis_4b2900b524",
+        "label": "理解图依据",
+        "kind": "graph_basis",
+        "graph_path": "core_learning_transformation",
+        "claim_id": "r114a_claim_6bdb2b5299",
+        "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      },
+      {
+        "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+        "label": "需确认",
+        "kind": "confirm",
+        "graph_path": "teacher_confirmation_gaps",
+        "claim_id": null,
+        "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+        "display_mode": "click_to_show_graph_basis",
+        "click_action": "show_graph_source_basis"
+      }
+    ],
+    "process_projection": {
+      "status": "projected_from_R114B",
+      "process_step_count": 3,
+      "items": [
+        {
+          "step_id": "TEACHER_EXEC_01",
+          "title": "看鱼图片，说一说鱼身上有什么线条",
+          "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "evidence_to_watch": [],
+          "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+          "source_claim_id": "r114a_claim_2d01602db3",
+          "source_claim_type": "teacher_confirm_required",
+          "teacher_review_required": true
+        },
+        {
+          "step_id": "TEACHER_EXEC_02",
+          "title": "教师示范用波浪线、折线、点线装饰鱼",
+          "teacher_move": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+          "student_action": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+          "evidence_to_watch": [],
+          "likely_stuck_point": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+          "xiaojiao_support": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+          "source_claim_id": "r114a_claim_152876eee8",
+          "source_claim_type": "source_interpretation",
+          "teacher_review_required": false
+        },
+        {
+          "step_id": "TEACHER_EXEC_03",
+          "title": "学生画一条线条小鱼",
+          "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "evidence_to_watch": [],
+          "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+          "source_claim_id": "r114a_claim_fecb2a952f",
+          "source_claim_type": "teacher_confirm_required",
+          "teacher_review_required": true
+        }
+      ],
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "teacher_review_queue": [
+      {
+        "review_id": "r114a_claim_f557c1d3a2",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_083f6ea56c",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_2d01602db3",
+        "source": "R114B.classroom_flow",
+        "text": "看鱼图片，说一说鱼身上有什么线条 的现场推进依据需要教师确认。",
+        "source_evidence": [
+          "看鱼图片，说一说鱼身上有什么线条。"
+        ],
+        "required_before": "classroom_execution"
+      },
+      {
+        "review_id": "r114a_claim_fecb2a952f",
+        "source": "R114B.classroom_flow",
+        "text": "学生画一条线条小鱼 的现场推进依据需要教师确认。",
+        "source_evidence": [
+          "学生画一条线条小鱼。"
+        ],
+        "required_before": "classroom_execution"
+      }
+    ],
+    "field_projection_basis": {
+      "status": "projected_from_graph_in_R114C",
+      "field_projection_performed": true,
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "formal_apply_performed": false
+    },
+    "old_chain_usage": {
+      "official_unit_field_prompt_standard_readonly_used": true,
+      "R82_readonly_used": true,
+      "R88_readonly_used": true,
+      "R90A_readonly_used": true,
+      "old_generation_chain_modified": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R82_modified": false,
+      "R88_modified": false,
+      "R89_modified": false,
+      "R90A_modified": false,
+      "R90B_modified": false
+    },
+    "resource_summary": {
+      "paths": {
+        "official_unit_field_prompt_standard_v1": "D:\\Documents\\SmartEdu\\xiaobei-core\\docs\\contracts\\official_unit_field_prompt_standard_v1.json",
+        "R82_prompt_contract": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R82_LESSON_GENERATION_REQUEST_RESPONSE_CONTRACT\\lesson_generation_prompt_contract_1013R_R82.md",
+        "R88_field_lab_ledger": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R88_FIELD_GENERATION_QUALITY_STATIC_LAB\\field_generation_quality_static_lab_ledger_1013R_R88.json",
+        "R90A_profile_manifest": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R90A_TRUE_GENERATION_CONTRACT_AND_PROFILE_PREFLIGHT\\r90a_art_lesson_design_profile_manifest_1013R_R90A.json"
+      },
+      "loaded": {
+        "official_unit_field_prompt_standard_v1": true,
+        "R82_prompt_contract": true,
+        "R88_field_lab_ledger": true,
+        "R90A_profile_manifest": true
+      },
+      "official_prompt_usage": "小备追问、候选生成、字段解释，不用于直接生成完整课时教案。",
+      "field_prompt_summaries": [
+        {
+          "official_field_name": "学情分析",
+          "teacher_friendly_name": "学生现在什么基础",
+          "xiaobei_prompt": "这批学生在这个主题上已有怎样的经验？他们容易感兴趣的点是什么？可能遇到的困难是什么？",
+          "avoid": [
+            "只写学生年龄特点，没有写和本单元主题相关的基础。",
+            "只写学生兴趣高，没有指出可能困难。",
+            "把学情分析写成教学目标。"
+          ]
+        },
+        {
+          "official_field_name": "单元学习目标",
+          "teacher_friendly_name": "学完学生会什么、懂什么、能表达什么",
+          "xiaobei_prompt": "学完这个单元，学生能看懂什么、会做什么、能用作品或语言表达什么？",
+          "avoid": [
+            "用教师行为表述，如讲授、引导。",
+            "目标太多太散。",
+            "没有可观察的学习结果。"
+          ]
+        },
+        {
+          "official_field_name": "学习任务",
+          "teacher_friendly_name": "每一步学生要完成什么",
+          "xiaobei_prompt": "这一阶段学生要完成什么任务？请写成学生能理解的任务目标，不要写成具体步骤堆叠。",
+          "avoid": [
+            "把学习任务写成教师讲解内容。",
+            "和学习活动混成一串动作。",
+            "没有对应学习证据。"
+          ]
+        },
+        {
+          "official_field_name": "学习活动",
+          "teacher_friendly_name": "课堂上具体做什么",
+          "xiaobei_prompt": "请写学生在课堂上具体要做什么，尽量用观察、讨论、尝试、创作、展示等动词开头。",
+          "avoid": [
+            "只写教师讲授。",
+            "动作不清楚，学生不知道做什么。",
+            "没有材料或过程支架。"
+          ]
+        },
+        {
+          "official_field_name": "学习评价",
+          "teacher_friendly_name": "这一阶段怎么看学生学得怎么样",
+          "xiaobei_prompt": "这一阶段学生完成得怎么样，老师看什么证据？可以从过程、作品、表达、记录四个角度写。",
+          "avoid": [
+            "写成打分。",
+            "评价和学习任务不对应。",
+            "只评价作品，不看交流和过程。"
+          ]
+        }
+      ],
+      "R82_excerpt": "# 1013R R82 Lesson Generation Prompt Contract R82 只定义未来模型调用的 prompt/request/response 契约，不执行模型调用。 ## System Prompt 你是师维备课室的小教。你只把教师意图转成结构化备课候选，不写正式教案，不覆盖页面原文，不生成正文独立蓝卡，不调用外部工具。你必须先继承大单元主线，再推演单课成立逻辑，再映射到 R81 的 14 个单课 schema key，再生成字段候选和教学过程行级契约。 ## Hard Rules 1. 只输出 JSON 对象。第一个字符必须是 `{`，最后一个字符必须是 `}`。 2. 不要 markdown，不要代码块，不要解释文字。 3. 不要输出完整正式教案；只输出结构化推演、字段落点、行级契约、候选补丁、影响范围和教师确认信息。 4. `schema_key` 必须来自 R81 的 14 个单课字段。 5. `target_section` 必须来自 R81 的目标区段，不允许输出中文区段名或旧字段名。 6. `field_patch_candidates` 必须是数组。 7. `step_reasoning_updates` 必须是数组；如果本次不改教学过程，可以是空数组。 8. 每个候选必须带 `schema_key`、`canonical_field_key`、`target_field_key`、`target_line_contract_id`、`target_destination`。 9. `target_destination` 只能是…",
+      "R88_slot_count": 0,
+      "R90A_profile_id": "art_lesson_design_profile_v1",
+      "R90A_total_profile_fields": null
+    },
+    "projection_quality": {
+      "status": "PASS_WITH_GAPS",
+      "field_count": 7,
+      "teacher_review_required": true,
+      "reason": "字段候选来自理解图和执行地图，但教材页码、真实班情和正式采用仍需教师确认。"
+    }
+  },
+  "field_candidates": {
+    "basis": {
+      "section_id": "basis",
+      "title": "一、本课依据",
+      "items": [
+        "本课依据上传原稿定位为二年级《线条小鱼》，所属单元为“上传教案单元待确认”。",
+        "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+        "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+      ],
+      "classification": "r114c_graph_basis_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_0dfd855289",
+          "claim_type": "source_fact",
+          "graph_path": "lesson_identity.title",
+          "text": "课题：线条小鱼",
+          "source_evidence": [
+            "线条小鱼"
+          ],
+          "confidence": 0.92,
+          "teacher_review_required": false,
+          "section_id": "basis"
+        },
+        {
+          "claim_id": "r114a_claim_6c7fdf5ccc",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "lesson_identity.unit",
+          "text": "单元：上传教案单元待确认",
+          "source_evidence": [],
+          "confidence": 0.2,
+          "teacher_review_required": true,
+          "section_id": "basis"
+        },
+        {
+          "claim_id": "r114a_claim_7745292fac",
+          "claim_type": "source_fact",
+          "graph_path": "lesson_identity.grade",
+          "text": "年级：二年级",
+          "source_evidence": [
+            "二年级"
+          ],
+          "confidence": 0.9,
+          "teacher_review_required": false,
+          "section_id": "basis"
+        },
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "basis"
+        },
+        {
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "source_evidence": [],
+          "confidence": 0.9,
+          "teacher_review_required": true,
+          "section_id": "basis"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_basis_graph_basis_2e65b48e9a",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "lesson_identity.title",
+          "claim_id": "r114a_claim_0dfd855289",
+          "source_excerpt": "课题：线条小鱼",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_basis_graph_basis_49b9d1e9c1",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "lesson_identity.unit",
+          "claim_id": "r114a_claim_6c7fdf5ccc",
+          "source_excerpt": "单元：上传教案单元待确认",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_basis_graph_basis_05da32fdbe",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "lesson_identity.grade",
+          "claim_id": "r114a_claim_7745292fac",
+          "source_excerpt": "年级：二年级",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_basis_graph_basis_e9515d0026",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_basis_confirm_8e31434f48",
+          "label": "需确认",
+          "kind": "confirm",
+          "graph_path": "teacher_confirmation_gaps",
+          "claim_id": null,
+          "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": true,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "analysis": {
+      "section_id": "analysis",
+      "title": "二、学情分析",
+      "items": [
+        "二年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+        "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+      ],
+      "classification": "r114c_graph_analysis_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "analysis"
+        },
+        {
+          "claim_id": "r114a_claim_2d01602db3",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.1",
+          "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "analysis"
+        },
+        {
+          "claim_id": "r114a_claim_152876eee8",
+          "claim_type": "source_interpretation",
+          "graph_path": "teaching_causal_chain.2",
+          "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "source_evidence": [
+            "教师示范用波浪线、折线、点线装饰鱼。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false,
+          "section_id": "analysis"
+        },
+        {
+          "claim_id": "r114a_claim_fecb2a952f",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.3",
+          "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "学生画一条线条小鱼。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "analysis"
+        },
+        {
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "source_evidence": [],
+          "confidence": 0.9,
+          "teacher_review_required": true,
+          "section_id": "analysis"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_analysis_graph_basis_ac49172425",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_analysis_graph_basis_02b8b9b477",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.1",
+          "claim_id": "r114a_claim_2d01602db3",
+          "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_analysis_graph_basis_4af6bcbdbc",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.2",
+          "claim_id": "r114a_claim_152876eee8",
+          "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_analysis_graph_basis_b734d60838",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.3",
+          "claim_id": "r114a_claim_fecb2a952f",
+          "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+          "label": "需确认",
+          "kind": "confirm",
+          "graph_path": "teacher_confirmation_gaps",
+          "claim_id": null,
+          "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": true,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "goals": {
+      "section_id": "goals",
+      "title": "三、教学目标",
+      "items": [
+        "学生能围绕本课任务完成一次有目标的观察、尝试或表达。",
+        "学生能说出自己的学习发现、方法选择或作品特点。",
+        "学生能在交流中用课堂证据说明自己的学习成果。"
+      ],
+      "classification": "r114c_graph_goal_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "goals"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_goals_graph_basis_2d00c48ed9",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": false,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "keypoints": {
+      "section_id": "keypoints",
+      "title": "四、教学重难点",
+      "items": [
+        "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。",
+        "难点：让学生说清方法选择和学习成果之间的关系。"
+      ],
+      "classification": "r114c_graph_keypoint_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "keypoints"
+        },
+        {
+          "claim_id": "r114a_claim_2d01602db3",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.1",
+          "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "keypoints"
+        },
+        {
+          "claim_id": "r114a_claim_152876eee8",
+          "claim_type": "source_interpretation",
+          "graph_path": "teaching_causal_chain.2",
+          "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "source_evidence": [
+            "教师示范用波浪线、折线、点线装饰鱼。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false,
+          "section_id": "keypoints"
+        },
+        {
+          "claim_id": "r114a_claim_fecb2a952f",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.3",
+          "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "学生画一条线条小鱼。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "keypoints"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_keypoints_graph_basis_5890e1db8a",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_keypoints_graph_basis_135cb701c2",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.1",
+          "claim_id": "r114a_claim_2d01602db3",
+          "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_keypoints_graph_basis_270fd8391c",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.2",
+          "claim_id": "r114a_claim_152876eee8",
+          "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_keypoints_graph_basis_d5c97bfc89",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.3",
+          "claim_id": "r114a_claim_fecb2a952f",
+          "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": false,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "preparation": {
+      "section_id": "preparation",
+      "title": "五、教学准备",
+      "items": [
+        "材料、工具、大屏资源和安全安排需教师根据本班条件确认。"
+      ],
+      "classification": "r114c_graph_preparation_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "source_evidence": [],
+          "confidence": 0.9,
+          "teacher_review_required": true,
+          "section_id": "preparation"
+        },
+        {
+          "claim_id": "r114a_claim_083f6ea56c",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teacher_confirmation_gaps.student_preparation",
+          "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+          "source_evidence": [],
+          "confidence": 0.7,
+          "teacher_review_required": true,
+          "section_id": "preparation"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_preparation_graph_basis_c7871218e0",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teacher_confirmation_gaps.student_preparation",
+          "claim_id": "r114a_claim_083f6ea56c",
+          "source_excerpt": "学生准备未在原文中形成稳定条目，需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_preparation_confirm_55bbb55503",
+          "label": "需确认",
+          "kind": "confirm",
+          "graph_path": "teacher_confirmation_gaps",
+          "claim_id": null,
+          "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": true,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "assessment": {
+      "section_id": "assessment",
+      "title": "七、学习单与评价",
+      "items": [
+        "观察证据：看鱼图片，说一说鱼身上有什么线条，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "观察证据：教师示范用波浪线、折线、点线装饰鱼，用于在学生动手前提供可选择的制作路径和安全边界。",
+        "观察证据：学生画一条线条小鱼，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。"
+      ],
+      "classification": "r114c_graph_assessment_projection",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_2d01602db3",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.1",
+          "text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "assessment"
+        },
+        {
+          "claim_id": "r114a_claim_152876eee8",
+          "claim_type": "source_interpretation",
+          "graph_path": "teaching_causal_chain.2",
+          "text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "source_evidence": [
+            "教师示范用波浪线、折线、点线装饰鱼。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false,
+          "section_id": "assessment"
+        },
+        {
+          "claim_id": "r114a_claim_fecb2a952f",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teaching_causal_chain.3",
+          "text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "学生画一条线条小鱼。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true,
+          "section_id": "assessment"
+        },
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "assessment"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_assessment_graph_basis_e2c0849001",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.1",
+          "claim_id": "r114a_claim_2d01602db3",
+          "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_assessment_graph_basis_1800af14f7",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.2",
+          "claim_id": "r114a_claim_152876eee8",
+          "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_assessment_graph_basis_65e8ea4245",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teaching_causal_chain.3",
+          "claim_id": "r114a_claim_fecb2a952f",
+          "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_assessment_graph_basis_3c878aaef4",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": false,
+      "preview_only": true,
+      "formal_apply": false
+    },
+    "reflection": {
+      "section_id": "reflection",
+      "title": "八、课堂后记",
+      "items": [
+        "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+      ],
+      "classification": "r114c_before_class_reflection_gap",
+      "projection_policy": "从 R114A 理解图和 R114B 教师执行地图投影；保留教师确认缺口。",
+      "projection_source": "R114A_understanding_graph + R114B_teacher_execution_map",
+      "graph_basis": [
+        {
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "claim_type": "teacher_confirm_required",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "source_evidence": [],
+          "confidence": 0.9,
+          "teacher_review_required": true,
+          "section_id": "reflection"
+        },
+        {
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "claim_type": "source_interpretation",
+          "graph_path": "core_learning_transformation",
+          "text": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条",
+            "教师示范用波浪线、折线、点线装饰鱼",
+            "学生画一条线条小鱼"
+          ],
+          "confidence": 0.72,
+          "teacher_review_required": false,
+          "section_id": "reflection"
+        }
+      ],
+      "source_capsules": [
+        {
+          "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "teacher_confirmation_gaps.textbook_page",
+          "claim_id": "r114a_claim_f557c1d3a2",
+          "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_reflection_graph_basis_4b2900b524",
+          "label": "理解图依据",
+          "kind": "graph_basis",
+          "graph_path": "core_learning_transformation",
+          "claim_id": "r114a_claim_6bdb2b5299",
+          "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        },
+        {
+          "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+          "label": "需确认",
+          "kind": "confirm",
+          "graph_path": "teacher_confirmation_gaps",
+          "claim_id": null,
+          "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+          "display_mode": "click_to_show_graph_basis",
+          "click_action": "show_graph_source_basis"
+        }
+      ],
+      "teacher_review_required": true,
+      "pass_with_gaps": true,
+      "preview_only": true,
+      "formal_apply": false
+    }
+  },
+  "section_patch_order": [
+    "basis",
+    "analysis",
+    "goals",
+    "keypoints",
+    "preparation",
+    "assessment",
+    "reflection"
+  ],
+  "source_capsules": [
+    {
+      "capsule_id": "r114c_basis_graph_basis_2e65b48e9a",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "lesson_identity.title",
+      "claim_id": "r114a_claim_0dfd855289",
+      "source_excerpt": "课题：线条小鱼",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_basis_graph_basis_49b9d1e9c1",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "lesson_identity.unit",
+      "claim_id": "r114a_claim_6c7fdf5ccc",
+      "source_excerpt": "单元：上传教案单元待确认",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_basis_graph_basis_05da32fdbe",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "lesson_identity.grade",
+      "claim_id": "r114a_claim_7745292fac",
+      "source_excerpt": "年级：二年级",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_basis_graph_basis_e9515d0026",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teacher_confirmation_gaps.textbook_page",
+      "claim_id": "r114a_claim_f557c1d3a2",
+      "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_basis_confirm_8e31434f48",
+      "label": "需确认",
+      "kind": "confirm",
+      "graph_path": "teacher_confirmation_gaps",
+      "claim_id": null,
+      "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_graph_basis_ac49172425",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_graph_basis_02b8b9b477",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.1",
+      "claim_id": "r114a_claim_2d01602db3",
+      "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_graph_basis_4af6bcbdbc",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.2",
+      "claim_id": "r114a_claim_152876eee8",
+      "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_graph_basis_b734d60838",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.3",
+      "claim_id": "r114a_claim_fecb2a952f",
+      "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teacher_confirmation_gaps.textbook_page",
+      "claim_id": "r114a_claim_f557c1d3a2",
+      "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+      "label": "需确认",
+      "kind": "confirm",
+      "graph_path": "teacher_confirmation_gaps",
+      "claim_id": null,
+      "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_goals_graph_basis_2d00c48ed9",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_keypoints_graph_basis_5890e1db8a",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_keypoints_graph_basis_135cb701c2",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.1",
+      "claim_id": "r114a_claim_2d01602db3",
+      "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_keypoints_graph_basis_270fd8391c",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.2",
+      "claim_id": "r114a_claim_152876eee8",
+      "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_keypoints_graph_basis_d5c97bfc89",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.3",
+      "claim_id": "r114a_claim_fecb2a952f",
+      "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teacher_confirmation_gaps.textbook_page",
+      "claim_id": "r114a_claim_f557c1d3a2",
+      "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_preparation_graph_basis_c7871218e0",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teacher_confirmation_gaps.student_preparation",
+      "claim_id": "r114a_claim_083f6ea56c",
+      "source_excerpt": "学生准备未在原文中形成稳定条目，需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_preparation_confirm_55bbb55503",
+      "label": "需确认",
+      "kind": "confirm",
+      "graph_path": "teacher_confirmation_gaps",
+      "claim_id": null,
+      "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_assessment_graph_basis_e2c0849001",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.1",
+      "claim_id": "r114a_claim_2d01602db3",
+      "source_excerpt": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_assessment_graph_basis_1800af14f7",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.2",
+      "claim_id": "r114a_claim_152876eee8",
+      "source_excerpt": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_assessment_graph_basis_65e8ea4245",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teaching_causal_chain.3",
+      "claim_id": "r114a_claim_fecb2a952f",
+      "source_excerpt": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_assessment_graph_basis_3c878aaef4",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "teacher_confirmation_gaps.textbook_page",
+      "claim_id": "r114a_claim_f557c1d3a2",
+      "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_reflection_graph_basis_4b2900b524",
+      "label": "理解图依据",
+      "kind": "graph_basis",
+      "graph_path": "core_learning_transformation",
+      "claim_id": "r114a_claim_6bdb2b5299",
+      "source_excerpt": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    },
+    {
+      "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+      "label": "需确认",
+      "kind": "confirm",
+      "graph_path": "teacher_confirmation_gaps",
+      "claim_id": null,
+      "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+      "display_mode": "click_to_show_graph_basis",
+      "click_action": "show_graph_source_basis"
+    }
+  ],
+  "process_projection": {
+    "status": "projected_from_R114B",
+    "process_step_count": 3,
+    "items": [
+      {
+        "step_id": "TEACHER_EXEC_01",
+        "title": "看鱼图片，说一说鱼身上有什么线条",
+        "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+        "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+        "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+        "source_claim_id": "r114a_claim_2d01602db3",
+        "source_claim_type": "teacher_confirm_required",
+        "teacher_review_required": true
+      },
+      {
+        "step_id": "TEACHER_EXEC_02",
+        "title": "教师示范用波浪线、折线、点线装饰鱼",
+        "teacher_move": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+        "student_action": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+        "xiaojiao_support": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+        "source_claim_id": "r114a_claim_152876eee8",
+        "source_claim_type": "source_interpretation",
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_03",
+        "title": "学生画一条线条小鱼",
+        "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+        "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+        "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+        "source_claim_id": "r114a_claim_fecb2a952f",
+        "source_claim_type": "teacher_confirm_required",
+        "teacher_review_required": true
+      }
+    ],
+    "preview_only": true,
+    "formal_apply": false
+  },
+  "agent_execution_steps": [
+    {
+      "step_id": "STEP_1_SOURCE_BOUNDARY",
+      "label": "原文接收与边界检查",
+      "status": "completed",
+      "stage_refs": [
+        "R107A",
+        "R103"
+      ],
+      "teacher_visible_text": "已完成上传文本读取和只读边界确认。"
+    },
+    {
+      "step_id": "STEP_2_FAITHFUL_UNDERSTANDING",
+      "label": "忠实理解原教案",
+      "status": "completed",
+      "stage_refs": [
+        "R112",
+        "R114A"
+      ],
+      "teacher_visible_text": "正在区分原文事实、结构理解和需要教师确认的内容。"
+    },
+    {
+      "step_id": "STEP_3_PEDAGOGICAL_JUDGEMENT",
+      "label": "教学判断与证据链",
+      "status": "needs_attention",
+      "stage_refs": [
+        "R114A"
+      ],
+      "teacher_visible_text": "正在把教学因果链和课堂证据对应起来。"
+    },
+    {
+      "step_id": "STEP_4_EXECUTION_MAP",
+      "label": "教师执行地图",
+      "status": "completed",
+      "stage_refs": [
+        "R114B"
+      ],
+      "teacher_visible_text": "已生成教师推进、学生行动、卡点和小教支持建议。"
+    },
+    {
+      "step_id": "STEP_5_FIELD_PROJECTION_REVIEW",
+      "label": "字段投影与教师确认",
+      "status": "completed",
+      "stage_refs": [
+        "R114C"
+      ],
+      "teacher_visible_text": "已从理解图和执行地图生成字段候选；正式采用前仍需教师确认。"
+    }
+  ],
+  "contamination_guard": {
+    "guard_rules": [
+      "R114C projects fields from R114A/R114B only and must not reread raw text.",
+      "Blocked sample-specific phrases from R114A must not be introduced into projected fields.",
+      "Projection creates candidates only; it must not formal apply or write storage."
+    ],
+    "blocked_phrases_from_R114A": [
+      "上一课设计草图",
+      "新鞋发布会",
+      "发布会",
+      "5句话设计故事",
+      "废旧材料",
+      "纸鞋模板"
+    ],
+    "violations": [],
+    "passed": true
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": true,
+    "field_projection_applied_to_current_lesson": false,
+    "target_shell": "R97B validation carrier only"
+  }
+}

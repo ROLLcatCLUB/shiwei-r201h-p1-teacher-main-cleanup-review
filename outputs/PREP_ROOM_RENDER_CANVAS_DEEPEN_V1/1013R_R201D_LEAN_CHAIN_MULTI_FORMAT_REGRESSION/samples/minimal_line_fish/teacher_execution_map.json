@@ -1,0 +1,254 @@
+{
+  "stage": "1013R_R114B_TEACHER_EXECUTION_MAP",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114B_model_not_enabled"
+  },
+  "input_contract": {
+    "source": "R114A understanding graph only",
+    "raw_text_used": false,
+    "reread_original_document": false,
+    "upstream_stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+    "upstream_status": "deterministic_ready"
+  },
+  "teacher_execution_map": {
+    "map_version": "teacher_execution_map_r114b_v0.1",
+    "source_graph_stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+    "lesson_title": "线条小鱼",
+    "core_learning_transformation": "本课的学习重心，可先顺着看鱼图片，说一说鱼身上有什么线条、教师示范用波浪线、折线、点线装饰鱼、学生画一条线条小鱼组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+    "execution_principles": [
+      "先保护原教案的核心任务，再补执行支架。",
+      "原文事实、系统推断和改进建议分开呈现。",
+      "教师确认缺口不能被自动写成已确认字段。"
+    ],
+    "classroom_flow": [
+      {
+        "step_id": "TEACHER_EXEC_01",
+        "episode_index": 1,
+        "source_episode_id": "r201c_numbered_sentence_parser_01",
+        "title": "看鱼图片，说一说鱼身上有什么线条",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+        "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+        "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+        "source_basis": {
+          "claim_id": "r114a_claim_2d01602db3",
+          "claim_type": "teacher_confirm_required",
+          "claim_text": "看鱼图片，说一说鱼身上有什么线条：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "看鱼图片，说一说鱼身上有什么线条。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true
+        },
+        "teacher_review_required": true
+      },
+      {
+        "step_id": "TEACHER_EXEC_02",
+        "episode_index": 2,
+        "source_episode_id": "r201c_numbered_sentence_parser_02",
+        "title": "教师示范用波浪线、折线、点线装饰鱼",
+        "why_now": "在学生动手前提供可选择的制作路径和安全边界。",
+        "teacher_move": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+        "student_action": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+        "xiaojiao_support": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+        "source_basis": {
+          "claim_id": "r114a_claim_152876eee8",
+          "claim_type": "source_interpretation",
+          "claim_text": "教师示范用波浪线、折线、点线装饰鱼：在学生动手前提供可选择的制作路径和安全边界。",
+          "source_evidence": [
+            "教师示范用波浪线、折线、点线装饰鱼。"
+          ],
+          "confidence": 0.68,
+          "teacher_review_required": false
+        },
+        "teacher_review_required": false
+      },
+      {
+        "step_id": "TEACHER_EXEC_03",
+        "episode_index": 3,
+        "source_episode_id": "r201c_numbered_sentence_parser_03",
+        "title": "学生画一条线条小鱼",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "teacher_move": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+        "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+        "evidence_to_watch": [],
+        "likely_stuck_point": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+        "xiaojiao_support": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+        "source_basis": {
+          "claim_id": "r114a_claim_fecb2a952f",
+          "claim_type": "teacher_confirm_required",
+          "claim_text": "学生画一条线条小鱼：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+          "source_evidence": [
+            "学生画一条线条小鱼。"
+          ],
+          "confidence": 0.35,
+          "teacher_review_required": true
+        },
+        "teacher_review_required": true
+      }
+    ],
+    "evidence_collection_plan": [
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_01",
+        "evidence": "看鱼图片，说一说鱼身上有什么线条",
+        "proves": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_claim_id": "r114a_claim_2d01602db3",
+        "source_claim_type": "teacher_confirm_required",
+        "suggested_moment": "TEACHER_EXEC_01",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_02",
+        "evidence": "教师示范用波浪线、折线、点线装饰鱼",
+        "proves": "在学生动手前提供可选择的制作路径和安全边界。",
+        "source_claim_id": "r114a_claim_152876eee8",
+        "source_claim_type": "source_interpretation",
+        "suggested_moment": "TEACHER_EXEC_02",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      },
+      {
+        "evidence_id": "derived_from_TEACHER_EXEC_03",
+        "evidence": "学生画一条线条小鱼",
+        "proves": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_claim_id": "r114a_claim_fecb2a952f",
+        "source_claim_type": "teacher_confirm_required",
+        "suggested_moment": "TEACHER_EXEC_03",
+        "teacher_action": "证据形式需教师根据课堂实际确认。"
+      }
+    ],
+    "teacher_review_queue": [
+      {
+        "review_id": "r114a_claim_f557c1d3a2",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_083f6ea56c",
+        "source": "R114A.teacher_confirmation_gaps",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "source_evidence": [],
+        "required_before": "formal_lesson_apply"
+      },
+      {
+        "review_id": "r114a_claim_2d01602db3",
+        "source": "R114B.classroom_flow",
+        "text": "看鱼图片，说一说鱼身上有什么线条 的现场推进依据需要教师确认。",
+        "source_evidence": [
+          "看鱼图片，说一说鱼身上有什么线条。"
+        ],
+        "required_before": "classroom_execution"
+      },
+      {
+        "review_id": "r114a_claim_fecb2a952f",
+        "source": "R114B.classroom_flow",
+        "text": "学生画一条线条小鱼 的现场推进依据需要教师确认。",
+        "source_evidence": [
+          "学生画一条线条小鱼。"
+        ],
+        "required_before": "classroom_execution"
+      }
+    ],
+    "xiaojiao_runtime_support_policy": {
+      "runtime_call_allowed": false,
+      "preview_only": true,
+      "role": "只给教师提示、检查和支架，不替教师做正式确认。"
+    },
+    "field_projection_basis": {
+      "status": "not_projected_in_R114B",
+      "field_projection_performed": false,
+      "projection_stage": "R114C"
+    }
+  },
+  "agent_execution_steps": [
+    {
+      "step_id": "STEP_1_SOURCE_BOUNDARY",
+      "label": "原文接收与边界检查",
+      "status": "completed",
+      "stage_refs": [
+        "R107A",
+        "R103"
+      ],
+      "teacher_visible_text": "已完成上传文本读取和只读边界确认。"
+    },
+    {
+      "step_id": "STEP_2_FAITHFUL_UNDERSTANDING",
+      "label": "忠实理解原教案",
+      "status": "completed",
+      "stage_refs": [
+        "R112",
+        "R114A"
+      ],
+      "teacher_visible_text": "正在区分原文事实、结构理解和需要教师确认的内容。"
+    },
+    {
+      "step_id": "STEP_3_PEDAGOGICAL_JUDGEMENT",
+      "label": "教学判断与证据链",
+      "status": "needs_attention",
+      "stage_refs": [
+        "R114A"
+      ],
+      "teacher_visible_text": "正在把教学因果链和课堂证据对应起来。"
+    },
+    {
+      "step_id": "STEP_4_EXECUTION_MAP",
+      "label": "教师执行地图",
+      "status": "completed",
+      "stage_refs": [
+        "R114B"
+      ],
+      "teacher_visible_text": "已生成教师推进、学生行动、卡点和小教支持建议。"
+    },
+    {
+      "step_id": "STEP_5_FIELD_PROJECTION_REVIEW",
+      "label": "字段投影与教师确认",
+      "status": "pending",
+      "stage_refs": [
+        "R114C"
+      ],
+      "teacher_visible_text": "下一步才会把理解图投影到备课字段，不会直接覆盖原稿。"
+    }
+  ],
+  "contamination_guard": {
+    "guard_rules": [
+      "R114B must use R114A graph only and must not reread raw text.",
+      "Blocked sample-specific phrases from R114A must not be introduced into the execution map.",
+      "Field projection remains disabled until R114C."
+    ],
+    "blocked_phrases_from_R114A": [
+      "上一课设计草图",
+      "新鞋发布会",
+      "发布会",
+      "5句话设计故事",
+      "废旧材料",
+      "纸鞋模板"
+    ],
+    "violations": [],
+    "passed": true
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": false,
+    "target_shell": "R97B validation carrier only"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "stage": "1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH",
+  "required_response_metadata": {
+    "preview_engine_requested": "auto | lean | legacy",
+    "preview_engine_selected": "lean | legacy",
+    "canary_enabled": "boolean",
+    "fallback_used": "boolean",
+    "fallback_reason": "string|null",
+    "lean_chain_available": "boolean",
+    "legacy_chain_available": "boolean",
+    "formal_apply_enabled": false,
+    "write_enabled": false
+  },
+  "location": "response.preview_engine_metadata",
+  "boundary_mirror": [
+    "boundary.preview_engine_selected",
+    "boundary.canary_enabled",
+    "boundary.fallback_used",
+    "boundary.formal_apply_enabled",
+    "boundary.write_enabled"
+  ]
+}

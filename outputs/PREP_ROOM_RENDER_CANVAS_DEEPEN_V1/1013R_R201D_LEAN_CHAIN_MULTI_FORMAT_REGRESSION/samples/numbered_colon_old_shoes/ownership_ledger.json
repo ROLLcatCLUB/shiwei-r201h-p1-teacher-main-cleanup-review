@@ -1,0 +1,409 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "teacher_main_entry_count": 66,
+  "teacher_main_source_counts": {
+    "R114_execution_map": 50,
+    "R114_field_projection": 14,
+    "uploaded_source": 2
+  },
+  "forbidden_source_hits": [],
+  "source_gap_as_content_hits": [],
+  "entries": [
+    {
+      "path": "lesson_header.lesson_title",
+      "text": "《足下生辉》旧鞋改造设计课",
+      "source_type": "uploaded_source",
+      "role": "header"
+    },
+    {
+      "path": "basis[0].body[0]",
+      "text": "本课依据上传原稿定位为三年级《《足下生辉》旧鞋改造设计课》，所属单元为“第五单元 足下生辉”。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "basis[0].body[1]",
+      "text": "本课的学习重心，是让学生带着前序设计进入制作现场，在材料选择、结构处理和作品说明中，把原来的想法做出来、说清楚。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "basis[0].body[2]",
+      "text": "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。",
+      "source_type": "R114_field_projection",
+      "role": "basis"
+    },
+    {
+      "path": "student_analysis[0].body[0]",
+      "text": "三年级学生进入本课时，可能先卡在这里：学生可能把制作理解成自由装饰，而不是实现原有设计意图。",
+      "source_type": "R114_field_projection",
+      "role": "student_analysis"
+    },
+    {
+      "path": "objectives[0].body[0]",
+      "text": "学生能用线条和形状画出鞋的基本轮廓、主要结构和至少一处局部细节，画面依据来自实际观察。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "objectives[0].body[1]",
+      "text": "学生能在交流中指出作品中的一个观察证据，并根据同伴或教师提示完成一处调整。",
+      "source_type": "R114_field_projection",
+      "role": "objectives"
+    },
+    {
+      "path": "key_difficult_points[0].body[0]",
+      "text": "重点：引导学生从真实鞋或图片中观察不同角度的外形、结构和局部细节，并把观察发现转化为线描表达。",
+      "source_type": "R114_field_projection",
+      "role": "key_difficult_points"
+    },
+    {
+      "path": "key_difficult_points[0].body[1]",
+      "text": "表达难点：把作品说明从“好看”推进到对象、问题、材料方法和改进依据。",
+      "source_type": "R114_field_projection",
+      "role": "key_difficult_points"
+    },
+    {
+      "path": "preparation[0].body[0]",
+      "text": "上传原文未明确提供，需教师补充。",
+      "source_type": "R114_field_projection",
+      "role": "preparation"
+    },
+    {
+      "path": "assessment_or_homework[0].body[0]",
+      "text": "观察证据：回顾草图与任务确认，用于先回到前序设计依据，避免学生脱离原设计随意制作。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[1]",
+      "text": "观察证据：制作路径讨论，用于把设计想法放到材料和结构中验证，形成过程证据。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[2]",
+      "text": "观察证据：旧鞋作品制作，用于把设计想法放到材料和结构中验证，形成过程证据。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[0].body[3]",
+      "text": "表达评价关注学生是否能说明对象、问题、材料方法、满意处和改进想法。",
+      "source_type": "R114_field_projection",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "assessment_or_homework[1].body[0]",
+      "text": "评价证据：学生是否带来并使用草图；作品是否体现旧鞋改造；材料选择是否服务设计意图；5句话设计故事是否能说明作品；发布会是否有作品和故事卡。",
+      "source_type": "uploaded_source",
+      "role": "assessment_or_homework"
+    },
+    {
+      "path": "reflection_or_notes[0].body[0]",
+      "text": "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。",
+      "source_type": "R114_field_projection",
+      "role": "reflection_or_notes"
+    },
+    {
+      "path": "process_episodes[0].episode_title",
+      "text": "回顾草图与任务确认",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[0].episode_goal",
+      "text": "学生能观察真实鞋或图片，说出一个外形、角度或局部细节上的发现",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[0].teacher_organization",
+      "text": "出示真实鞋或多角度鞋图，请学生先说看得见的外形、角度和局部差异，把问题收束到“怎样把观察到的鞋画出来”。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[0].student_learning",
+      "text": "观察真实鞋或图片，说出一个外形、角度或局部细节上的发现。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[0].xiaojiao_hint",
+      "text": "小教提示教师追问：你今天最想把草图里的哪一点做出来？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].step_name",
+      "text": "回顾草图与任务确认",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].teacher_action",
+      "text": "出示真实鞋或多角度鞋图，请学生先说看得见的外形、角度和局部差异，把问题收束到“怎样把观察到的鞋画出来”。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].student_action",
+      "text": "观察真实鞋或图片，说出一个外形、角度或局部细节上的发现。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].scaffolds",
+      "text": "学生可能忘带或说不清设计依据，后续制作容易变成随意装饰。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[0].micro_steps[0].evidence",
+      "text": "回顾草图与任务确认 5分钟：学生拿出上一课设计草图，说明今天准备把旧鞋改造成什么。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[1].episode_title",
+      "text": "制作路径讨论",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[1].episode_goal",
+      "text": "学生能边做边检查作品是否回应原任务，遇到困难先说明卡在哪里",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[1].teacher_organization",
+      "text": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[1].student_learning",
+      "text": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[1].xiaojiao_hint",
+      "text": "小教只提示教师追问原文任务，不替学生生成答案。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].step_name",
+      "text": "制作路径讨论",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].teacher_action",
+      "text": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].student_action",
+      "text": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].scaffolds",
+      "text": "需教师根据学生现场表现确认支架。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[1].micro_steps[0].evidence",
+      "text": "制作路径讨论 8分钟：教师组织学生比较粘贴、包裹、添加、绘制等制作路径，确认材料如何服务设计意图。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[2].episode_title",
+      "text": "旧鞋作品制作",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[2].episode_goal",
+      "text": "学生能边做边检查作品是否回应原任务，遇到困难先说明卡在哪里",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[2].teacher_organization",
+      "text": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[2].student_learning",
+      "text": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[2].xiaojiao_hint",
+      "text": "小教可给出巡视提示：先看大轮廓，再问这条线对应鞋的哪一部分。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].step_name",
+      "text": "旧鞋作品制作",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].teacher_action",
+      "text": "巡视时优先看三件事：是否对照设计依据、材料是否服务造型或功能、困难学生是否需要模板或同伴支持。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].student_action",
+      "text": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].scaffolds",
+      "text": "需教师根据学生现场表现确认支架。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[2].micro_steps[0].evidence",
+      "text": "旧鞋作品制作 22分钟：学生根据草图改造旧鞋，教师巡视材料连接、结构稳定和工具安全。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[3].episode_title",
+      "text": "5句话设计故事",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[3].episode_goal",
+      "text": "学生能用简短语言说明作品对象、解决的问题、材料方法、满意处和改进想法",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[3].teacher_organization",
+      "text": "把表达任务变成证据结构：对象、问题、材料方法、满意处和可改进处，让学生用作品说明设计理由。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[3].student_learning",
+      "text": "用简短语言说明作品对象、解决的问题、材料方法、满意处和改进想法。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[3].xiaojiao_hint",
+      "text": "小教可把表达任务变成句式支架，但不替学生编设计理由。",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].step_name",
+      "text": "5句话设计故事",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].teacher_action",
+      "text": "把表达任务变成证据结构：对象、问题、材料方法、满意处和可改进处，让学生用作品说明设计理由。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].student_action",
+      "text": "用简短语言说明作品对象、解决的问题、材料方法、满意处和改进想法。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].scaffolds",
+      "text": "学生可能只说好看，不说明对象、问题、材料方法和改进依据。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[3].micro_steps[0].evidence",
+      "text": "5句话设计故事 7分钟：学生围绕作品对象、解决的问题、材料方法、满意处和改进处写下设计故事。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    },
+    {
+      "path": "process_episodes[4].episode_title",
+      "text": "新鞋发布会准备",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_title"
+    },
+    {
+      "path": "process_episodes[4].episode_goal",
+      "text": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "source_type": "R114_execution_map",
+      "role": "episode.episode_goal"
+    },
+    {
+      "path": "process_episodes[4].teacher_organization",
+      "text": "收集作品或过程证据，说明后续展示还要准备什么，并把未定安排交给教师确认。",
+      "source_type": "R114_execution_map",
+      "role": "episode.teacher_organization"
+    },
+    {
+      "path": "process_episodes[4].student_learning",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "episode.student_learning"
+    },
+    {
+      "path": "process_episodes[4].xiaojiao_hint",
+      "text": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "source_type": "R114_execution_map",
+      "role": "episode.xiaojiao_hint"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].step_name",
+      "text": "新鞋发布会准备",
+      "source_type": "R114_execution_map",
+      "role": "micro.step_name"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].teacher_action",
+      "text": "收集作品或过程证据，说明后续展示还要准备什么，并把未定安排交给教师确认。",
+      "source_type": "R114_execution_map",
+      "role": "micro.teacher_action"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].student_action",
+      "text": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "source_type": "R114_execution_map",
+      "role": "micro.student_action"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].scaffolds",
+      "text": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+      "source_type": "R114_execution_map",
+      "role": "micro.scaffolds"
+    },
+    {
+      "path": "process_episodes[4].micro_steps[0].evidence",
+      "text": "新鞋发布会准备 3分钟：学生整理作品和故事卡，准备下一环节展示发布。",
+      "source_type": "R114_execution_map",
+      "role": "micro.evidence"
+    }
+  ]
+}

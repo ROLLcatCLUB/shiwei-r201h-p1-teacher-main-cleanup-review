@@ -1,0 +1,68 @@
+{
+  "stage": "1013R_R201H_READABILITY_FIX_MINI_LOOP",
+  "status": "PASS",
+  "checks": {
+    "R201F_validator_pass": true,
+    "R201D_validator_pass": true,
+    "R201G_validator_pass": true,
+    "formal_downpour_sample_used": true,
+    "line_fish_not_used_in_R201G": true,
+    "episode_goal_teacher_organization_duplicate_count_zero": true,
+    "generic_front_matter_phrase_count_zero": true,
+    "table_markdown_syntax_in_teacher_main_zero": true,
+    "formal_downpour_cross_topic_terms_zero": true,
+    "source_gap_as_content_zero": true,
+    "teacher_main_R200A_R200B_R97B_zero": true,
+    "no_formal_apply": true,
+    "no_database_write": true,
+    "no_R95": true,
+    "no_provider_model_call": true
+  },
+  "validator_runs": [
+    {
+      "script": "validate_1013r_r201f_default_readonly_preview_canary_switch.py",
+      "returncode": 0,
+      "stdout_tail": "ure_flag_contract\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_canary_feature_flag_contract.json\",\n    \"route_selection_policy\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_route_selection_policy.md\",\n    \"fallback_and_rollback_policy\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_fallback_and_rollback_policy.md\",\n    \"response_metadata_contract\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_response_metadata_contract.json\",\n    \"canary_smoke_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_canary_smoke_matrix.json\",\n    \"old_vs_lean_comparison_artifacts\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\r201f_old_vs_lean_comparison_artifacts\",\n    \"validation_result\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201F_DEFAULT_READONLY_PREVIEW_CANARY_SWITCH\\\\validate_1013R_R201F_default_readonly_preview_canary_switch_result.json\"\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "validate_1013r_r201d_lean_chain_multi_format_regression.py",
+      "returncode": 0,
+      "stdout_tail": "se,\n    \"feishu_written\": false,\n    \"memory_written\": false,\n    \"pptx_pdf_docx_generated\": false,\n    \"R21_modified\": false,\n    \"R36_modified\": false,\n    \"R95_executed\": false,\n    \"provider_called\": false,\n    \"model_called\": false\n  },\n  \"outputs\": {\n    \"sample_manifest\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_sample_manifest.json\",\n    \"parser_selection_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_parser_selection_matrix.json\",\n    \"multi_format_regression_report\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_multi_format_regression_report.md\",\n    \"failure_cases_if_any\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\r201d_failure_cases_if_any.md\",\n    \"samples\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\samples\",\n    \"validation_result\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201D_LEAN_CHAIN_MULTI_FORMAT_REGRESSION\\\\validate_1013R_R201D_lean_chain_multi_format_regression_result.json\"\n  }\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "script": "validate_1013r_r201g_canary_manual_teacher_readability_smoke.py",
+      "returncode": 0,
+      "stdout_tail": "iew_engine_requested\": \"auto\",\n        \"preview_engine_selected\": \"lean\",\n        \"canary_enabled\": true,\n        \"fallback_used\": false,\n        \"fallback_reason\": null,\n        \"lean_chain_available\": true,\n        \"legacy_chain_available\": true,\n        \"formal_apply_enabled\": false,\n        \"write_enabled\": false\n      },\n      \"issues\": [],\n      \"readability_notes\": [\n        \"教师主正文由 single_lesson_template 渲染快照生成。\",\n        \"parser/provenance/fallback 只放在开发诊断折叠区。\",\n        \"本轮只做可读性 smoke，不做内容质量增强。\"\n      ]\n    }\n  ],\n  \"outputs\": {\n    \"manifest\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_teacher_readability_sample_manifest.json\",\n    \"issue_list\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_readability_issue_list.md\",\n    \"issue_classification_matrix\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_issue_classification_matrix.json\",\n    \"next_fix_recommendation\": \"outputs\\\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\\\1013R_R201G_CANARY_MANUAL_TEACHER_READABILITY_SMOKE\\\\r201g_next_fix_recommendation.md\"\n  }\n}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "metrics": {
+    "episode_goal_teacher_organization_duplicate_count": 0,
+    "generic_front_matter_phrase_count": 0,
+    "table_markdown_syntax_in_teacher_main": 0,
+    "formal_downpour_cross_topic_terms": [],
+    "r201g_sample_count": 4
+  },
+  "outputs": {
+    "fix_scope": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_fix_scope.md",
+    "extraction_fix_report": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_extraction_fix_report.md",
+    "projection_semantics_repair": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_projection_semantics_repair.md",
+    "front_matter_projection_policy": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_front_matter_projection_policy.md",
+    "table_text_sanitizer_report": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_table_text_sanitizer_report.md",
+    "before_after_readability_comparison": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R201H_READABILITY_FIX_MINI_LOOP\\r201h_before_after_readability_comparison.md"
+  },
+  "boundary": {
+    "full_default_route_switch": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "pptx_pdf_docx_generated": false,
+    "R95_executed": false,
+    "provider_called": false,
+    "model_called": false,
+    "large_R97B_UI_redesign": false
+  }
+}

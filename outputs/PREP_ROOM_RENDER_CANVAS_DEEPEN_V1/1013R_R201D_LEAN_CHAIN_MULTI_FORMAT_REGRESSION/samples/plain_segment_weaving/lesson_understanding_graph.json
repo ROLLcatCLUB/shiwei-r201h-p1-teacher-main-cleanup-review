@@ -1,0 +1,435 @@
+{
+  "stage": "1013R_R114A_IMPORT_UNDERSTANDING_V2_GRAPH",
+  "status": "deterministic_ready",
+  "model_quality_enabled": false,
+  "provider_called": false,
+  "model_called": false,
+  "model_log": {
+    "provider_called": false,
+    "model_called": false,
+    "status": "disabled",
+    "reason_code": "R114A_model_not_enabled"
+  },
+  "graph": {
+    "graph_version": "import_understanding_v2_graph_r114a_v0.1",
+    "lesson_identity": {
+      "title": {
+        "claim_id": "r114a_claim_498c7da85d",
+        "claim_type": "source_fact",
+        "text": "课题：穿穿编编（第1课时）",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "穿穿编编（第1课时）"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      "unit": {
+        "claim_id": "r114a_claim_2f83976c0b",
+        "claim_type": "source_fact",
+        "text": "单元：第二单元 编织·纸艺",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第二单元 编织·纸艺"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      "grade": {
+        "claim_id": "r114a_claim_ce7029d813",
+        "claim_type": "source_fact",
+        "text": "年级：四年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "四年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      "period": {
+        "claim_id": "r114a_claim_8ca9d4c5e4",
+        "claim_type": "source_fact",
+        "text": "课时位置：1",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [
+          "1"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      }
+    },
+    "faithful_reconstruction": {
+      "protected_core_claim_ids": [
+        "r114a_claim_fee9fe4859"
+      ],
+      "original_design_intent_claim_id": "r114a_claim_6918e37fed",
+      "source_evidence_summary": {
+        "core_activity": "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+        "student_preparation": [],
+        "teacher_preparation": [],
+        "evidence_nodes": [],
+        "differentiation": [],
+        "homework": []
+      },
+      "do_not_rewrite_as": [
+        "generic_field_extraction",
+        "full_lesson_replacement",
+        "unverified_textbook_page",
+        "sample_specific_template_without_source_evidence"
+      ]
+    },
+    "core_learning_transformation": {
+      "claim_id": "r114a_claim_09dd6ef45d",
+      "claim_type": "source_interpretation",
+      "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+      "graph_path": "core_learning_transformation",
+      "source_evidence": [
+        "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+        "导入",
+        "历史介绍",
+        "认识经纬",
+        "教师示范",
+        "学生练习"
+      ],
+      "confidence": 0.72,
+      "teacher_review_required": false
+    },
+    "teaching_causal_chain": [
+      {
+        "episode_index": 1,
+        "source_episode_id": "uploaded_entry_episode_01",
+        "title": "导入",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "出示编织实物（竹编/藤编），引出\"编织\"主题"
+        ],
+        "claim_id": "r114a_claim_841a803c77",
+        "claim_type": "teacher_confirm_required"
+      },
+      {
+        "episode_index": 2,
+        "source_episode_id": "uploaded_entry_episode_02",
+        "title": "历史介绍",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+        ],
+        "claim_id": "r114a_claim_8933a64479",
+        "claim_type": "teacher_confirm_required"
+      },
+      {
+        "episode_index": 3,
+        "source_episode_id": "uploaded_entry_episode_03",
+        "title": "认识经纬",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+        ],
+        "claim_id": "r114a_claim_e79c726635",
+        "claim_type": "teacher_confirm_required"
+      },
+      {
+        "episode_index": 4,
+        "source_episode_id": "uploaded_entry_episode_04",
+        "title": "教师示范",
+        "why_now": "在学生动手前提供可选择的制作路径和安全边界。",
+        "source_evidence": [
+          "演示纸条编织的基本步骤（压一穿一）"
+        ],
+        "claim_id": "r114a_claim_f2fda19b42",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 5,
+        "source_episode_id": "uploaded_entry_episode_05",
+        "title": "学生练习",
+        "why_now": "把设计想法放到材料和结构中验证，形成过程证据。",
+        "source_evidence": [
+          "在教师提供的编织底稿上完成一组经纬交织练习"
+        ],
+        "claim_id": "r114a_claim_e12be00769",
+        "claim_type": "source_interpretation"
+      },
+      {
+        "episode_index": 6,
+        "source_episode_id": "uploaded_entry_episode_06",
+        "title": "小结",
+        "why_now": "该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "source_evidence": [
+          "展示优秀作品，说说编织的关键在哪里"
+        ],
+        "claim_id": "r114a_claim_f3bfa1dd54",
+        "claim_type": "teacher_confirm_required"
+      }
+    ],
+    "evidence_graph": [],
+    "student_difficulty_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。"
+      ],
+      "teacher_review_required": true
+    },
+    "teacher_support_model": {
+      "claim_type": "pedagogical_inference",
+      "items": [
+        "教师支架宜先保护原稿里的核心任务，再用追问、短示范或同伴交流帮助学生说清选择理由。"
+      ],
+      "teacher_review_required": true
+    },
+    "improvement_opportunities": [],
+    "teacher_confirmation_gaps": [
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      }
+    ],
+    "field_projection_basis": {
+      "status": "not_projected_in_R114A",
+      "field_projection_performed": false,
+      "projection_stage": "R114C",
+      "rule": "R114A only builds the understanding graph; R114C will project fields from graph nodes."
+    },
+    "r112_dependency": {
+      "stage": "1013R_R112_IMPORT_DOCUMENT_LESSON_UNDERSTANDING_PACKET",
+      "status": "deterministic_ready",
+      "used_as_initial_reading": true
+    },
+    "claim_registry": [
+      {
+        "claim_id": "r114a_claim_498c7da85d",
+        "claim_type": "source_fact",
+        "text": "课题：穿穿编编（第1课时）",
+        "graph_path": "lesson_identity.title",
+        "source_evidence": [
+          "穿穿编编（第1课时）"
+        ],
+        "confidence": 0.92,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_2f83976c0b",
+        "claim_type": "source_fact",
+        "text": "单元：第二单元 编织·纸艺",
+        "graph_path": "lesson_identity.unit",
+        "source_evidence": [
+          "第二单元 编织·纸艺"
+        ],
+        "confidence": 0.88,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_ce7029d813",
+        "claim_type": "source_fact",
+        "text": "年级：四年级",
+        "graph_path": "lesson_identity.grade",
+        "source_evidence": [
+          "四年级"
+        ],
+        "confidence": 0.9,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_8ca9d4c5e4",
+        "claim_type": "source_fact",
+        "text": "课时位置：1",
+        "graph_path": "lesson_identity.period",
+        "source_evidence": [
+          "1"
+        ],
+        "confidence": 0.86,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_fee9fe4859",
+        "claim_type": "source_fact",
+        "text": "核心活动：认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+        "graph_path": "faithful_reconstruction.protected_core.core_activity",
+        "source_evidence": [
+          "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习"
+        ],
+        "confidence": 0.85,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_09dd6ef45d",
+        "claim_type": "source_interpretation",
+        "text": "本课的学习重心，是围绕“认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。",
+        "graph_path": "core_learning_transformation",
+        "source_evidence": [
+          "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+          "导入",
+          "历史介绍",
+          "认识经纬",
+          "教师示范",
+          "学生练习"
+        ],
+        "confidence": 0.72,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_6918e37fed",
+        "claim_type": "source_interpretation",
+        "text": "本课的原始设计意图需要从目标、活动和证据节点继续确认，不宜套用其他样本的单元任务。",
+        "graph_path": "faithful_reconstruction.original_design_intent",
+        "source_evidence": [
+          "认识编织的历史，用纸条体验经纬交织，尝试完成一组基本的编织练习",
+          "出示编织实物（竹编/藤编），引出\"编织\"主题",
+          "编织的历史：七千年前席子→结绳记事→彩陶编织纹样",
+          "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+        ],
+        "confidence": 0.7,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_841a803c77",
+        "claim_type": "teacher_confirm_required",
+        "text": "导入：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.1",
+        "source_evidence": [
+          "出示编织实物（竹编/藤编），引出\"编织\"主题"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_8933a64479",
+        "claim_type": "teacher_confirm_required",
+        "text": "历史介绍：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.2",
+        "source_evidence": [
+          "编织的历史：七千年前席子→结绳记事→彩陶编织纹样"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_e79c726635",
+        "claim_type": "teacher_confirm_required",
+        "text": "认识经纬：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.3",
+        "source_evidence": [
+          "认识经线（竖向固定）和纬线（横向穿过），理解交织原理"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f2fda19b42",
+        "claim_type": "source_interpretation",
+        "text": "教师示范：在学生动手前提供可选择的制作路径和安全边界。",
+        "graph_path": "teaching_causal_chain.4",
+        "source_evidence": [
+          "演示纸条编织的基本步骤（压一穿一）"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_e12be00769",
+        "claim_type": "source_interpretation",
+        "text": "学生练习：把设计想法放到材料和结构中验证，形成过程证据。",
+        "graph_path": "teaching_causal_chain.5",
+        "source_evidence": [
+          "在教师提供的编织底稿上完成一组经纬交织练习"
+        ],
+        "confidence": 0.68,
+        "teacher_review_required": false
+      },
+      {
+        "claim_id": "r114a_claim_f3bfa1dd54",
+        "claim_type": "teacher_confirm_required",
+        "text": "小结：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "graph_path": "teaching_causal_chain.6",
+        "source_evidence": [
+          "展示优秀作品，说说编织的关键在哪里"
+        ],
+        "confidence": 0.35,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f557c1d3a2",
+        "claim_type": "teacher_confirm_required",
+        "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+        "graph_path": "teacher_confirmation_gaps.textbook_page",
+        "source_evidence": [],
+        "confidence": 0.9,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_f7dee14e8f",
+        "claim_type": "teacher_confirm_required",
+        "text": "剪刀、胶水或热熔胶等工具的安全与分组管理需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.tool_safety",
+        "source_evidence": [
+          "剪刀"
+        ],
+        "confidence": 0.82,
+        "teacher_review_required": true
+      },
+      {
+        "claim_id": "r114a_claim_083f6ea56c",
+        "claim_type": "teacher_confirm_required",
+        "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+        "graph_path": "teacher_confirmation_gaps.student_preparation",
+        "source_evidence": [],
+        "confidence": 0.7,
+        "teacher_review_required": true
+      }
+    ],
+    "contamination_guard": {
+      "guard_rules": [
+        "Absent sample-specific phrases must not appear as source_fact.",
+        "System improvements must stay in improvement_opportunities, not faithful_reconstruction.",
+        "Teacher-confirmation gaps must not be converted into confirmed facts."
+      ],
+      "blocked_source_fact_phrases": [
+        "上一课设计草图",
+        "新鞋发布会",
+        "发布会",
+        "5句话设计故事",
+        "废旧材料",
+        "纸鞋模板"
+      ],
+      "violations": [],
+      "passed": true
+    }
+  },
+  "boundary": {
+    "preview_only": true,
+    "write_allowed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_apply": false,
+    "formal_apply_performed": false,
+    "teacher_original_overwritten": false,
+    "old_generation_chain_modified": false,
+    "field_projection_performed": false
+  }
+}

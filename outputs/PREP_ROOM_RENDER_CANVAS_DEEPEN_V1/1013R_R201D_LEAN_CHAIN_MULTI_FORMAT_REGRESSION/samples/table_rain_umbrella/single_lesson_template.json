@@ -1,0 +1,1026 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "template_id": "r201c_lean_readonly::upload_preview_3f8ca04fe3da",
+  "template_type": "single_lesson_template",
+  "route": "uploaded_lesson_entry_preview_lean",
+  "lesson_header": {
+    "lesson_title": "雨伞图案设计",
+    "unit_title": "单元待确认",
+    "grade": "四年级",
+    "lesson_code": "r201d_inline_雨伞图案设计_表格型教案.txt",
+    "status": "lean readonly preview only",
+    "source_status": "uploaded_source",
+    "teacher_visible_source_label": "上传原文依据"
+  },
+  "basis": [
+    {
+      "section_id": "basis",
+      "title": "一、本课依据",
+      "body": [
+        "教材版本、册次、页码和学校实际进度仍需教师确认后再进入正式备课。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_basis_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_basis_graph_basis_1a1f6ae6e5",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.title",
+            "claim_id": "r114a_claim_2eb16719bb",
+            "source_excerpt": "课题：雨伞图案设计",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_49b9d1e9c1",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.unit",
+            "claim_id": "r114a_claim_6c7fdf5ccc",
+            "source_excerpt": "单元：上传教案单元待确认",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_43a695826a",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "lesson_identity.grade",
+            "claim_id": "r114a_claim_ce7029d813",
+            "source_excerpt": "年级：四年级",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_2b02c1a429",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_graph_basis_b29c9f97a6",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_basis_confirm_8e31434f48",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_2eb16719bb",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.title",
+            "text": "课题：雨伞图案设计",
+            "source_evidence": [
+              "雨伞图案设计"
+            ],
+            "confidence": 0.92,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_6c7fdf5ccc",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "lesson_identity.unit",
+            "text": "单元：上传教案单元待确认",
+            "source_evidence": [],
+            "confidence": 0.2,
+            "teacher_review_required": true,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_ce7029d813",
+            "claim_type": "source_fact",
+            "graph_path": "lesson_identity.grade",
+            "text": "年级：四年级",
+            "source_evidence": [
+              "四年级"
+            ],
+            "confidence": 0.9,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "basis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "basis"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "student_analysis": [
+    {
+      "section_id": "analysis",
+      "title": "二、学情分析",
+      "body": [
+        "四年级学生进入本课时，可能先卡在这里：学生可能知道要完成什么作品或练习，却还需要教师帮助他们把观察发现、材料方法和作品效果联系起来。",
+        "课堂上可重点看：学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理；学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_analysis_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_analysis_graph_basis_d91a256c79",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_94db8cd091",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "source_excerpt": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_9ed59d55b1",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_30bda3e50e",
+            "source_excerpt": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_deb3559d03",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_849abf767c",
+            "source_excerpt": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_graph_basis_0cc322aaa2",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_analysis_confirm_8b4d56a65d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_30bda3e50e",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_849abf767c",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "source_evidence": [
+              "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "analysis"
+          },
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "analysis"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "objectives": [
+    {
+      "section_id": "goals",
+      "title": "三、教学目标",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_goal_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_goals_graph_basis_d190249d3c",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "goals"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "key_difficult_points": [
+    {
+      "section_id": "keypoints",
+      "title": "四、教学重难点",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_keypoint_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_330ded3ecd",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_4c02814ae8",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "source_excerpt": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_c03e880b40",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_30bda3e50e",
+            "source_excerpt": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_d660f2f055",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_849abf767c",
+            "source_excerpt": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_keypoints_graph_basis_bece18ec1d",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.4",
+            "claim_id": "r114a_claim_00b52a44c6",
+            "source_excerpt": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_30bda3e50e",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_849abf767c",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "source_evidence": [
+              "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "keypoints"
+          },
+          {
+            "claim_id": "r114a_claim_00b52a44c6",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.4",
+            "text": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "keypoints"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "preparation": [
+    {
+      "section_id": "preparation",
+      "title": "五、教学准备",
+      "body": [
+        "上传原文未明确提供，需教师补充。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_preparation_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_preparation_graph_basis_78286d0b81",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_graph_basis_c7871218e0",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.student_preparation",
+            "claim_id": "r114a_claim_083f6ea56c",
+            "source_excerpt": "学生准备未在原文中形成稳定条目，需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_preparation_confirm_55bbb55503",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          },
+          {
+            "claim_id": "r114a_claim_083f6ea56c",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.student_preparation",
+            "text": "学生准备未在原文中形成稳定条目，需要教师确认。",
+            "source_evidence": [],
+            "confidence": 0.7,
+            "teacher_review_required": true,
+            "section_id": "preparation"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "process_episodes": [
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_01",
+      "episode_index": 1,
+      "episode_title": "导入观察",
+      "episode_goal": "学生能先说自己的发现或选择，再完成相应的观察、练习或作品片段",
+      "teacher_organization": [
+        "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。"
+      ],
+      "student_learning": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可给教师一条追问：你这样选材料、颜色或方法，是想表现什么？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_01-M01",
+          "step_name": "导入观察",
+          "teacher_action": "先把原稿任务说成学生听得懂的一句话，再追问他们看到了什么、准备怎样做；需要时只补一个方法提示。",
+          "student_action": "先说自己的发现或选择，再完成相应的观察、练习或作品片段。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能说得出想法却不知道从哪一步开始，或作品完成后说不清为什么这样处理。",
+          "evidence": "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "table_or_structured_parser",
+            "source_span": {
+              "start": 111,
+              "end": 177
+            },
+            "source_text_excerpt": "| 导入观察 | 出示不同雨伞图片，追问伞面图案有什么规律。 | 观察并说出重复、对称、颜色搭配。 | 从生活用品进入纹样观察。 | | 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒",
+            "confidence": 0.82,
+            "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 111,
+          "end": 177
+        },
+        "source_text_excerpt": "| 导入观察 | 出示不同雨伞图片，追问伞面图案有什么规律。 | 观察并说出重复、对称、颜色搭配。 | 从生活用品进入纹样观察。 | | 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_02",
+      "episode_index": 2,
+      "episode_title": "方法示范",
+      "episode_goal": "学生能观察方法选择和工具使用要求，判断哪一种路径适合自己的任务",
+      "teacher_organization": [
+        "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。"
+      ],
+      "student_learning": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可生成方法选择清单和工具安全提醒，帮助教师快速口头提示。",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_02-M01",
+          "step_name": "方法示范",
+          "teacher_action": "用短示范拆出关键方法、工具安全和可选择路径，避免学生只模仿范作。",
+          "student_action": "观察方法选择和工具使用要求，判断哪一种路径适合自己的任务。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能把示范当成唯一答案，或忽略工具安全和材料连接限制。",
+          "evidence": "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "table_or_structured_parser",
+            "source_span": {
+              "start": 178,
+              "end": 232
+            },
+            "source_text_excerpt": "| 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意",
+            "confidence": 0.82,
+            "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": false,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 178,
+          "end": 232
+        },
+        "source_text_excerpt": "| 方法示范 | 演示把一个小图形沿伞骨重复排列。 | 跟随教师在草稿纸上试排。 | 明确纹样组织方法。 | | 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_03",
+      "episode_index": 3,
+      "episode_title": "设计制作",
+      "episode_goal": "学生能边做边检查作品是否回应原任务，遇到困难先说明卡在哪里",
+      "teacher_organization": [
+        "巡视学生是否按任务目标推进，优先追问选择理由，再给技术帮助。"
+      ],
+      "student_learning": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可按巡视发现给出分层追问：材料为什么这样选？哪里需要同伴或模板支持？",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_03-M01",
+          "step_name": "设计制作",
+          "teacher_action": "巡视学生是否按任务目标推进，优先追问选择理由，再给技术帮助。",
+          "student_action": "边做边检查作品是否回应原任务，遇到困难先说明卡在哪里。",
+          "screen_or_materials": "",
+          "scaffolds": "学生可能忙于装饰堆叠，却说不清材料选择和任务目标的关系。",
+          "evidence": "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "table_or_structured_parser",
+            "source_span": {
+              "start": 233,
+              "end": 291
+            },
+            "source_text_excerpt": "| 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能",
+            "confidence": 0.82,
+            "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": false,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 233,
+          "end": 291
+        },
+        "source_text_excerpt": "| 设计制作 | 巡视学生完成伞面图案设计，提醒色彩和疏密。 | 完成雨伞图案作品。 | 将规律运用于设计表现。 | | 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": false,
+      "preview_only": true
+    },
+    {
+      "route": "uploaded_lesson_entry_preview_lean",
+      "episode_id": "TEACHER_EXEC_04",
+      "episode_index": 4,
+      "episode_title": "展示评价",
+      "episode_goal": "学生能展示当前成果或学习发现，确认还需要补充的证据",
+      "teacher_organization": [
+        "把学生作品或语言表达转成可观察证据，提醒哪些内容需要课后确认。"
+      ],
+      "student_learning": "展示当前成果或学习发现，确认还需要补充的证据。",
+      "key_teacher_talk": "",
+      "xiaojiao_hint": "小教可生成教师确认清单：作品证据、表达证据、后续展示安排。",
+      "micro_steps": [
+        {
+          "step_id": "TEACHER_EXEC_04-M01",
+          "step_name": "展示评价",
+          "teacher_action": "把学生作品或语言表达转成可观察证据，提醒哪些内容需要课后确认。",
+          "student_action": "展示当前成果或学习发现，确认还需要补充的证据。",
+          "screen_or_materials": "",
+          "scaffolds": "展示证据、后续时间或家长协助安排可能还需要教师确认。",
+          "evidence": "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。",
+          "source_status": "R114_execution_map",
+          "teacher_visible_source_label": "教学推进依据",
+          "source_extraction_provenance": {
+            "parser_id": "table_or_structured_parser",
+            "source_span": {
+              "start": 292,
+              "end": 348
+            },
+            "source_text_excerpt": "| 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能说出图案安排理由。",
+            "confidence": 0.82,
+            "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+          },
+          "teacher_review_required": true,
+          "preview_only": true
+        }
+      ],
+      "evidence": [],
+      "source_status": "R114_execution_map",
+      "teacher_visible_source_label": "教学推进依据",
+      "source_extraction_provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 292,
+          "end": 348
+        },
+        "source_text_excerpt": "| 展示评价 | 组织学生说出自己最满意的一处图案安排。 | 展示作品并互评。 | 用作品证据说明设计效果。 | 评价证据：作品中能看出重复或对称规律，学生能说出图案安排理由。",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "assessment_or_homework": [
+    {
+      "section_id": "assessment",
+      "title": "七、学习单与评价",
+      "body": [
+        "观察证据：导入观察，用于该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+        "观察证据：方法示范，用于在学生动手前提供可选择的制作路径和安全边界。",
+        "观察证据：设计制作，用于把设计想法放到材料和结构中验证，形成过程证据。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_graph_assessment_projection",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_assessment_graph_basis_c6a914cf2b",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.1",
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "source_excerpt": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_597cda21cb",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.2",
+            "claim_id": "r114a_claim_30bda3e50e",
+            "source_excerpt": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_f0c6872539",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.3",
+            "claim_id": "r114a_claim_849abf767c",
+            "source_excerpt": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_44c54e7269",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teaching_causal_chain.4",
+            "claim_id": "r114a_claim_00b52a44c6",
+            "source_excerpt": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_assessment_graph_basis_3d3295a7f1",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_d3b1acfda9",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.1",
+            "text": "导入观察：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "环节：导入观察；教师活动：出示不同雨伞图片，追问伞面图案有什么规律。；学生活动：观察并说出重复、对称、颜色搭配。；设计意图：从生活用品进入纹样观察。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_30bda3e50e",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.2",
+            "text": "方法示范：在学生动手前提供可选择的制作路径和安全边界。",
+            "source_evidence": [
+              "环节：方法示范；教师活动：演示把一个小图形沿伞骨重复排列。；学生活动：跟随教师在草稿纸上试排。；设计意图：明确纹样组织方法。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_849abf767c",
+            "claim_type": "source_interpretation",
+            "graph_path": "teaching_causal_chain.3",
+            "text": "设计制作：把设计想法放到材料和结构中验证，形成过程证据。",
+            "source_evidence": [
+              "环节：设计制作；教师活动：巡视学生完成伞面图案设计，提醒色彩和疏密。；学生活动：完成雨伞图案作品。；设计意图：将规律运用于设计表现。"
+            ],
+            "confidence": 0.68,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_00b52a44c6",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teaching_causal_chain.4",
+            "text": "展示评价：该环节的顺序依据来自原文流程，具体因果需要教师确认。",
+            "source_evidence": [
+              "环节：展示评价；教师活动：组织学生说出自己最满意的一处图案安排。；学生活动：展示作品并互评。；设计意图：用作品证据说明设计效果。"
+            ],
+            "confidence": 0.35,
+            "teacher_review_required": true,
+            "section_id": "assessment"
+          },
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "assessment"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    },
+    {
+      "section_id": "assessment_raw_source",
+      "title": "七、评价证据",
+      "body": [
+        "评价证据：作品中能看出重复或对称规律，学生能说出图案安排理由。"
+      ],
+      "source_status": "uploaded_source",
+      "teacher_visible_source_label": "上传原文依据",
+      "projection_basis": {
+        "classification": "uploaded_source",
+        "source_capsules": [
+          "评价证据"
+        ],
+        "graph_basis": [],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "reflection_or_notes": [
+    {
+      "section_id": "reflection",
+      "title": "八、课堂后记",
+      "body": [
+        "课前导入预览阶段不生成课堂后记；真实授课后再根据课堂证据和教师判断形成反思候选。"
+      ],
+      "source_status": "R114_field_projection",
+      "teacher_visible_source_label": "理解整理依据",
+      "projection_basis": {
+        "classification": "r114c_before_class_reflection_gap",
+        "source_capsules": [
+          {
+            "capsule_id": "r114c_reflection_graph_basis_92af266a84",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "source_excerpt": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_graph_basis_7f1f4d7cb7",
+            "label": "理解图依据",
+            "kind": "graph_basis",
+            "graph_path": "core_learning_transformation",
+            "claim_id": "r114a_claim_ee95932d1a",
+            "source_excerpt": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          },
+          {
+            "capsule_id": "r114c_reflection_confirm_ebceb9577d",
+            "label": "需确认",
+            "kind": "confirm",
+            "graph_path": "teacher_confirmation_gaps",
+            "claim_id": null,
+            "source_excerpt": "本字段仍有原稿缺口，进入正式备课前需教师判断。",
+            "display_mode": "click_to_show_graph_basis",
+            "click_action": "show_graph_source_basis"
+          }
+        ],
+        "graph_basis": [
+          {
+            "claim_id": "r114a_claim_f557c1d3a2",
+            "claim_type": "teacher_confirm_required",
+            "graph_path": "teacher_confirmation_gaps.textbook_page",
+            "text": "教材版本、册次、页码和学校实际进度未在原文中稳定确认。",
+            "source_evidence": [],
+            "confidence": 0.9,
+            "teacher_review_required": true,
+            "section_id": "reflection"
+          },
+          {
+            "claim_id": "r114a_claim_ee95932d1a",
+            "claim_type": "source_interpretation",
+            "graph_path": "core_learning_transformation",
+            "text": "本课的学习重心，可先顺着材料选择与实体制作组织观察、尝试、创作和交流；具体学情与材料条件仍需教师确认。",
+            "source_evidence": [
+              "导入观察",
+              "方法示范",
+              "设计制作",
+              "展示评价"
+            ],
+            "confidence": 0.72,
+            "teacher_review_required": false,
+            "section_id": "reflection"
+          }
+        ],
+        "teacher_review_required": true
+      },
+      "teacher_review_required": true,
+      "preview_only": true
+    }
+  ],
+  "source_extraction": {
+    "selected_parser_id": "table_or_structured_parser",
+    "selection_reason": "selected_by_multimetric_score:0.8784; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+    "confidence": 0.8784,
+    "episode_titles": [
+      "导入观察",
+      "方法示范",
+      "设计制作",
+      "展示评价"
+    ]
+  },
+  "candidate_patches": [],
+  "renderer_policy": {
+    "backend_provides_template_object": true,
+    "frontend_renders_only": true,
+    "renderer_must_not_infer_pedagogy": true,
+    "source_gap_as_status_not_content": true
+  },
+  "boundary": {
+    "readonly_only": true,
+    "preview_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false,
+    "R200A_used_for_teacher_main": false,
+    "R200B_used_for_teacher_main": false,
+    "R97B_P3_used_for_teacher_main": false
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "stage": "1013R_R201C_READONLY_ROUTE_SWITCH_TO_LEAN_CHAIN",
+  "orchestrator_called": true,
+  "raw_sha256": "414B3A384B4E4BBB2CAE64C55E8D9A22DAE5ECF4EB1B357985599114E86A79EB",
+  "file_name": "kb_art_g3_lesson_case_1_08f3e01f0b_课时1_走进青绿山水_教案.docx",
+  "selected_parser_id": "table_or_structured_parser",
+  "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered",
+  "confidence": 0.7361,
+  "low_confidence": false,
+  "teacher_confirmation_needed": false,
+  "source_gap": {
+    "active": false,
+    "reason": "",
+    "display_policy": "status_only_not_teacher_main_content"
+  },
+  "parser_candidates": [
+    {
+      "parser_id": "legacy_r103_parser",
+      "episode_count": 6,
+      "episode_titles": [
+        "引入课题",
+        "远观千里江山图",
+        "近触矿物颜料",
+        "涂色探索",
+        "分享与交流",
+        "课堂小结与预告"
+      ],
+      "source_span_coverage": 0.084,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.5,
+      "selection_score": 0.6738,
+      "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.6738<0.7361"
+    },
+    {
+      "parser_id": "numbered_colon_parser",
+      "episode_count": 3,
+      "episode_titles": [
+        "\\*\\*学习单格式\\*\\",
+        "\\*\\*石青石绿实物\\*\\",
+        "\\*\\*实物投影仪\\*\\"
+      ],
+      "source_span_coverage": 0.008,
+      "evidence_coverage_score": 0.6667,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.5,
+      "selection_score": 0.5445,
+      "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5445<0.7361"
+    },
+    {
+      "parser_id": "numbered_sentence_parser",
+      "episode_count": 6,
+      "episode_titles": [
+        "《千里江山图》卷首图局部特写（封面，步骤1）",
+        "《千里江山图》高清全图（步骤2）",
+        "石青、石绿颜料实物并排照片（步骤3）",
+        "空白的\"青绿初印象\"学习单样式（步骤4）",
+        "\\*\\*学习单格式\\*\\*",
+        "\\*\\*石青石绿实物\\*\\*"
+      ],
+      "source_span_coverage": 0.0245,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.0,
+      "selection_score": 0.5716,
+      "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5716<0.7361"
+    },
+    {
+      "parser_id": "markdown_heading_parser",
+      "episode_count": 7,
+      "episode_titles": [
+        "材料说明（标准格式",
+        "教学环节表 · 完整填写内容",
+        "\"青绿初印象\"学习单（草稿）",
+        "PPT素材说明（给小美看）",
+        "PPT页面清单",
+        "给小美的补充说明",
+        "试写疑问"
+      ],
+      "source_span_coverage": 0.0044,
+      "evidence_coverage_score": 0.1429,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.5078,
+      "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5078<0.7361"
+    },
+    {
+      "parser_id": "table_or_structured_parser",
+      "episode_count": 6,
+      "episode_titles": [
+        "引入课题",
+        "远观千里江山图",
+        "近触矿物颜料",
+        "涂色探索",
+        "分享与交流",
+        "课堂小结与预告"
+      ],
+      "source_span_coverage": 0.0699,
+      "evidence_coverage_score": 1.0,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 1.0,
+      "selection_score": 0.7361,
+      "failure_reason_if_rejected": ""
+    },
+    {
+      "parser_id": "long_section_parser",
+      "episode_count": 8,
+      "episode_titles": [
+        "表」共16个字段，本文档为母版，填写时按",
+        "| | | | | --- | ---",
+        "## 材料说明（标准格式",
+        "【学生准备】（常规携带工具，本节课用到）",
+        "水彩笔或油画棒（绿色系为主，也可带全",
+        "【老师准备】",
+        "青绿山水PPT（20页）→ 小美制作",
+        "\\*\\*注"
+      ],
+      "source_span_coverage": 0.0248,
+      "evidence_coverage_score": 0.625,
+      "title_cleanliness_score": 1.0,
+      "metadata_pollution_count": 0,
+      "empty_episode_count": 0,
+      "preservation_score": 0.5,
+      "selection_score": 0.5236,
+      "failure_reason_if_rejected": "lower_selection_score_than_table_or_structured_parser:0.5236<0.7361"
+    }
+  ],
+  "episodes": [
+    {
+      "index": 32,
+      "title": "引入课题",
+      "duration_min": null,
+      "source_content": "环节：步骤1 引入课题；教师活动：\\*\\*封面页\\*\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变",
+      "goal": "环节：步骤1 引入课题；教师活动：\\*\\*封面页\\*\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变",
+      "teacher_action": "环节：步骤1 引入课题；教师活动：\\*\\*封面页\\*\\；学生活动：《千里江山图》卷首图局部特写，突出青绿色彩；设计意图：课题：走进青绿山水；第三单元 青绿中国色；材料：背景淡青绿渐变",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_32",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4011,
+          "end": 4094
+        },
+        "source_text_excerpt": "| 步骤1 引入课题 | \\*\\*封面页\\*\\* | 《千里江山图》卷首图局部特写，突出青绿色彩 | 课题：走进青绿山水；第三单元 青绿中国色 | 背景淡青绿渐变 | | 步骤2 远观千里江山图 | \\*\\*千里江山图展示\\*\\* | 《千里江山图》高清全图 | 无文字，图片为主 | 高清，色彩还原准确 | | 步骤3 近触",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 33,
+      "title": "远观千里江山图",
+      "duration_min": null,
+      "source_content": "环节：步骤2 远观千里江山图；教师活动：\\*\\*千里江山图展示\\*\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确",
+      "goal": "环节：步骤2 远观千里江山图；教师活动：\\*\\*千里江山图展示\\*\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确",
+      "teacher_action": "环节：步骤2 远观千里江山图；教师活动：\\*\\*千里江山图展示\\*\\；学生活动：《千里江山图》高清全图；设计意图：无文字，图片为主；材料：高清，色彩还原准确",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_33",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4095,
+          "end": 4165
+        },
+        "source_text_excerpt": "| 步骤2 远观千里江山图 | \\*\\*千里江山图展示\\*\\* | 《千里江山图》高清全图 | 无文字，图片为主 | 高清，色彩还原准确 | | 步骤3 近触矿物颜料 | \\*\\*石青石绿展示\\*\\* | 石青、石绿颜料实物并排照片 | 标注：石青（深蓝绿）/ 石绿（浅蓝绿） | 清晰、色彩还原准确",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 34,
+      "title": "近触矿物颜料",
+      "duration_min": null,
+      "source_content": "环节：步骤3 近触矿物颜料；教师活动：\\*\\*石青石绿展示\\*\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确",
+      "goal": "环节：步骤3 近触矿物颜料；教师活动：\\*\\*石青石绿展示\\*\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确",
+      "teacher_action": "环节：步骤3 近触矿物颜料；教师活动：\\*\\*石青石绿展示\\*\\；学生活动：石青、石绿颜料实物并排照片；设计意图：标注：石青（深蓝绿）/ 石绿（浅蓝绿）；材料：清晰、色彩还原准确",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_34",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4166,
+          "end": 4247
+        },
+        "source_text_excerpt": "| 步骤3 近触矿物颜料 | \\*\\*石青石绿展示\\*\\* | 石青、石绿颜料实物并排照片 | 标注：石青（深蓝绿）/ 石绿（浅蓝绿） | 清晰、色彩还原准确 | | 步骤4 涂色探索 | \\*\\*学习单示意页\\*\\* | 空白的\"青绿初印象\"学习单样式 | 说明填写要求 | 展示格式 | | 步骤5 分享与交流 | \\",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 35,
+      "title": "涂色探索",
+      "duration_min": null,
+      "source_content": "环节：步骤4 涂色探索；教师活动：\\*\\*学习单示意页\\*\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式",
+      "goal": "环节：步骤4 涂色探索；教师活动：\\*\\*学习单示意页\\*\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式",
+      "teacher_action": "环节：步骤4 涂色探索；教师活动：\\*\\*学习单示意页\\*\\；学生活动：空白的\"青绿初印象\"学习单样式；设计意图：说明填写要求；材料：展示格式",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_35",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4248,
+          "end": 4311
+        },
+        "source_text_excerpt": "| 步骤4 涂色探索 | \\*\\*学习单示意页\\*\\* | 空白的\"青绿初印象\"学习单样式 | 说明填写要求 | 展示格式 | | 步骤5 分享与交流 | \\*\\*无PPT页面\\*\\* | 无 | 无 | 用实物投影仪展示学生作品，无需单独PPT | | 步骤6 课堂小结与预告 | \\",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 36,
+      "title": "分享与交流",
+      "duration_min": null,
+      "source_content": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "goal": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "teacher_action": "环节：步骤5 分享与交流；教师活动：\\*\\*无PPT页面\\*\\；学生活动：无；设计意图：无；材料：用实物投影仪展示学生作品，无需单独PPT",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_36",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4312,
+          "end": 4373
+        },
+        "source_text_excerpt": "| 步骤5 分享与交流 | \\*\\*无PPT页面\\*\\* | 无 | 无 | 用实物投影仪展示学生作品，无需单独PPT | | 步骤6 课堂小结与预告 | \\*\\*结语/下节预告\\*\\* | 淡青绿山水局部图 | 下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘 |",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    },
+    {
+      "index": 37,
+      "title": "课堂小结与预告",
+      "duration_min": null,
+      "source_content": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "goal": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "teacher_action": "环节：步骤6 课堂小结与预告；教师活动：\\*\\*结语/下节预告\\*\\；学生活动：淡青绿山水局部图；设计意图：下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘；材料：呼应封面风格",
+      "student_action": "",
+      "material": "",
+      "screen_or_tech": "",
+      "evidence": "",
+      "question": "",
+      "feedback": "",
+      "episode_id": "r201c_table_or_structured_parser_37",
+      "episode_type": "lean_source_extraction",
+      "source_status": "uploaded_source",
+      "source_gap_note": [],
+      "provisional_scaffolds": [],
+      "screen_material_suggestions": [],
+      "teacher_talk_suggestions": [],
+      "metadata_slots": {
+        "raw_duration": null
+      },
+      "teacher_review_required": true,
+      "preview_only": true,
+      "formal_apply": false,
+      "provenance": {
+        "parser_id": "table_or_structured_parser",
+        "source_span": {
+          "start": 4374,
+          "end": 4461
+        },
+        "source_text_excerpt": "| 步骤6 课堂小结与预告 | \\*\\*结语/下节预告\\*\\* | 淡青绿山水局部图 | 下节预告：调出深深浅浅的青绿；提醒：下节课带毛笔/墨汁/调色盘 | 呼应封面风格 | ### 给小美的补充说明 **整体风格：** * 色调以青绿色为主（呼应本课主题） * 字体清晰，适合三年级学生阅读 * 避免文字过多，以图为主 **",
+        "confidence": 0.82,
+        "selection_reason": "selected_by_multimetric_score:0.7361; episode_count/title_cleanliness/source_span/evidence/preservation all considered"
+      }
+    }
+  ],
+  "episode_count": 6,
+  "episode_titles": [
+    "引入课题",
+    "远观千里江山图",
+    "近触矿物颜料",
+    "涂色探索",
+    "分享与交流",
+    "课堂小结与预告"
+  ],
+  "boundary": {
+    "readonly_only": true,
+    "model_called": false,
+    "provider_called": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "R95_executed": false
+  }
+}
